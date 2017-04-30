@@ -9,7 +9,7 @@ var totalObjects = 30;
 var objectSize = 40;
 var sizeRandomness = 10; //since we are setting x and y initial for the particles to 0, we don't need thi variable but lets keep it for now
 var color =  0xFFFFFF;
-var isAnimate = false;
+var isAnimate = true;
 var image = ["images/blue.png", "images/orange.png","images/limegreen.png", "images/purple.png", "images/turqua.png","images/pink.png"];
 
 //other variables we need to declare at the top of the script
