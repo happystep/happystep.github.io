@@ -116,12 +116,12 @@ function render() {
 
 function leftArrowPressed(){
   movementSpeed -= 10;
-    render();
+    //render();
 }
 
 function rightArrowPressed(){
   movementSpeed += 10;
-    render();
+  //  render();
 }
 
 document.onkeydown = function(e) {
