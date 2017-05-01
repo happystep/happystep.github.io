@@ -109,7 +109,7 @@ function render() {
     }
 
     renderer.render( scene, camera );
-    console.log(movementSpeed)
+    
 
 }
 
