@@ -48,7 +48,7 @@ function ExplodeAnimation(x,y)
         //dirs.push({x:(Math.random() * movementSpeed),y:(Math.random () *movementSpeed),z:(Math.random() *movementSpeed)});
     }
     var currentColor = image[Math.floor(Math.random() * image.length)];
-    var material = new THREE.ParticleBasicMaterial( { size: objectSize,  map: THREE.ImageUtils.loadTexture(currentColor),blending: THREE.AdditiveBlending,
+    var material = new THREE.ParticleBasicMaterial( { size: objectSize,  map: THREE.ImageUtils.TextureLoader(currentColor),blending: THREE.AdditiveBlending,
         transparent: true  });
     //color: color[Math.round(Math.random() * color.length)],
     ///
@@ -166,4 +166,3 @@ function onWindowResize() {
     renderer.setSize( window.innerWidth, window.innerHeight );
 
 }
-document.getElementById("insert").innerHTML = movementSpeed
