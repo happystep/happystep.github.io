@@ -108,7 +108,7 @@ function render() {
 
 function leftArrowPressed(){
     if (movementSpeed >= 50){
-        movementSpeed = movementSpeed - 50;
+        movementSpeed = movementSpeed - 0.5;
     }
     else{
         movementSpeed = 50;
@@ -119,7 +119,7 @@ function leftArrowPressed(){
 function rightArrowPressed(){
     if (movementSpeed < 50)
 {
-    movementSpeed = movementSpeed + 50;
+    movementSpeed = movementSpeed + 0.5;
 }
 else {
     movementSpeed = 50;
