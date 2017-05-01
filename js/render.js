@@ -4,7 +4,7 @@
 
 //variables we need for it
 
-var movementSpeed = 200; //we should have an on click event to dynamically change this variable
+var movementSpeed = 50; //we should have an on click event to dynamically change this variable
 var totalObjects = 30;
 var objectSize = 20;
 var sizeRandomness = 10; //since we are setting x and y initial for the particles to 0, we don't need thi variable but lets keep it for now
@@ -61,13 +61,13 @@ function ExplodeAnimation(x,y)
     //this.yDir = (Math.random() * movementSpeed)-(movementSpeed/2);
     //this.zDir = (Math.random() * movementSpeed)-(movementSpeed/2);
 
-    //this.xDir = (Math.random() * movementSpeed);
-    //this.yDir = (Math.random() * movementSpeed);
-    //this.zDir = (Math.random() * movementSpeed);
+    this.xDir = (Math.random() * movementSpeed);
+    this.yDir = (Math.random() * movementSpeed);
+    this.zDir = (Math.random() * movementSpeed);
 
-    this.xDir = (movementSpeed);
-    this.yDir = (movementSpeed);
-    this.zDir = (movementSpeed);
+    //this.xDir = (movementSpeed);
+    //this.yDir = (movementSpeed);
+    //this.zDir = (movementSpeed);
 
 
     scene.add( this.object  );
