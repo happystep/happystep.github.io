@@ -1,12 +1,13 @@
 // inspiration from this website
 // http://codepen.io/Xanmia/
 //threejs - demo - http://threejs.org/examples/webgl_particles_random.html
+//https://aerotwist.com/tutorials/creating-particles-with-three-js/
 
 //variables we need for it
 
 var movementSpeed = 50; //we should have an on click event to dynamically change this variable
 var totalObjects = 30;
-var objectSize = 100;
+var objectSize = 75;
 var sizeRandomness = 10; //since we are setting x and y initial for the particles to 0, we don't need thi variable but lets keep it for now
 var color =  0xFFFFFF;
 var isAnimate = true;
