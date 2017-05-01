@@ -96,6 +96,7 @@ var renderer = new THREE.WebGLRenderer();
 renderer.setSize(window.innerWidth, window.innerHeight);
 container.appendChild( renderer.domElement );
 
+//initialparticle
 renderer.render( scene, camera );
 parts.push(new ExplodeAnimation(0, 0));
 render();
