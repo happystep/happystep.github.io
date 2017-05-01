@@ -90,6 +90,7 @@ function ExplodeAnimation(x,y)
 
 }//end of Explosion Animation function
 
+document.getElementById("insert").innerHTML = movementSpeed
 
 var renderer = new THREE.WebGLRenderer();
 renderer.setSize(window.innerWidth, window.innerHeight);
