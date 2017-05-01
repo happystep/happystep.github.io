@@ -123,6 +123,10 @@ function rightArrowPressed(){
   movementSpeed += 10;
   //  render();
 }
+function upArrowPressed(){
+  movementSpeed = 50;
+}
+
 
 document.onkeydown = function(e) {
     switch (e.keyCode) {
@@ -133,6 +137,7 @@ document.onkeydown = function(e) {
             break;
         case 38:
             //alert('up') does nothing
+            upArrowPressed();
             break;
         case 39:
             //alert('right'); //this will be make it faster
