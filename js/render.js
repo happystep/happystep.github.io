@@ -110,7 +110,6 @@ document.onkeydown = function(e) {
             break;
     }
 }
-
 //event handler listeners for click and
 window.addEventListener( 'mousedown', onclick, false );
 window.addEventListener( 'resize', onWindowResize, false );
@@ -118,7 +117,7 @@ window.addEventListener( 'resize', onWindowResize, false );
 //onclick function event handler
 function onclick(){
     event.preventDefault();
-    parts.push(new ExplodeAnimation(0,0);
+    parts.push(new ExplodeAnimation(0,0));
 }
 
 //takes care of resizing of window event handler
