@@ -4,7 +4,7 @@
 //global variables
 var movementSpeed = 50; //we should have an on click event to dynamically change this variable
 var totalObjects = 30; //number ofck particles per cli
-var objectSize = 75; //relative size of each particle
+var objectSize = 50; //relative size of each particle
 var sizeRandomness = 10; //sets a random size when on click is hit
 var color =  0xFFFFFF; //white color
 var isAnimate = true; //boolean to know if we should pause/unpause animation
@@ -118,10 +118,10 @@ window.addEventListener( 'resize', onWindowResize, false );
 //onclick function event handler
 function onclick(){
     event.preventDefault();
-    parts.push(new ExplodeAnimation((Math.random() * sizeRandomness)-(sizeRandomness/2), (Math.random() * sizeRandomness)-(sizeRandomness/2)));
+    parts.push(new ExplodeAnimation(0,0);
 }
 
-//takes care of resizing of window event handler 
+//takes care of resizing of window event handler
 function onWindowResize() {
     camera.aspect = window.innerWidth / window.innerHeight;
     camera.updateProjectionMatrix();
