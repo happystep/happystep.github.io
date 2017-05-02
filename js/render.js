@@ -1,37 +1,27 @@
-// inspiration from this website
-// http://codepen.io/Xanmia/
-//threejs - demo - http://threejs.org/examples/webgl_particles_random.html
-//https://aerotwist.com/tutorials/creating-particles-with-three-js/
+//Paintball Splat Particle System
+//Luis Bobadilla -- Inspired by http://codepen.io/Xanmia/
 
-//variables we need for it
-
+//global variables
 var movementSpeed = 50; //we should have an on click event to dynamically change this variable
-var totalObjects = 30;
-var objectSize = 75;
-var sizeRandomness = 10; //since we are setting x and y initial for the particles to 0, we don't need thi variable but lets keep it for now
-var color =  0xFFFFFF;
-var isAnimate = true;
-var image = ["images/blue.png", "images/orange.png","images/limegreen.png", "images/purple.png", "images/turqua.png","images/pink.png"];
-
-//other variables we need to declare at the top of the script
-
-var dirs = [];
-var parts = [];
-var container = document.createElement('div');
-document.body.appendChild( container );
+var totalObjects = 30; //number ofck particles per cli
+var objectSize = 75; //relative size of each particle
+var sizeRandomness = 10; //sets a random size when on click is hit
+var color =  0xFFFFFF; //white color
+var isAnimate = true; //boolean to know if we should pause/unpause animation
+var image = ["images/blue.png", "images/orange.png","images/limegreen.png", "images/purple.png", "images/turqua.png","images/pink.png"]; //images of the particles
+var dirs = []; //array contains directions for the particle systems
+var parts = []; //array contains different particle systems
+var container = document.createElement('div'); //create the div
+document.body.appendChild( container ); //add the container to the document body (the html)
 
 //camera is initialized here
-
 var camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 1, 3000);
     camera.position.z = 2000;
 
 //scene is initialized here
-
 var scene = new THREE.Scene();
 
-
-//explosion animation function here
-
+//explosion animation function, takes x and y speeds as parameters
 function ExplodeAnimation(x,y)
 {
     //geometry inilization
@@ -46,33 +36,24 @@ function ExplodeAnimation(x,y)
 
         geometry.vertices.push( vertex);
         dirs.push({x:(Math.random() * movementSpeed)-(movementSpeed/2),y:(Math.random() * movementSpeed)-(movementSpeed/2),z:(Math.random() * movementSpeed)-(movementSpeed/2)});
-        //dirs.push({x:(Math.random() * movementSpeed),y:(Math.random () *movementSpeed),z:(Math.random() *movementSpeed)});
-    }
-    var currentColor = image[Math.floor(Math.random() * image.length)];
+      }
+    var currentColor = image[Math.floor(Math.random() * image.length)]; //randomly choosing an image (particle) for current system on every click
     var material = new THREE.ParticleBasicMaterial( { size: objectSize,  map: THREE.ImageUtils.loadTexture(currentColor),blending: THREE.AdditiveBlending,
         transparent: true  });
-    //color: color[Math.round(Math.random() * color.length)],
-    ///
+
+    //initialization of the particles with the geometry and material made above
     var particles = new THREE.ParticleSystem( geometry, material );
 
     this.object = particles;
     this.status = true;
-
-    //this.xDir = (Math.random() * movementSpeed)-(movementSpeed/2);
-    //this.yDir = (Math.random() * movementSpeed)-(movementSpeed/2);
-    //this.zDir = (Math.random() * movementSpeed)-(movementSpeed/2);
-
     this.xDir = (Math.random() * movementSpeed);
     this.yDir = (Math.random() * movementSpeed);
     this.zDir = (Math.random() * movementSpeed);
 
-    //this.xDir = (movementSpeed);
-    //this.yDir = (movementSpeed);
-    //this.zDir = (movementSpeed);
-
-
+    //here we add the object to the scene
     scene.add( this.object  );
 
+    //update function for the particles (loops thru the number of particles in a system)
     this.update = function(){
         if (isAnimate){
             if (this.status == true){
@@ -87,21 +68,19 @@ function ExplodeAnimation(x,y)
             }
         }
     }
+}
 
-
-}//end of Explosion Animation function
-
-
-
+//WebGL Renderer Initialized
 var renderer = new THREE.WebGLRenderer();
 renderer.setSize(window.innerWidth, window.innerHeight);
 container.appendChild( renderer.domElement );
 
-//initialparticle
+//initialparticle system
 renderer.render( scene, camera );
 parts.push(new ExplodeAnimation(0, 0));
 render();
 
+//render function
 function render() {
     requestAnimationFrame( render );
 
@@ -115,37 +94,11 @@ function render() {
 
 }
 
-function leftArrowPressed(){
-  movementSpeed -= 10;
-    //render();
-}
-
-function rightArrowPressed(){
-  movementSpeed += 10;
-  //  render();
-}
-function upArrowPressed(){
-  movementSpeed = 50;
-}
-
-
+//event handler for arrow keys
 document.onkeydown = function(e) {
     switch (e.keyCode) {
-        case 37:
-            //alert('left'); //this will be slow down
-            leftArrowPressed();
-
-            break;
-        case 38:
-            //alert('up') does nothing
-            upArrowPressed();
-            break;
-        case 39:
-            //alert('right'); //this will be make it faster
-            rightArrowPressed();
-            break;
-        case 40:
-            //alert('down'); this will be pause
+          case 40:
+            //pause or unpause case
             if(isAnimate){
                 isAnimate = false;
             }
@@ -156,20 +109,22 @@ document.onkeydown = function(e) {
             //any other key
             break;
     }
-};
+}
+
+//event handler listeners for click and
 window.addEventListener( 'mousedown', onclick, false );
 window.addEventListener( 'resize', onWindowResize, false );
 
+//onclick function event handler
 function onclick(){
     event.preventDefault();
-    parts.push(new ExplodeAnimation(0,0));
-    //parts.push(new ExplodeAnimation((Math.random() * sizeRandomness)-(sizeRandomness/2), (Math.random() * sizeRandomness)-(sizeRandomness/2)));
+    parts.push(new ExplodeAnimation((Math.random() * sizeRandomness)-(sizeRandomness/2), (Math.random() * sizeRandomness)-(sizeRandomness/2)));
 }
 
+//takes care of resizing of window event handler 
 function onWindowResize() {
     camera.aspect = window.innerWidth / window.innerHeight;
     camera.updateProjectionMatrix();
 
     renderer.setSize( window.innerWidth, window.innerHeight );
-
 }
