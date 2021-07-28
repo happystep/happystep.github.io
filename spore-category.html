@@ -10,23 +10,10 @@
 <link href="CSS/animate.css" rel="stylesheet" />
 <style>
 
-/*
-Theme Name: Spore
-Theme URI: 
-Author: Rijo Abraham
-Author URI: https://designseer.com
-Description: Spore is a magnificent free HTML5 masonry blog template for displaying amazing blog posts, portfolio, photography or design works in a distinctive way. A wordpress version is a work in progress. Stay tuned with us.
-Version: 1.0.0
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: white, three-columns, responsive-layout, featured-images, full-width-template, blogging
-
-*/
-
-/* CONTENT BODY SETTINGS - DON'T TOUCH ! */
+/* BODY */
 
 html,body{
-	height: 100%; /** Adaptative screen **/
+	height: 100%;
     margin:0;padding:0;
 }
 
@@ -89,32 +76,10 @@ padding:0;
     -o-transition: all 0.25s ease-in-out; /** Opera **/
 }
 
-/*Youtube fast processing*/
-.ytLoader {
-    position: relative;
-    margin-top: -35px;
-}
-img.cover {
-    width: 100%;
-    margin-top: -8px;
-}
-img.playBtn {
-    position: relative;
-    top: -150px;
-    left: 110px;
-    width: 70px;
-}
-img.playBtn:hover{
-    cursor:pointer;
-    opacity:0.8;
-    transform: scale(0.9);
-    transition-duration: 0.3s;
-}
-
-/* HEADER / BODY */
+/*A1*/
 
 .blank{
-	position:relative; /** Div for the transition when your leave the url - fade out/in white color **/
+	position:relative;
 	width:100%;
 	height:100%;
 	z-index:50;
@@ -123,7 +88,7 @@ img.playBtn:hover{
 
 
 #A0{
-	background: url(IMG/gallery-in-a-page.jpg)  50% 50% no-repeat; /** Background image - change it here !**/
+	background: url(IMG/gallery-in-a-page.jpg)  50% 50% no-repeat;
 	position:absolute;
     background-size: cover;
 	-webkit-background-size:cover;
@@ -139,15 +104,15 @@ img.playBtn:hover{
 }
 
 #A1-main{
-	position:relative; /** Main div to adapt all the element to the body**/
+	position:relative;
 	width:100%;
-	height:100%;
+	height:200px;
 	z-index:1;
 }
 
 
 #A1{
-	position:relative; /** Sub div to adapt the background for the body**/
+	position:relative;
 	width:100%;
 	height:100%;
 	z-index:1;
@@ -155,7 +120,7 @@ img.playBtn:hover{
 
 
 #A0-2{
-	background-color:#101613; /** Transparent background across the background **/
+	background-color:#101613;
 	opacity:0.5;
 	position:absolute;
     width:100%;
@@ -168,7 +133,7 @@ img.playBtn:hover{
 }
 
 #trame{
-	background-image: url(IMG/trame.svg); /** Pattern - overlay **/
+	background-image: url(IMG/trame.svg);
 	background-repeat:repeat;
 	position:absolute;
     width:100%;
@@ -181,46 +146,22 @@ img.playBtn:hover{
 	opacity:0.8;
 }
 
-#wrapper-head{
-	position:absolute; /** Main div for the title, arrow icon and button learn more **/
-	height:100%;
-	width:100%;
-	z-index:5;
-	opacity:0;
-	top:0;
-}
-
-#title{
-	position:absolute;
-	z-index:4;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	text-align:center;
-	font-size:24px;
-	line-height:130%;
-	color:#FFF;
-    font-family: 'open_sansregular';
-	width:50%;
-	margin-left:25%;
-	height:100%;
-	top:50%;
-}
-
 #wrapper-logo{
 	position:absolute;
 	width:169px;
 	height:45px;
 	margin-left:-500px;
 	left:50%;
-	top:50px;
+	top:60px;
 	z-index:11;
 	overflow: hidden;
 	opacity:0;
 }
 
 #logo{
-	width:100%;
-	height:100%;
+	background-image:url(IMG/logotop.svg);
+	width:169px;
+	height:45px;
 	position:absolute;
 	left:0;
 	top:0;
@@ -237,60 +178,9 @@ img.playBtn:hover{
 	left:50%;
 	margin-left:450px;
 	z-index:5;
-	top:60px;
+	top:67.5px;
 	cursor:pointer;
 	opacity:0;
-}
-
-#fleche1{
-	position:absolute;
-	background-repeat:no-repeat;
-	width:40px;
-	height:40px;
-	top:90%;
-	left:50%;
-	margin-left:-20px;
-	z-index:4;
-	cursor:pointer;
-}
-
-#wrapper-learnmore{
-	position:absolute;
-	width:140px;
-	height:45px;
-	left:50%;
-	margin-left:-70px;
-	top:65%;
-	opacity:1;
-	z-index:4;
-	cursor:pointer;
-}
-
-.bouton-learnmore{
-	position:absolute;
-	width:100%;
-	height:100%;
-	left:0;
-	opacity:1;
-	top:0;
-	background-color:#transparent;
-	border:solid 2px #FFF;
-	border-radius:10px;
-}
-
-.text-learnmore{
-	position:absolute;
-	z-index:1;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	text-align:center;
-	font-size:18px;
-	line-height:45px;
-	height:45px;
-	color:#FFF;
-    font-family: 'open_sanssemibold';
-	width:80%;
-	margin-left:10%;
 }
 
 /* TAB MENU / HEADER */
@@ -328,8 +218,8 @@ img.playBtn:hover{
 	width:70%;
 	left:50%;
 	margin-left:-35%;
-	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
 	text-align:center;
 	font-size:17px;
 	line-height:150%;
@@ -354,8 +244,8 @@ img.playBtn:hover{
 	width:70%;
 	left:50%;
 	margin-left:-35%;
-	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
 	text-align:center;
 	font-size:17px;
 	line-height:150%;
@@ -390,36 +280,67 @@ img.playBtn:hover{
 	opacity:1;
 }
 
-/* PART 2 - TITLE */
+/*A2*/
 
 #A2{
 	position:relative;
 	width:100%;
-	min-height:250px;
+	height:auto;
 	z-index:1;
+	opacity:0;
 }
 
 #text-2{
-	position:absolute;
+	position:relative;
 	background-color:transparent;
 	width:550px;
-	height:90px;
+	height:auto;
 	top:50%;
-	margin-top:-45px;
+	margin-top:50px;
 	left:50%;
 	margin-left:-275px;
 	z-index:3;
-	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
 	text-align:center;
-	font-size:23px;
+	font-size:40px;
 	line-height:150%;
 	color:#444549;
     font-family: 'open_sansregular';
 	letter-spacing:-1px;
+	padding-top:50px;
 }
 
-/* PART 3 PORTFOLIO ARTICLES 3 GRID LEFT/RIGHT/MID */
+
+
+#wrapper-A2-date-1{
+	position:relative;
+	width:300px;
+	height:40px;
+	z-index:1;
+	left:50%;
+	margin-left:-150px;
+	padding-top:25px;
+	padding-bottom:75px;
+}
+
+
+
+#A2-date-1{
+	position:absolute;
+	width:100%;
+	height:100%;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	text-align:center;
+	font-size:15px;
+	line-height:160%;
+	color:#C6C6C6;
+    font-family: 'open_sansbold';
+}
+
+
+/* PART 3 PORTFOLIO ARTICLES 3 GRID LEFT/RIGHT/MID **COPY FROM THE HOME PAGE** */
 
 
 #wrapper-A3{
@@ -431,6 +352,7 @@ img.playBtn:hover{
 	height:auto;
 	padding-top:50px;
 	overflow:hidden;
+	opacity:0;
 }
 
 #A3-right,#A3-left,#A3-middle{
@@ -454,14 +376,13 @@ img.playBtn:hover{
 
 /* ARTICLES 1-9 EXAMPLE */
 
-#wrapper-post1,#wrapper-post4,#wrapper-post7{
+#wrapper-post1,#wrapper-post3,#wrapper-post5{
 	position:relative;
 	width:100%;
 	height:auto;
-
 }
 
-#wrapper-A3-left-date-1,#wrapper-A3-left-date-2,#wrapper-A3-left-date-3,#wrapper-A3-middle-date-4,#wrapper-A3-middle-date-5,#wrapper-A3-middle-date-6,#wrapper-A3-right-date-7,#wrapper-A3-right-date-8,#wrapper-A3-right-date-9{
+#wrapper-A3-left-date-1,#wrapper-A3-left-date-2,#wrapper-A3-middle-date-3,#wrapper-A3-middle-date-4,#wrapper-A3-right-date-5,#wrapper-A3-right-date-6{
 	position:relative;
 	width:100%;
 	height:40px;
@@ -470,12 +391,14 @@ img.playBtn:hover{
 	left:0;
 }
 
-#A3-left-date-1,#A3-left-date-2,#A3-left-date-3,#A3-middle-date-4,#A3-middle-date-5,#A3-middle-date-6,#A3-right-date-7,#A3-right-date-8,#A3-right-date-9{
+
+
+#A3-left-date-1,#A3-left-date-2,#A3-middle-date-3,#A3-middle-date-4,#A3-right-date-5,#A3-right-date-6{
 	position:absolute;
 	width:100%;
 	height:100%;
-	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
 	text-align:left;
 	font-size:15px;
 	line-height:160%;
@@ -484,7 +407,7 @@ img.playBtn:hover{
 	margin-left:35px;
 }
 
-#A3-left-icone-1,#A3-left-icone-2,#A3-left-icone-3,#A3-middle-icone-4,#A3-middle-icone-5,#A3-middle-icone-6,#A3-right-icone-7,#A3-right-icone-8,#A3-right-icone-9{
+#A3-left-icone-1,#A3-left-icone-2,#A3-middle-icone-3,#A3-middle-icone-4,#A3-right-icone-5,#A3-right-icone-6{
 	position:absolute;
 	background-image: url(IMG/icone1.svg);
 	background-repeat:no-repeat;
@@ -496,12 +419,12 @@ img.playBtn:hover{
 }
 
 
-#A3-left-title-1,#A3-left-title-2,#A3-left-title-3,#A3-middle-title-4,#A3-middle-title-5,#A3-middle-title-6,#A3-right-title-7,#A3-right-title-8,#A3-right-title-9{
+#A3-left-title-1,#A3-left-title-2,#A3-middle-title-3,#A3-middle-title-4,#A3-right-title-5,#A3-right-title-6{
 	position:relative;
 	width:95%;
 	left:0;
-	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
 	text-align:left;
 	font-size:21px;
 	line-height:160%;
@@ -511,11 +434,11 @@ img.playBtn:hover{
 	letter-spacing:-1px;
 }
 
-#A3-left-text-1,#A3-left-text-2,#A3-left-text-3,#A3-middle-text-4,#A3-middle-text-5,#A3-middle-text-6,#A3-right-text-7,#A3-right-text-8,#A3-right-text-9{
+#A3-left-text-1,#A3-left-text-2,#A3-middle-text-3,#A3-middle-text-4,#A3-right-text-5,#A3-right-text-6{
 	position:relative;
 	width:95%;
-	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
 	text-align:left;
 	font-size:16px;
 	line-height:140%;
@@ -525,15 +448,14 @@ img.playBtn:hover{
 	top:35px;
 }
 
-#wrapper-post2,#wrapper-post3,#wrapper-post5,#wrapper-post6,#wrapper-post8,#wrapper-post9{
+#wrapper-post2,#wrapper-post4,#wrapper-post6{
 	position:relative;
 	width:100%;
 	height:auto;
 	margin-top:100px;
-
 }
 
-#A3-left-image-2,#A3-left-image-3,#A3-middle-image-4,#A3-middle-image-5,#A3-middle-image-6,#A3-right-image-8,#A3-right-image-9{
+#A3-left-image-1,#A3-left-image-2,#A3-middle-image-3,#A3-middle-image-4,#A3-right-image-5,#A3-right-image-6{
 	position:relative;
 	width:100%;
 	z-index:1;
@@ -542,7 +464,7 @@ img.playBtn:hover{
 	overflow:hidden;
 }
 
-#A3-left-image-2 img,#A3-left-image-3 img,#A3-middle-image-4 img,#A3-middle-image-5 img,#A3-middle-image-6 img,#A3-right-image-8 img,#A3-right-image-9 img{
+#A3-left-image-1 img,#A3-left-image-2 img,#A3-middle-image-3 img,#A3-middle-image-4 img,#A3-right-image-5 img,#A3-right-image-6 img{
 	width:100%;
 }
 
@@ -553,7 +475,7 @@ iframe {
     height:auto;
  }
 
-.video-container-1,.video-container-6,.video-container-7 {
+.video-container-1,.video-container-4,.video-container-6 {
     position:relative;
     padding-bottom:56.25%;
     padding-top:30px;
@@ -563,7 +485,7 @@ iframe {
 	left:0;
  }
 
-.video-container-1 iframe,.video-container-6 iframe,.video-container-7 iframe,.video-container-1 object,.video-container-6 object,.video-container-7 object,.video-container-1 embed,.video-container-6 embed,.video-container-7 embed {
+.video-container-1 iframe,.video-container-4 iframe,.video-container-6 iframe,.video-container-1 object,.video-container-4 object,.video-container-6 object,.video-container-1 embed,.video-container-4 embed,.video-container-6 embed {
     width:100%;
     height:100%;
     position:absolute;
@@ -571,94 +493,78 @@ iframe {
     left:0;
 }
 
-/* PART 4 - BOUTON PAGE 1-4*/
+
+/*A4*/
 
 
 
 #A4{
 	position:relative;
 	width:100%;
-	height:200px;
+	height:70px;
 	z-index:1;
     background-color:#FFF;
+	padding-top:50px;
+	padding-bottom:50px;
 	
 }
 
 #wrapper-A4{
 	position:absolute;
-	width:300px;
+	width:600px;
 	height:45px;
-	margin-left:-150px;
+	margin-left:-300px;
 	left:50%;
 	top:50%;
 	margin-top:-22.5px;
 }
 
-#page1{
+#line1-A4{
 	position:absolute;
-	left:15%;
-	border-radius:50%;
-	height:35px;
-	width:35px;
-	background-color:transparent;/*add a background color*/
-	border:solid 4px #444549;/*add a color border*/
-	cursor:pointer;
-	z-index:1;
-	
+    background-color:#CCC;
+	height:1px;
+	top:0;
+	width:100%;
 }
 
-#text-page1{
+#line2-A4{
+	position:absolute;
+    background-color:#CCC;
+	height:1px;
+	bottom:0;
+	width:100%;
+}
+
+#A4-nextpage-1{
     position:absolute;
+	width:150px;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	text-align:left;
+	font-size:16px;
+	height:70px;
+	left:0;
+	color:#474851;
     font-family: 'open_sanssemibold';
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	font-size:15px;
-	height:35px;
-	top:0;
-	left:0;
-	line-height:35px;
-	color:#444549;
-	text-align:center;
-	width:100%;
-	z-index:2;
+	top:50%;
+	margin-top:-10px;
+
 }
 
-#text-page2,#text-page3,#text-page4{
+#A4-nextpage-2{
     position:absolute;
-    font-family: 'open_sansregular';
-	-webkit-font-smoothing: antialiased;
+	width:150px;
 	-moz-osx-font-smoothing: grayscale;
-	font-size:15px;
-	height:350px;
-	top:0;
-	left:0;
-	line-height:35px;
-	color:#FFF;
-	text-align:center;
-	width:100%;
-	z-index:2;
-}
+	-webkit-font-smoothing: antialiased;
+	text-align:right;
+	font-size:16px;
+	height:70px;
+	top:50%;
+	right:0;
+	color:#474851;
+    font-family: 'open_sanssemibold';
+	margin-top:-10px;
 
-#main-page2,#main-page3,#main-page4{
-	position:absolute;
-	width:35px;
-	height:35px;
-	top:0;
-}
-
-#main-page2{left:38.5%;margin-left:-11.7px;}
-#main-page3{right:38.5%;margin-right:-11.7px;}
-#main-page4{right:15%;}
-
-#page2,#page3,#page4{
-	position:absolute;
-	left:0;
-	border-radius:50%;
-	height:35px;
-	width:35px;
-	background-color:#9C9C9C;
-	cursor:pointer;
-	border:solid 4px #9C9C9C;
 }
 
 /* PART 5 - MENU WITH SHORTCUTS*/
@@ -720,7 +626,6 @@ iframe {
 #left-text-post,#mid-text-post,#right-text-post{
 	position:relative;
 	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
 	text-align:left;
 	font-size:17px;
 	color:#FFF;
@@ -735,8 +640,8 @@ iframe {
 
 #left-text-post-1,#mid-text-post-1,#right-text-post-1{
 	position:relative;
-	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
 	text-align:left;
 	font-size:16px;
 	color:#CCC;
@@ -756,8 +661,8 @@ iframe {
 
 #left-text-post-2,#left-text-post-3,#mid-text-post-2,#mid-text-post-3,#right-text-post-2,#right-text-post-3,#left-text-post-4,#mid-text-post-4,#right-text-post-4{
 	position:relative;
-	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
 	text-align:left;
 	font-size:16px;
 	color:#CCC;
@@ -771,7 +676,7 @@ iframe {
 	padding-top:15px;
 }
 
-/* PART 5 BIS - RELATED BLOG NUMBERS */
+/*A5b*/
 
 #A5b{
 	position:relative;
@@ -833,8 +738,8 @@ iframe {
 
 #left-A5b-text-post,#mid-A5b-text-post,#right-A5b-text-post{
 	position:relative;
-	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
 	text-align:center;
 	font-size:40px;
 	color:#CCC;
@@ -849,8 +754,8 @@ iframe {
 
 #left-A5b-text-post-1,#mid-A5b-text-post-1,#right-A5b-text-post-1{
 	position:relative;
-	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
 	text-align:center;
 	font-size:16px;
 	color:#9B9DA3;
@@ -866,7 +771,7 @@ iframe {
 }
 
 
-/* PART 6 - SOCIAL LINKS*/
+/*A6 SOCIAL LINKS*/
 
 #A6{
 	position:relative;
@@ -904,8 +809,8 @@ iframe {
 #behance,#dribbble,#facebook,#google,#linked{
     font-family: 'socialicoregular';
 	position:absolute;
-	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
 	text-align:left;
 	font-size:35px;
 	cursor:pointer;
@@ -932,7 +837,7 @@ iframe {
 #linked{margin-left:-10px;}
 #behance{margin-left:-15px;}
 
-/* PART 7 - FOOTER - COPYRIGHT*/
+/*A7*/
 
 #A7{
 	position:relative;
@@ -966,8 +871,8 @@ iframe {
 #copyright{
 	position:absolute;
 	width:100%;
-	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
 	text-align:center;
 	font-size:13px;
 	height:60px;
@@ -978,8 +883,6 @@ iframe {
 	text-transform: uppercase;
 	letter-spacing:-1px;
 }
-
-/* RESPONSIVE DESIGN ! IMPORTANT DONT TOUCH IT */
 
 /* X-LARGE */
 @media (max-width: 1500px) {
@@ -994,104 +897,101 @@ iframe {
 /* PERSONNAL RESPONSIVE DESIGN FOR COMPUTER SMALL SCREEN, MEDIA SCREEN AND IPAD HORIZONTAL*/
 @media (max-width: 1080px) {
 #wrapper-logo{margin-left:-420px;}
-#wrapper-plus,#wrapper-cross{margin-left:370px;}
-#wrapper-A5,#line-A7,#wrapper-A5b{width:900px;margin-left:-450px;}
+#wrapper-cross,#wrapper-plus{margin-left:370px;}
+#wrapper-A5,#line-A7{width:900px;margin-left:-450px;}
 }
 
 /*HYBRID*/
 @media (max-width: 1000px) {
 #wrapper-A3,#wrapper-A5,#wrapper-A5b,#line-A7{width:700px;margin-left:-350px;}
 #wrapper-logo{margin-left:-320px;}
-#wrapper-plus,#wrapper-cross{margin-left:270px;}
+#wrapper-cross,#wrapper-plus{margin-left:270px;}
 }
 
 /*FOR VERTICAL IPAD NATIVE 801px INCLUDING THE NEW TABLETS HYBRID*/
 @media (max-width: 801px) {
 #wrapper-A3,#wrapper-A5,#wrapper-A5b,#line-A7{width:580px;margin-left:-290px;}
-#wrapper-logo{margin-left:-260px;}
-#wrapper-plus,#wrapper-cross{margin-left:210px;}
+#wrapper-logo{margin-left:-300px;}
+#wrapper-cross,#wrapper-plus{margin-left:250px;}
 #A3-left,#A3-middle,#A3-right,#A5-left,#A5-middle,#A5-right,#A5b-left,#A5b-middle,#A5b-right{float:none;position:relative;width:100%;height:auto;left:0;padding-right:none;padding-top:50px;padding-bottom:50px;}
 #left-text-post,#mid-text-post,#right-text-post,#left-text-post-2,#left-text-post-3,#mid-text-post-2,#mid-text-post-3,#right-text-post-2,#right-text-post-3,#left-text-post-4,#mid-text-post-4,#right-text-post-4,#left-text-post-1,#mid-text-post-1,#right-text-post-1{text-align:center;}
 #left-text-post,#mid-text-post,#right-text-post{width:100%;}
 #left-line-post,#mid-line-post,#right-line-post{width:33%;left:50%;margin-left:-16.6%;}
 #left-line2-post,#mid-line2-post,#right-line2-post{width:33%;left:50%;margin-left:-16.6%;}
 #left-A5b-line-post,#left-A5b-line2-post,#left-A5b-text-post,#left-A5b-text-post-1,#right-A5b-line-post,#right-A5b-line2-post,#right-A5b-text-post,#right-A5b-text-post-1{margin-left:-50px;}
-#title{font-size:22px;line-height:130%;width:60%;margin-left:20%;top:40%;}
 #wrapper-menu{margin-top:-25%;}
 }
 
 /* MQUERIES FOR SMARTPHONE VERY LARGE & E-READERS */
 @media (max-width: 640px) {
-#wrapper-A3,#wrapper-A5,#wrapper-A5b,#line-A7{width:460px;margin-left:-230px;}
-#wrapper-plus,#wrapper-cross{margin-left:150px;}
+#wrapper-A3,#wrapper-A4,#wrapper-A5,#wrapper-A5b,#line-A7{width:460px;margin-left:-230px;}
+#wrapper-logo{margin-left:-230px;}
+#wrapper-cross,#wrapper-plus{margin-left:200px;}
+#title{top:28%;width:60%;margin-left:20%;font-size:55px;}
+#text-2{width:80%;margin-left:10%;left:0%;}
 #A5b-left,#A5b-middle,#A5-left,#A5-middle,#A3-left,#A3-middle{padding-right:0;}
-#A7{display:none;}
-#text-2{font-size:20px;width:80%;margin-left:10%;left:0%;}
-#wrapper-logo{margin-left:-195px;}
+#wrapper-A2-date-1{padding-bottom:50px;}
 #wrapper-menu{margin-top:-30%;}
-
 }
 
 /* MQUERIES FOR NEW SMARTPHONE HYBRID AND SMALL TABLET BY HEIGHT */
 @media (max-height: 600px) {
-#wrapper-A3,#wrapper-A5,#wrapper-A5b,#line-A7{width:400px;margin-left:-200px;}
-#wrapper-logo{margin-left:-195px;}
-#wrapper-plus,#wrapper-cross{margin-left:145px;}
+#wrapper-A3,#wrapper-A4,#wrapper-A5,#wrapper-A5b,#line-A7{width:400px;margin-left:-200px;}
+#wrapper-logo{margin-left:-170px;}
+#wrapper-cross{margin-left:120px;}
 #wrapper-menu{margin-top:-35%;}
 }
 
 
 /* MQUERIES FOR SMARTPHONE LARGE & IPHONE 4 HORIZONTAL */
 @media (max-width: 480px) {
-#wrapper-A3,#wrapper-A5,#wrapper-A5b{width:400px;margin-left:-200px;}
-#wrapper-plus,#wrapper-cross{margin-left:145px;}
+#wrapper-A3,#wrapper-A4,#wrapper-A5,#wrapper-A5b{width:400px;margin-left:-200px;}
+#wrapper-cross,#wrapper-plus{margin-left:170px;}
 #A7{display:none;}
-#text-2{font-size:20px;}
-#wrapper-logo{margin-left:-185px;}
+#wrapper-logo{margin-left:-195px;}
+#text-2{font-size:30px;}
+#wrapper-A2-date-1{padding-bottom:25px;}
 #wrapper-menu{margin-top:-35%;}
 }
 
 /* MQUERIES FOR SMARTPHONE LARGE & IPHONE 4 HORIZONTAL */
 @media (max-width: 400px) {
-#wrapper-A3,#wrapper-A5,#wrapper-A5b{width:300px;margin-left:-150px;}
-#wrapper-plus,#wrapper-cross{margin-left:135px;}
+#wrapper-A3,#wrapper-A4,#wrapper-A5,#wrapper-A5b{width:300px;margin-left:-150px;}
+#wrapper-cross,#wrapper-plus{margin-left:150px;}
 #wrapper-logo{margin-left:-175px;}
+#wrapper-A2-date-1{padding-bottom:0px;}
 #wrapper-menu{margin-top:-40%;}
+#text-2{margin-top:20px;}
+#wrapper-A2-date-1{padding-top:20px;padding-bottom:20px;width:200px;margin-left:-100px;}
 }
 
 /* MQUERIES ADDITIONAL FOR SMARTPHONE IPHONE 3 & 4 VERTICAL POSITION BY HEIGHT*/
 @media (max-width: 320px) {
-#wrapper-A3,#wrapper-A5,#wrapper-A5b{width:280px;margin-left:-140px;}
+#wrapper-A3,#wrapper-A4,#wrapper-A5,#wrapper-A5b{width:280px;margin-left:-140px;}
 #wrapper-plus,#wrapper-cross{margin-left:90px;}
-#wrapper-plus{top:40px;}
 #wrapper-social,#wrapper-A4{width:280px;margin-left:-140px;}
-#wrapper-logo{margin-left:-135px;top:30px;}
+#wrapper-logo{margin-left:-135px;}
 #wrapper-menu{margin-top:-45%;}
-#recent-post-title,#recent-post-1,#recent-post-2,#recent-post-3,#recent-post-4{line-height:115%;}
-#category-post-title,#category-post-1,#category-post-2,#category-post-3{line-height:115%;}
+
 }
 
 /* MEDIA QUERIES FOR HYBRID MOBILE*/
 @media (max-height: 650px) {
-#title{font-size:19px;line-height:130%;width:60%;margin-left:20%;top:34%;}
-#wrapper-learnmore{top:74%;}
-#fleche1{display:none;}
 #wrapper-menu{margin-top:-47.5%;}
-
 }
 
-/* MEDIA QUERIES FOR IPHONE 5 VERTICAL AND OLD VERSION*/
-@media (max-height: 568px) {
-#title{font-size:17px;line-height:130%;width:60%;margin-left:20%;top:37%;}
+/* MQUERIES ADDITIONAL FOR SMARTPHONE IPHONE 3 & 4 VERTICAL POSITION BY HEIGHT*/
+@media (max-height: 480px) {
 }
 
 /* MQUERIES ADDITIONAL FOR SMARTPHONE IPHONE 3 & 4 HORIZONTAL POSITIONBY HEIGHT*/
 @media (max-height: 330px) {
-#wrapper-logo{top:30px;margin-left:-84.5px;}
-#wrapper-plus,#wrapper-cross{display:none;}
+#wrapper-logo{top:65px;margin-left:-84.5px;}
+#wrapper-plus,#wrapper-cross{top:30px;display:none;}
 #main-wrapper-menu{display:none;}
+#text-2{margin-top:20px;}
+#wrapper-A2-date-1{padding-top:20px;padding-bottom:20px;width:200px;margin-left:-100px;}
 }
-
 
 
 </style>
@@ -1134,218 +1034,155 @@ iframe {
 <!-- HEADER -->
 
 <div id="A1-main">
-	    
-    <div id="wrapper-logo" class="object">
-	<a href="#"><div id="logo" class="shadow object" ><img src="IMG/logotop.svg" width="169" height="45"/></div></a>
+
+    <div id="wrapper-logo">
+	<a href="index.html"><div id="logo" class="shadow object"></div></a>
 	</div>
     
     <div id="A1">
     
-    	<div class="blank"></div>
-    
+        <div class="blank"></div>
     	<div id="A0"></div>
     	<div id="A0-2"></div>
     	<div id="trame"></div>
-        
-		
-    	<div id="wrapper-head">
-   			<div id="title" class="object">Spore is a creative onepage wordpress theme for web developers who change the world.</div>
-            <div id="wrapper-learnmore">
-            	<div class="bouton-learnmore object">
-        			<div class="text-learnmore object">Learn more</div>
-    			</div>
-            </div>
-           <a href="#ancre"><div id="fleche1"></div></a>
-   	    </div>
-
-
-		<div id="wrapper-plus" class="object"></div>
-        
+ 
 	</div>
         
 </div>
 
-<a name="ancre"></a>
-
-<!-- PART 2 - TITLE -->
-
 <div id="A2">
+        
+        <div id="text-2">Category : Hotpost</div>
     
-    <div id="text-2" class="wow fadeIn" data-wow-offset="10">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore<span style="color:#999;"> magna aliquam.</span></div>
-    
+        <div id="wrapper-A2-date-1">
+            		
+                <div id="A2-date-1">We'va found 6 articles published</div>
+                <div id="A2-icone-eye-1"></div>
+        </div> 
 </div>
     
+
+<!-- PART 3 - PORTFOLIO ARTICLES 3 GRID -->
+
 <!-- PART 3 - PORTFOLIO ARTICLES 3 GRID -->
 
 <div id="wrapper-A3" class="object">
     
     	<div id="A3-left">
         
-        	<div id="wrapper-post1" class="text-part-A5">
+            <div id="wrapper-post1" class="text-part-A5">
             	<div class="video-container-1">
 					<iframe width="560" height="315" src="https://www.youtube.com/embed/c9FIvUcjhFg" frameborder="0" allowfullscreen></iframe>
                 </div>
             
             	<div id="wrapper-A3-left-date-1">
-            		<div id="A3-left-date-1">22 nov, 2014</div>
+            		<div id="A3-left-date-1">21 nov, 2014</div>
                 	<div id="A3-left-icone-1"></div>
             	</div> 
-            	<ul>
-            		<li><div id="A3-left-title-1"><a href="spore-video.html">Post a Youtube video</a></div></li>
+           		<ul>
+            		<li><div id="A3-left-title-1"><a href="spore-post.html">Post an image with animation</a></div></li> 
             	</ul>
-                <div id="A3-left-text-1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</div>  
+            	<div id="A3-left-text-1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</div>  
             </div>
             
-            <div id="wrapper-post2" class="text-part-A5">
-            	<a href="spore-post.html"><div id="A3-left-image-2"><img src="IMG/image1-01.jpg"  alt="post an image with animation" title="post an image with animation" width="300" height="395" class="grow"/></div></a>
+             <div id="wrapper-post2" class="text-part-A5">
+            	<a href="spore-post.html"><div id="A3-left-image-2"><img src="IMG/image6-01.jpg"  alt="Auto-resized image" title="Auto-resized image" class="grow"/></div></a>
             
             	<div id="wrapper-A3-left-date-2">
-            		<div id="A3-left-date-2">21 nov, 2014</div>
+            		<div id="A3-left-date-2">20 nov, 2014</div>
                 	<div id="A3-left-icone-2"></div>
             	</div> 
-           		<ul>
-            		<li><div id="A3-left-title-2"><a href="spore-post.html">Post an image with animation</a></div></li> 
-            	</ul>
-            	<div id="A3-left-text-2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</div>  
-            </div>
-            
-             <div id="wrapper-post3" class="text-part-A5">
-            	<a href="spore-post3.html"><div id="A3-left-image-3"><img src="IMG/image6-01.jpg"  alt="Auto-resized image" title="Auto-resized image"  width="500" height="701" class="grow"/></div></a>
-            
-            	<div id="wrapper-A3-left-date-3">
-            		<div id="A3-left-date-3">20 nov, 2014</div>
-                	<div id="A3-left-icone-3"></div>
-            	</div> 
             	<ul>
-            		<li><div id="A3-left-title-3"><a href="spore-post.html">Auto-resized image</a></div></li>
+            		<li><div id="A3-left-title-2"><a href="spore-post.html">Auto-resized image</a></div></li>
                 </ul>  
-            	<div id="A3-left-text-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</div>  
+            	<div id="A3-left-text-2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</div>  
             </div>
             
         </div>
   
     	<div id="A3-middle">
         	
-            <div id="wrapper-post4" class="text-part-A5">
-            	<a href="spore-post.html"><div id="A3-middle-image-4"><img src="IMG/image3-01.jpg"  alt="Another post" title="Another post"  width="300" height="382" class="grow"/></div></a>
+            <div id="wrapper-post3" class="text-part-A5">
+            	<a href="spore-post.html"><div id="A3-middle-image-3"><img src="IMG/image3-01.jpg"  alt="Another post" title="Another post" class="grow"/></div></a>
             
+            	<div id="wrapper-A3-middle-date-3">
+            		<div id="A3-middle-date-3">19 nov, 2014</div>
+                	<div id="A3-middle-icone-3"></div>
+            	</div> 
+            	<ul>
+            		<li><div id="A3-middle-title-3"><a href="spore-post.html">Another post</a></div></li>
+                </ul>  
+            	<div id="A3-middle-text-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</div>  
+            </div>
+            
+            <div id="wrapper-post4" class="text-part-A5">
+				<div class="video-container-4">
+            		<iframe src="https://player.vimeo.com/video/290556837?title=0&byline=0" width="560" height="315" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            	</div>
+                                     
             	<div id="wrapper-A3-middle-date-4">
-            		<div id="A3-middle-date-4">19 nov, 2014</div>
+            		<div id="A3-middle-date-4">18 nov, 2014</div>
                 	<div id="A3-middle-icone-4"></div>
             	</div> 
             	<ul>
-            		<li><div id="A3-middle-title-4"><a href="spore-post.html">Another post</a></div></li>
-                </ul>  
+            		<li><div id="A3-middle-title-4"><a href="spore-video.html">Another post</a></div></li>
+                </ul> 
             	<div id="A3-middle-text-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</div>  
             </div>
-            
-            <div id="wrapper-post5" class="text-part-A5">
-            	<a href="spore-post.html"><div id="A3-middle-image-5"><img src="IMG/image7-01.jpg"  alt="Another post" title="Another post" width="300" height="428" class="grayscale" /></div></a>
-            
-            	<div id="wrapper-A3-middle-date-5">
-            		<div id="A3-middle-date-5">18 nov, 2014</div>
-                	<div id="A3-middle-icone-5"></div>
-            	</div> 
-            	<ul>
-            		<li><div id="A3-middle-title-5"><a href="spore-post.html">Post transition image</a></div></li>
-                </ul> 
-            	<div id="A3-middle-text-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</div>  
-            </div>
-            
-            <div id="wrapper-post6" class="text-part-A5">            
-           	
-				<a href="spore-post.html"><div id="A3-middle-image-5"><img src="IMG/image4-01.jpg"  alt="Another post" title="Another post" width="300" height="453" class="grayscale" /></div></a> 
-				                
-            	<div id="wrapper-A3-middle-date-6">
-            		<div id="A3-middle-date-6">17 nov, 2014</div>
-                	<div id="A3-middle-icone-6"></div>
-            	</div> 
-            	<ul>
-            		<li><div id="A3-middle-title-6"><a href="spore-video.html">Simple Post</a></div></li>
-                </ul> 
-            	<div id="A3-middle-text-6">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</div>  
-            </div>
-        
-        
+                    
         </div>
         
         <div id="A3-right">
         
-        	    <div id="wrapper-post7" class="text-part-A5">
-            	<a href="spore-post.html"><div id="A3-right-image-7"><img src="IMG/image6-01.jpg"  alt="Another post" title="Another post" width="300" height="425" class="grow"/></div></a>
+            <div id="wrapper-post5" class="text-part-A5">
+            	<a href="spore-post8.html"><div id="A3-right-image-5"><img src="IMG/image5-01.jpg"  alt="Post with transition image" title="Post with transition image" class="grow" /></div></a>
             
-            	<div id="wrapper-A3-right-date-7">
-            		<div id="A3-right-date-7">16 nov, 2014</div>
-                	<div id="A3-right-icone-7"></div>
+            	<div id="wrapper-A3-right-date-5">
+            		<div id="A3-right-date-5">15 nov, 2014</div>
+                	<div id="A3-right-icone-5"></div>
             	</div> 
             	<ul>
-            		<li><div id="A3-right-title-7"><a href="spore-video.html">Another simple  post</a></div></li>
-                </ul>
-            	<div id="A3-right-text-7">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam</div>  
-            </div>
-            
-            <div id="wrapper-post8" class="text-part-A5">
-            	<a href="spore-post.html"><div id="A3-right-image-8"><img src="IMG/image5-01.jpg"  alt="Post with transition image" title="Post with transition image" width="300" height="451" class="grow" /></div></a>
-            
-            	<div id="wrapper-A3-right-date-8">
-            		<div id="A3-right-date-8">15 nov, 2014</div>
-                	<div id="A3-right-icone-8"></div>
-            	</div> 
-            	<ul>
-            		<li><div id="A3-right-title-8"><a href="spore-post.html">Another post</a></div></li>
+            		<li><div id="A3-right-title-5"><a href="spore-post.html">Post with transition image</a></div></li>
                 </ul>  
-            	<div id="A3-right-text-8">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</div>  
+            	<div id="A3-right-text-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</div>  
             </div>
             
-            <div id="wrapper-post9" class="text-part-A5">
-            	<a href="spore-post.html"><div id="A3-right-image-9"><img src="IMG/image2-01.jpg"  alt="Another post" title="Another post" width="300" height="425" class="grow"/></div></a>
-            
-            	<div id="wrapper-A3-right-date-9">
-            		<div id="A3-right-date-9">14 nov, 2014</div>
-                	<div id="A3-right-icone-9"></div>
+            <div id="wrapper-post6" class="text-part-A5">
+				<div class="video-container-6">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/BfOLimMAhrs" frameborder="0" allowfullscreen></iframe>
+                </div> 
+                            
+            	<div id="wrapper-A3-right-date-6">
+            		<div id="A3-right-date-6">14 nov, 2014</div>
+                	<div id="A3-right-icone-6"></div>
             	</div> 
             	<ul>
-            		<li><div id="A3-right-title-9"><a href="spore-post.html">Another post</a></div></li>
+            		<li><div id="A3-right-title-6"><a href="spore-video.html">Another post</a></div></li>
                 </ul>
-            	<div id="A3-right-text-9">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</div>  
+            	<div id="A3-right-text-6">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</div>  
             </div>
         
         </div>
 	<div class="calage"></div>     
 </div>
 
-<!-- PART 4 - BOUTON PAGE 1-4 -->
 
 <div id="A4" class="object">
 
-	<div id="wrapper-A4" class="wow bounceInRight" data-wow-offset="10">
+	<div id="wrapper-A4" class="text-part-A5">
     	
-        
-        <div id="page1" class="object">
-        	<div id="text-page1"><strong>1</strong></div>
-        </div>
-        
-        <div id="main-page2">
-        	<div id="page2" class="object">
-          		<div id="text-page2" class="object"><strong>2</strong></div>
-        	</div>
-        </div>
-        
-        <div id="main-page3">
-        	<div id="page3" class="object">
-            	<div id="text-page3" class="object"><strong>3</strong></div>
-        	</div>
-        </div>
-        
-		<div id="main-page4">
-        	<div id="page4" class="object">
-            	<div id="text-page4" class="object"><strong>4</strong></div>
-        	</div>
-		</div>
-        
+    <div id="line1-A4"></div>
+    <div id="line2-A4"></div>
+    
+    <ul>
+    <li><div id="A4-nextpage-1"><a href="index.html">&#171;&nbsp;&nbsp;Previous page</a></div></li>
+    <li><div id="A4-nextpage-2"><a href="spore-cat-image.html">Next page&nbsp;&nbsp;&#187;</a></div></li>  
+    </ul>
+    
     </div>
 
 </div>
+
 
 <!-- PART 5 - SUB MENU AND SHORTCUTS -->
 
@@ -1402,6 +1239,7 @@ iframe {
 
 <!-- PART 5 BIS - SUB MENU AND RELATED NUMBERS -->
 
+
 <div id="A5b"> 
  
 	<div id="wrapper-A5b">
@@ -1438,7 +1276,6 @@ iframe {
     
 </div>
 
-<!-- PART 6 - SOCIAL PART -->
 
 <div id="A6">
 
@@ -1477,36 +1314,31 @@ iframe {
     </div>
 </div>
 
-<!-- PART 7 - COPYRIGHT -->
-
 <div id="A7">
 
 	<div id="wrapper-A7">
     <div id="line-A7"></div>
-	<div id="copyright"><strong>© Copyright 2018. All rights reserved.&nbsp Template by <a href="https://designseer.com/">DesignSeer</a></strong></div>
+	<div id="copyright"><strong>© Copyright 2018. All rights reserved.&nbsp Template by DesignSeer</strong></div>
     </div>
     
 </div>
 
-<!-- SCRIPT -->
-
+<!--SCRIPT-->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script type="text/javascript" src="JS/output.min.js"></script>	
+    <script type="text/javascript" src="JS/output.min.js"></script>
 	<script type="text/javascript" src="JS/wow.min.js"></script>
 	<script type="text/javascript">new WOW().init();</script>
-	
-	<script async="async">function youTubes_makeDynamic(){var $ytIframes=$('iframe[src*="youtube.com"]');$ytIframes.each(function(i,e){var $ytFrame=$(e);var ytKey;var tmp=$ytFrame.attr('src').split(/\//);tmp=tmp[tmp.length-1];tmp=tmp.split('?');ytKey=tmp[0];var $ytLoader=$('<div class="ytLoader">');$ytLoader.append($('<img class="cover" src="https://i.ytimg.com/vi/'+ytKey+'/hqdefault.jpg">'));$ytLoader.append($('<img class="playBtn" src="IMG/play_button.png">'));$ytLoader.data('$ytFrame',$ytFrame);$ytFrame.replaceWith($ytLoader);$ytLoader.click(function(){var $ytFrame=$ytLoader.data('$ytFrame');$ytFrame.attr('src',$ytFrame.attr('src')+'?autoplay=1');$ytLoader.replaceWith($ytFrame)})})};$(document).ready(function(){youTubes_makeDynamic()});</script>
-		<script type='application/javascript'>
-	window.addEventListener('load', function() {
-		new FastClick(document.body);
-	}, false);
-	</script>
+    <script type='application/javascript'>
+window.addEventListener('load', function() {
+    new FastClick(document.body);
+}, false);
+</script>
 
 	<script>
 	
 	$(window).on('beforeunload', function(){
 		$(".blank").fadeIn(300);
-		$("#main-wrapper-menu,#A1-main,#A2,#A3,#A4,#A5,#A6,#A7").animate({'opacity':'0'},300);
+		$("#main-wrapper-menu,#A1-main,#A1,#A2,#wrapper-A3,#A3,#A4,#A4a,#A4b,#A5,#A6,#A7").animate({'opacity':'0'},300);
   		$(window).delay(1000).scrollTop(0);
 	});
 	
@@ -1515,29 +1347,9 @@ iframe {
 	$.localScroll();
 	
 	$(".blank").delay(1000).fadeOut(300);
-	$("#wrapper-head").delay(2000).animate({'opacity':'1'},500);
-	$("#wrapper-logo").delay(3200).animate({'opacity':'1'},300);
-	$("#wrapper-plus").delay(3200).animate({'opacity':'1'},300);
+	$("#wrapper-logo,#wrapper-plus").delay(2000).animate({'opacity':'1'},300);
+	$("#wrapper-A3,#A2").delay(2000).animate({'opacity':'1'},300);
 });
-
-$(function() {
-	var bar = $('#wrapper-head');
-	var opacity = bar.css('opacity');
-	var top = bar.css('top');
-	
-	$(window).scroll(function() {
-		if($(this).scrollTop() > 100) {
-			bar.stop().animate({ opacity :'0', top :'-10%'},250);
-		} 
-	});
-		
-	$(window).scroll(function() {
-		if($(this).scrollTop() < 100) {
-			bar.stop().animate({ opacity :'1', top :'0'},250);
-		}	
-	});
-});
-
 
 /*CLICK PLUS AND CROSS MENU*/
 
@@ -1558,34 +1370,6 @@ WC.addEventListener('click', function() {
 		     $(".category-post").fadeOut(250);
 			 $("#wrapper-plus").delay(1000).fadeIn(250);			 
 }); 
-
-/*BUTTON ARROW*/
-
-$(document).on('touchstart mouseover', '#fleche1', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-			 
-			 $("#fleche1").stop().animate({'top':'92.5%'},200);
-
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-$(document).on('touchend mouseout', '#fleche1', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-			 
-			 $("#fleche1").stop().animate({'top':'90%'},200);
-			 
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
 
 
 /*BUTTON LOGO*/
@@ -1665,6 +1449,34 @@ $(document).on('touchend mouseout', '#wrapper-cross', function(event){
         if(event.handled !== true) {
 			 
 			 $("#wrapper-cross").stop().animate({'opacity':'1','scale':'1'},150);
+			 
+            event.handled = true;
+        } else {
+            return false;
+        }
+});
+
+/*BUTTON HOME*/
+
+$(document).on('touchstart mouseover', '#wrapper-home', function(event){
+        event.stopPropagation();
+        event.preventDefault();
+        if(event.handled !== true) {
+			 
+			 $("#wrapper-home").stop().animate({'opacity':'0.75','scale':'1.1'},150);
+
+            event.handled = true;
+        } else {
+            return false;
+        }
+});
+
+$(document).on('touchend mouseout', '#wrapper-home', function(event){
+        event.stopPropagation();
+        event.preventDefault();
+        if(event.handled !== true) {
+			 
+			 $("#wrapper-home").stop().animate({'opacity':'1','scale':'1'},150);
 			 
             event.handled = true;
         } else {
@@ -1833,8 +1645,8 @@ $(document).on('touchstart mouseover', '#main-page2', function(event){
         event.preventDefault();
         if(event.handled !== true) {
 			 
-			 $("#page2").stop().css({'background-color':'transparent','border-color':'#444549'});
-			 $("#text-page2").stop().css({'color':'#444549'},250);
+			 $("#page2").stop().css({'background-color':'transparent','border-color':'#51CE77'});
+			 $("#text-page2").stop().css({'color':'#51CE77'},250);
 			 $("#main-page2").stop().animate({'scale':'1.1'},250);
 
             event.handled = true;
@@ -1848,7 +1660,7 @@ $(document).on('touchend mouseout', '#main-page2', function(event){
         event.preventDefault();
         if(event.handled !== true) {
 			 
-			 $("#page2").stop().css({'background-color':'#9C9C9C','border-color':'#9C9C9C'});
+			 $("#page2").stop().css({'background-color':'#51CE77','border-color':'#51CE77'});
 		     $("#text-page2").stop().css({'color':'#FFF'},250);
 	         $("#main-page2").stop().animate({'scale':'1'},250);
 			 
@@ -1865,8 +1677,8 @@ $(document).on('touchstart mouseover', '#main-page3', function(event){
         event.preventDefault();
         if(event.handled !== true) {
 			 
-			 $("#page3").stop().css({'background-color':'transparent','border-color':'#444549'});
-			 $("#text-page3").stop().css({'color':'#444549'},250);
+			 $("#page3").stop().css({'background-color':'transparent','border-color':'#51CE77'});
+			 $("#text-page3").stop().css({'color':'#51CE77'},250);
 			 $("#main-page3").stop().animate({'scale':'1.1'},250);
 
             event.handled = true;
@@ -1880,7 +1692,7 @@ $(document).on('touchend mouseout', '#main-page3', function(event){
         event.preventDefault();
         if(event.handled !== true) {
 			 
-			 $("#page3").stop().css({'background-color':'#9C9C9C','border-color':'#9C9C9C'});
+			 $("#page3").stop().css({'background-color':'#51CE77','border-color':'#51CE77'});
 		     $("#text-page3").stop().css({'color':'#FFF'},250);
 	         $("#main-page3").stop().animate({'scale':'1'},250);
 			 
@@ -1897,8 +1709,8 @@ $(document).on('touchstart mouseover', '#main-page4', function(event){
         event.preventDefault();
         if(event.handled !== true) {
 			 
-			 $("#page4").stop().css({'background-color':'transparent','border-color':'#444549'});
-			 $("#text-page4").stop().css({'color':'#444549'},250);
+			 $("#page4").stop().css({'background-color':'transparent','border-color':'#51CE77'});
+			 $("#text-page4").stop().css({'color':'#81E2A1'},250);
 			 $("#main-page4").stop().animate({'scale':'1.1'},250);
 
             event.handled = true;
@@ -1912,39 +1724,9 @@ $(document).on('touchend mouseout', '#main-page4', function(event){
         event.preventDefault();
         if(event.handled !== true) {
 			 
-			 $("#page4").stop().css({'background-color':'#9C9C9C','border-color':'#9C9C9C'});
+			 $("#page4").stop().css({'background-color':'#51CE77','border-color':'#51CE77'});
 		     $("#text-page4").stop().css({'color':'#FFF'},250);
 	         $("#main-page4").stop().animate({'scale':'1'},250);
-			 
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-/*BUTTON HEADER LEARN MORE*/
-
-$(document).on('touchstart mouseover', '#wrapper-learnmore', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-			 
-			 $(".bouton-learnmore").stop().css({'background-color':'#FFF'});
-			 $(".text-learnmore").stop().css({'color':'#333'},250);
-
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-$(document).on('touchend mouseout', '#wrapper-learnmore', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-			 
-			 $(".bouton-learnmore").stop().css({'background-color':'transparent'});
-		     $(".text-learnmore").stop().css({'color':'#FFF'},250);
 			 
             event.handled = true;
         } else {
