@@ -1,0 +1,586 @@
+																																																																																																																																								<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="http://cvbaran.cba.com.py/xmlrpc.php">
+
+<title>Publicaciones &#8211; cvbaran</title>
+<meta name='robots' content='noindex,follow' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="cvbaran &raquo; Feed" href="http://cvbaran.cba.com.py/?feed=rss2" />
+<link rel="alternate" type="application/rss+xml" title="cvbaran &raquo; RSS de los comentarios" href="http://cvbaran.cba.com.py/?feed=comments-rss2" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/cvbaran.cba.com.py\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.6.21"}};
+			!function(e,o,t){var a,n,r;function i(e){var t=o.createElement("script");t.src=e,t.type="text/javascript",o.getElementsByTagName("head")[0].appendChild(t)}for(r=Array("simple","flag","unicode8","diversity","unicode9"),t.supports={everything:!0,everythingExceptFlag:!0},n=0;n<r.length;n++)t.supports[r[n]]=function(e){var t,a,n=o.createElement("canvas"),r=n.getContext&&n.getContext("2d"),i=String.fromCharCode;if(!r||!r.fillText)return!1;switch(r.textBaseline="top",r.font="600 32px Arial",e){case"flag":return(r.fillText(i(55356,56806,55356,56826),0,0),n.toDataURL().length<3e3)?!1:(r.clearRect(0,0,n.width,n.height),r.fillText(i(55356,57331,65039,8205,55356,57096),0,0),a=n.toDataURL(),r.clearRect(0,0,n.width,n.height),r.fillText(i(55356,57331,55356,57096),0,0),a!==n.toDataURL());case"diversity":return r.fillText(i(55356,57221),0,0),a=(t=r.getImageData(16,16,1,1).data)[0]+","+t[1]+","+t[2]+","+t[3],r.fillText(i(55356,57221,55356,57343),0,0),a!=(t=r.getImageData(16,16,1,1).data)[0]+","+t[1]+","+t[2]+","+t[3];case"simple":return r.fillText(i(55357,56835),0,0),0!==r.getImageData(16,16,1,1).data[0];case"unicode8":return r.fillText(i(55356,57135),0,0),0!==r.getImageData(16,16,1,1).data[0];case"unicode9":return r.fillText(i(55358,56631),0,0),0!==r.getImageData(16,16,1,1).data[0]}return!1}(r[n]),t.supports.everything=t.supports.everything&&t.supports[r[n]],"flag"!==r[n]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[r[n]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(a=function(){t.readyCallback()},o.addEventListener?(o.addEventListener("DOMContentLoaded",a,!1),e.addEventListener("load",a,!1)):(e.attachEvent("onload",a),o.attachEvent("onreadystatechange",function(){"complete"===o.readyState&&t.readyCallback()})),(a=t.source||{}).concatemoji?i(a.concatemoji):a.wpemoji&&a.twemoji&&(i(a.twemoji),i(a.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='igit-front-style-css'  href='http://cvbaran.cba.com.py/wp-content/plugins/igit-related-posts-with-thumb-images-after-posts/css/igit_front_style.css?ver=4.6.21' type='text/css' media='all' />
+<link rel='stylesheet' id='megamenu-css'  href='http://cvbaran.cba.com.py/wp-content/uploads/maxmegamenu/style.css?ver=df9daf' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='http://cvbaran.cba.com.py/wp-includes/css/dashicons.min.css?ver=4.6.21' type='text/css' media='all' />
+<link rel='stylesheet' id='myresume-style-css'  href='http://cvbaran.cba.com.py/wp-content/themes/myresume/style.css?ver=4.6.21' type='text/css' media='all' />
+<script type='text/javascript' src='http://cvbaran.cba.com.py/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://cvbaran.cba.com.py/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://cvbaran.cba.com.py/?rest_route=/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://cvbaran.cba.com.py/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://cvbaran.cba.com.py/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.6.21" />
+<link rel="canonical" href="http://cvbaran.cba.com.py/?page_id=11" />
+<link rel='shortlink' href='http://cvbaran.cba.com.py/?p=11' />
+<link rel="alternate" type="application/json+oembed" href="http://cvbaran.cba.com.py/?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=http%3A%2F%2Fcvbaran.cba.com.py%2F%3Fpage_id%3D11" />
+<link rel="alternate" type="text/xml+oembed" href="http://cvbaran.cba.com.py/?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=http%3A%2F%2Fcvbaran.cba.com.py%2F%3Fpage_id%3D11&#038;format=xml" />
+		<style type="text/css">
+        #igit_rpwt_css {
+            background:#FFFFFF;            font-size:12px; 
+            font-style:normal; 
+            color:#000000 !important;
+            margin-top:10px;
+            margin-bottom:10px; 
+             height:230px;         }
+        #igit_title 
+        {
+            padding:2px 2px 2px 8px;
+            text-align:center;
+            font-size:12px;            font-family:Geneva;            
+        }
+        #igit_rpwt_css h4{
+            padding-bottom:10px;
+            border-bottom:1px solid #dbdbdb;
+		    margin-bottom: 10px !important;
+            color:#000000;        }
+        #igit_title a
+        {
+            color:#000000;            font-size:12px;            font-family:Geneva;		    border-bottom: medium none;
+        }
+        #igit_title a:hover
+        {
+            border-bottom:1px solid #000000;
+            text-decoration:none;
+        }
+        #igit_rpwt_thumb, #description 
+        {
+            margin-left:0px; 
+            border:1px solid #DDDDDD; 
+            padding: 3px;
+        }
+        .igit_relpost:hover
+        {
+            border-bottom:4px solid #808080;
+            background-color:#DDDDDD;        }
+        #igit_rpwt_css h4
+        {
+            margin: 0 0 0px;
+        }
+        .igit_relpost {
+            padding-top:7px;
+            border-right-color-value:#DDDDDD;
+            border-right-style-value:solid;
+            border-right-width-value:1px;
+            border-bottom:4px solid #FFFFFF;            float:left;
+             height:85%;             width:25%;
+        }
+        #igit_rpwt_main_image {
+            height:105px;
+            line-height:15;
+            padding-bottom:10px;
+            padding-left:2px;
+            padding-right:2px;
+            padding-top:2px;
+            text-align:center;
+		    display: inline-block;
+			width:100%;
+        }
+		#igit_rpwt_main_image > a {
+   			 display: inline-block;
+			 border-bottom: none !important;
+		}
+		img#igit_rpwt_thumb{
+			 height:100px;
+			  width:100px;
+		}
+        </style>
+</head>
+
+<body class="page page-id-11 page-template-default">
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	
+
+
+	<header id="masthead" class="site-header" role="banner">
+
+	<div id="site-header">
+		<a href="http://cvbaran.cba.com.py/" rel="home">
+			<img src="http://cvbaran.cba.com.py/wp-content/uploads/2016/09/cropped-cropped-baran.jpg"  alt="cvbaran">
+	<span class="site-title">
+	
+	
+D.Sc. Benjamín Barán	
+	
+	
+	</span>
+			<span class="site-description">
+Doctor en Ciencias, en Ingeniería de Sistemas y Computación
+			</span>	
+		</a>
+	</div>
+		
+	</header><!-- #masthead -->
+
+<div id="mega-menu-wrap-max_mega_menu_1" class="mega-menu-wrap"><div class="mega-menu-toggle" tabindex="0"><div class='mega-toggle-block mega-menu-toggle-block mega-toggle-block-right mega-toggle-block-1' id='mega-toggle-block-1'></div></div><ul id="mega-menu-max_mega_menu_1" class="mega-menu mega-menu-horizontal mega-no-js" data-event="click" data-effect="fade_up" data-effect-speed="200" data-second-click="close" data-document-click="collapse" data-reverse-mobile-items="true" data-vertical-behaviour="accordion" data-breakpoint="600"><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-home mega-align-bottom-left mega-menu-flyout mega-menu-item-6' id='mega-menu-item-6'><a class="dashicons-admin-home mega-menu-link" href="http://cvbaran.cba.com.py/" tabindex="0">Inicio</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-51' id='mega-menu-item-51'><a class="dashicons-welcome-learn-more mega-menu-link" href="http://cvbaran.cba.com.py/?page_id=47" tabindex="0">Educación</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-52' id='mega-menu-item-52'><a class="dashicons-awards mega-menu-link" href="http://cvbaran.cba.com.py/?page_id=9" tabindex="0">Distinciones</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-current-menu-item mega-page_item mega-page-item-11 mega-current_page_item mega-align-bottom-left mega-menu-flyout mega-menu-item-53' id='mega-menu-item-53'><a class="dashicons-book mega-menu-link" href="http://cvbaran.cba.com.py/?page_id=11" tabindex="0">Publicaciones</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-disable-link mega-menu-item-54' id='mega-menu-item-54'><a class="dashicons-pressthis mega-menu-link" tabindex="0">Actividades</a>
+<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-28' id='mega-menu-item-28'><a class="mega-menu-link" href="http://cvbaran.cba.com.py/?page_id=23">Docente</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-27' id='mega-menu-item-27'><a class="mega-menu-link" href="http://cvbaran.cba.com.py/?page_id=25">Profesional</a></li></ul>
+</li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-55' id='mega-menu-item-55'><a class="dashicons-images-alt2 mega-menu-link" href="http://cvbaran.cba.com.py/?page_id=19" tabindex="0">Galería</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-56' id='mega-menu-item-56'><a class="dashicons-groups mega-menu-link" href="http://cvbaran.cba.com.py/?page_id=17" tabindex="0">Proyectos</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-26' id='mega-menu-item-26'><a class="dashicons-edit mega-menu-link" href="http://cvbaran.cba.com.py/?page_id=15" tabindex="0">Eventos</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-50' id='mega-menu-item-50'><a class="dashicons-email mega-menu-link" href="http://cvbaran.cba.com.py/?page_id=49" tabindex="0">Mis Datos</a></li></ul></div>
+	<div id="content" class="site-content">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+		
+						
+				
+<article id="post-11" class="post-11 page type-page status-publish hentry">
+	<header class="entry-header">
+		<h1 class="entry-title"><a href="http://cvbaran.cba.com.py/?page_id=11" rel="bookmark">Publicaciones</a></h1>
+			</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p><strong><span style="color: #333333;"><span style="font-family: Georgia, 'Times New Roman', 'Bitstream Charter', Times, serif;"><span style="font-size: medium;"><u>PRINCIPALES PUBLICACIONES CIENTÍFICAS</u></span></span></span></strong></p>
+<p><strong>Año 2021</strong></p>
+<ul>
+<li>“A multiobjective approach for nearest neighbor optimization of N-dimensional quantum circuits”, con A. Carballude y M. Villagra, SN Computer Science Journal 2, article Nº 19 de la Editorial Springer con DOI: https://doi.org/10.1007/s42979-020-00398-3</li>
+</ul>
+<p><strong>Año 2020</strong></p>
+<ul>
+<li>“Distribution System Operation and Expansion Planning using Network Reconfiguration”, con I. Benitez Cattani y E. Chaparro, a ser publicado en IEEE Latin America Transactions.</li>
+<li>“Multi-objective Evolutionary Algorithms for Power Distribution System Optimal Reconfiguration”, con I. Benitez Cattani y E. Chaparro, CLEIej, paper #10, Vol. 22, Número 3.</li>
+<li>“A Multi-Objective Approach for Multi-Cloud Infrastructure Brokering in Dynamic Markets”, con F. Lopez-Pires y L. Chamorro, disponible en arxiv: <a href="https://arxiv.org/abs/2001.02561">https://arxiv.org/abs/2001.02561</a>.</li>
+</ul>
+<p><strong>Año 2019</strong></p>
+<ul>
+<li>“A Quantum Adiabatic Algorihm for Multiobjetive Combinatorial Optimization», con M. Villagra, Special Issue on Founations of Quantum Computing, de MDPI- AXIOMS 8, 32 (ISSN 2075-1680), disponible en : https://www.mdpi.com/2075-1680/8/1/32.</li>
+<li>“<em>Spectrum Defragmentation in ElasticOptical Networks: Two Approaches withMetaheuristics</em>”, con E. Dávalos, F. Romero, G. Galeano, D. Báez y A. Leiva. A ser publicado proximamente en IEEE Access.</li>
+</ul>
+<ul>
+<li>“Spectrum Defragmentation Algorithms in Elastic Optical Networks», con S. Fernández-Martinez, Benjamín Barán y D. Pinto-Roa. Revista Optical Switching and Networking de ELSEVIER, Vol. 34, Nov. 2019, Pg. 10-22, disponible en https://doi.org/10.1016/j.osn.2019.04.001.</li>
+<li>“<em>Modelling City Logistics Scenarios in Ecuadorian Big Cities Based on Multi-Objective Two-Echelon Vehicle Routing Problems</em>” con H. Eitzen, F. López-Pires, F. Sandoya y J.L. Chicaiza. Handbook of Research on Urban and Humanitarian Logistics.IGI Global, 2019.DOI: 10.4018/978-1-5225-8160-4.ch004</li>
+<li>«<em>Evaluation of Two-Phase Virtual Machine Placement Algorithms for Green Cloud Datacenters</em>«, con F. López-Pires, C. Pereira, M. Velázquez y O. González.2nd Workshop on Hot Topics in Cloud Computing Performance (HotCloudPerf 2019), Umea– Suecia.</li>
+<li>«<em>Optimización Multiobjetivo de un DatacenterEmpresarial en Paraguay</em>«, con J. Meden y F. Stuardo. XLV Conferencia Latinoamericana de Informática &#8211; CLEI 2019 Ciudad de Panamá – Panamá.</li>
+<li>«<em>Ubicación de Máquinas Virtuales con diversos Hipervisores, un enfoque Multi-Objetivo utilizando Algoritmos Meméticos</em>«, con V. Careaga. XLV Conferencia Latinoamericana de Informática &#8211; CLEI 2019 Ciudad de Panamá – Panamá.</li>
+<li>«<em>Sistema híbrido de recomendación. Un sistema multi-objetivo no convencional</em>«, con M. Baveray U. Yael. XLV Conferencia Latinoamericana de Informática &#8211; CLEI 2019 Ciudad de Panamá – Panamá.</li>
+<li>“<em>Estudio de Factibilidad para la primera misión satelital del Paraguay</em>«, con E. Buzarquis. Aceptado para publicación en la Revista Electrónica Argentina-Brasil de Tecnologías de Información de Comunicación.</li>
+<li>“<em>Multi-Objetive Government Perspective for Three-Echelon Vehicle Routing</em>«, con F. López-Pires y D. Kang. Conferencia de la Sociedad Israelí de Investigación de Operaciones- ORSIS&#8217;2019, Shefayim-Israel.</li>
+<li>“<em>Reconfiguración Óptima de Sistemas Eléctricos de Distribución Radiales mediante Beta-Radialidad y Priorización de interruptores</em>«, con N. Cáceres y E. Chaparro. XVIII ERIAC (Encuentro Regional Ibero-Americano de CIGRE), Foz do Yguazu-Brasil.</li>
+<li>“Algoritmos Evolutivos. Sus bases biológicas y sus aplicaciones para la resolución de problemas de optimización multiobjetivo en la Industria Química”, con C. Oviedo y M. Galeano. III Congreso Internacional e Interdisciplinar ALEXANDER VON  HUMBOLDT – AIMÉ BONPLAND, organizado por la Sociedad Científica del Paraguay, Asunción – Paraguay.</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Año 2018</strong></p>
+<ul>
+<li>“<em>Ruteo de Vehículos Multi-Objetivo en dos niveles para Logística Urbana Inteligente</em>”, con H. Eitzen, F. López-Pires, F. Sandoya, J.L. Chicaiza y C. Suárez. Revista de la Sociedad Científica del Paraguay, Vol. 23, Nº 1, 2018. ISSN 0379-9123.</li>
+<li> “<em>Análisis del Sector Energético del Paraguay. Balance Energético de Energía Útil 2011</em>”, con R. Amarilla, E. Buzarquis, E. Riveros, F. Fernández y G. Blanco. Revista de la Sociedad Científica del Paraguay, Vol. 23, Nº 1, 2018. ISSN 0379-9123.</li>
+<li>“<em>An overview on evolutionary algorithms for many‐objective optimization problems</em>”, con C. von Lücken y C. Brizuela. Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery 2018; e1267. DOI 10.1002/widm.1267.</li>
+<li>“<em>Maximum Diversity Problem. A Multi-Objective Approach</em><em>”</em>, con K. Vera, F. López y F. Sandoya. CLEI Electronic Journal – CLEIej, Vol. 21, Nº 2, Paper 1.</li>
+<li>“<em>A Survey on Algorithmic Aspects of Virtual Optical Network Embedding for Cloud Networks</em>”, con E. Dávalos. IEEE Access, vol. 6, pp. 20893-20906. DOI 10.1109/ACCESS.2018.2821179. Disponible en:</li>
+<li>“<em>A Novel Performance Metric for Virtual Network Embedding Combining Aspects of Blocking Probability and Embedding Cost</em>”, con E. Dávalos. De Giusti A. (editor) Computer Science – CACIC 2017. Communications in Computer and Information Science, vol 790. Editorial Springer, pg. 209-218.</li>
+<li>“<em>A Novel Performance Metric for Virtual Network Embedding Combining Aspects of Blocking Probability and Embedding Cost</em>”, con E. Dávalos. De Giusti A. (editor) Computer Science – CACIC 2017. Communications in Computer and Information Science.</li>
+<li>“Towards Elastic Virtual Machine Placement in Overbooked OpenStack Clouds under Uncertainty” con F. López- Pires y otros. Sesión de Poster de la Primera Jornada de Divulgación Cientifica del Alto Paraná, CDE- Paraguay.</li>
+<li>“Machine Learning Opportunities in Cloud Computing Datacenter Management for 5G Services”  con F. López y otros.  Sesión de Poster de la Primera Jornada de Divulgación Cientifica del Alto Paraná, CDE- Paraguay.</li>
+<li>“Reconfiguración Deterministica de Sistemas Eléctricos Radiales Basada en Bloques Lineales”  con N. Cáceres y E. Chaparro. Sesión de Poster del III Encuentro de Investigadores de la Sociedad Cientifica del Paraguay, Asunción- Paraguay.</li>
+<li>“Estudio de Factibilidad para la primera Misión Satelital en Paraguay”  con E. Buzarquis y J. Domaniczky. Sesión de Poster del III Encuentro de Investigadores de la Sociedad Cientifica del Paraguay, Asunción- Paraguay.</li>
+<li>“Multiobjetive Optimization Grover Adaptive Search”, con M. Villagra. Capítulo del libro “Recent Advances in Computational Optimization” a ser publicado por SPRINGER en el 2019.  DOI 10.1007/978-3-319-99648-6_11.</li>
+<li>“Ubicación Multi-Objetivo de Centros de Distribución: Un Algoritmo Evolutivo”, con R.  Aquino y F.  López-Pires.  VI Seminario Argentina-Brasil de Tecnologías de la Información y la Comunicación- SABTIC&#8217;2018, Entre Rios, Argentina.</li>
+<li>“Machine Learning Opportunities in Cloud Computing Datacenter Management for 5G Services”, F. López- Pires . ITU Kaleidoscope 2018 Academic Conference, Santa Fe- Argentina.</li>
+<li>“A Serial Optimization and Link-oriented based Routing approach for RMLSA in Elastic Optical Networks.  A comparison among ILP based solution approaches”, I. Rios,  Bogado, D. Pinto-Roa y B. Barán.  X Latin &#8211; American Networking Conference &#8211; LANC&#8217;2018, realizado en el marco de la XLIV CLEI &#8211; Conferencia Latinoamericana de Informatica. Sao Pulo- Brasil.</li>
+<li>“City Government Perspectives for Multi-Objetive Urban Goods Movement” , con F. López,  H. Eitzen, R. Aquino , F. Sandoya,  J. Chicaiza y C. Suárez.  2018 MIT SCALE LATIN AMERICA. MIT Supply Chain and Global Logistics Excellence (SCALE) Network for Latin America. Center for Transportation &amp; Logistic. Massachuesetts Institute of Techonology, Cambridge, MA, Estados Unidos.</li>
+<li>“Towards Elastic Virtual Machine Placement in Overbooked OpenStack Clouds under Uncertainty” , con F. López-Pires, C. Pereira, M. Velázquez y O. González. VI Jornadas de Cloud Computing &amp; Big Data. Facultad de Informatica , Universidad Nacional de la Plata- Argentina.</li>
+<li>“A Government Perspective for Two-Echelon Vehicle Routing. A Multi-Objetive Evolutionary Approach.”, con F. López-Pires y H. Eitzen. International Conference on Industrial Logistics- ICIL&#8217;2018, Ben-Gurion University, Beer Sheva-Israel.</li>
+<li>“Virtual machine placement for elastic infraestructures in overbooked cloud computing datacenters under uncertainty”, con F. López-Pires, L. Benítez, S. Zalimben y A. Amarill, Future Generation Computer Systems, Elseiver, vol. 79, p. 830-848.</li>
+</ul>
+<p><strong>Año 2017</strong></p>
+<ul>
+<li>“<em>Resource allocation for cloud infrastructures: Taxonomies and research challenges</em>”, con F. López-Piris. Capítulo 10 del libro Research Advances in Cloud Computing, Springer.</li>
+<li> “<em>Many-objective optimization for virtual machine placement in cloud computing</em>”, con F. López-Piris.Capítulo 11 del libro Research Advances in Cloud Computing, Springer.</li>
+<li>“<em>Many-Objective Virtual Machine Placement</em>”, con F. López. Journal of Grid Computing– Editorial Elsevier. DOI:10.1007/s10723-017-9399-x.</li>
+<li> “<em>Cloud Computing Resource Allocation Taxonomies”</em>, con F. López. A ser publicado en el International Journal of Cloud Computing.</li>
+<li> “<em>A Many-Objective Optimization Approach to the Maximum Diversity Problem</em>”. Conferencia de la Sociedad Israelí de Investigación de Operaciones, ORSIS’2017, Tel Aviv – Israel.</li>
+<li> “<em>Comparison of two types of Quantum Oracles based on Grover’s Adaptative Search Algorithm for Multiobjective Optimization Problems</em>”, con G. Fogel y M. Villagra. 10th International Workshop on Computational Optimization &#8211; WCO&#8217;17, en el marco del “Federated Conference on Computer Science and Information Systems” – FedCSIS, Praga – República Checa.</li>
+<li> “<em>Evaluating a Two-Phase Virtual Machine Placement Optimization Scheme for Cloud Computing Datacenters</em>”, con A. Amarilla, L. Benitez, S. Zalimben y F. López-Pires. 12th Metaheuristics International Conference &#8211; MIC’2017, Barcelona – España.</li>
+<li> “Reconfiguración Determinística de Sistemas Eléctricos de Distribución de Topología Radial basados en Bloques Lineales”, con N. Cáceres y E. Chaparro. XVII Encuentro Regional Iberoamericano del CIGRE – XVIIeriac, Ciudad del Este – Paraguay.</li>
+<li> “<em>Spatial exploration in Paraguay: State of the Art. A brief history for the project of the first satellite mission of the Republic of Paraguay”</em>, con E. Buzarquis y R. Amarilla. Latin American Symposium on Small Satellites: Advanced Technologies and Distributed Systems. National University of San Martín, Campus Miguelete. Buenos Aires, Argentina.</li>
+<li> “<em>Comparison of two types of Quantum Oracles based on Grover’s Adaptative Search Algorithm for Multiobjective Optimization Problems</em>”, con G. Fogel y M. Villagra. 10th International Workshop on Computational Optimization &#8211; WCO&#8217;17, en el marco del “Federated Conference on Computer Science and Information Systems” – FedCSIS, Praga – República Checa.</li>
+<li> “<em>Evaluating a Two-Phase Virtual Machine Placement Optimization Scheme for Cloud Computing Datacenters</em>”, con A. Amarilla, L. Benitez, S. Zalimben y F. López-Pires. 12th Metaheuristics International Conference &#8211; MIC’2017, Barcelona – España.</li>
+<li> “Reconfiguración Determinística de Sistemas Eléctricos de Distribución de Topología Radial basados en Bloques Lineales”, con N. Cáceres y E. Chaparro. XVII Encuentro Regional Iberoamericano del CIGRE – XVIIeriac, Ciudad del Este – Paraguay.</li>
+<li> “<em>Spatial exploration in Paraguay: State of the Art. A brief history for the project of the first satellite mission of the Republic of Paraguay”</em>, con E. Buzarquis y R. Amarilla. Latin American Symposium on Small Satellites: Advanced Technologies and Distributed Systems. National University of San Martín, Campus Miguelete. Buenos Aires, Argentina.</li>
+</ul>
+<p><span style="color: #333333;"><span style="font-family: Georgia, 'Times New Roman', 'Bitstream Charter', Times, serif;"><span style="font-size: medium;"><strong>Año 2016</strong></span></span></span></p>
+<ul>
+<li>Multiobjective Optimization in a Quantum Adiabatic Computer, Electronic Notes in Theoretical Computer Science.</li>
+<li>“<em>A many-objective Ant Colony Optimization applied to the Traveling Salesman Problem”</em>, con F. Riveros, N. Benítez y J. Paciello.</li>
+<li>Journal of Computer Science and Technology– CS&amp;T, edited by Springer, Vol. 16, Nº 2, noviembre.</li>
+<li>“<em>Optimización Multiobjetivo utilizando un Algoritmo Adaptativo de Grover basado en un Oráculo Efectivo”</em>, con G. Fogel y M. Villagra. Poster presentado en el Simposio “<em>Ciencia, Tecnología, Educación e Innovación</em>” organizado por el Conacyt en Asunción &#8211; Paraguay.</li>
+<li>“A Multiobjective Approach to Linear Nearest Neighbor Optimization for 2D Quantum Circuits”, con D. Ruffinelli. Symposium on Infrastructure, Hardware and Software (SLIHS) en el marco de la XLII Conferencia Latinoamericana de Informática, CLEI’. Valparaíso &#8211; Chile.</li>
+<li>Miembro del Comité Técnico de la conferencia IEEE ARANDUCOM’2016, organizado por la sección paraguaya de la IEEE, Asunción &#8211; Paraguay.</li>
+<li>Conferencista de la conferencia IEEE ARANDUCOM’2016, organizado por la sección paraguaya de la IEEE, Asunción – Paraguay, disertando sobre “La computación Cuántica en Paraguay.</li>
+<li>“Optimización Multiobjetivo utilizando un Algoritmo Adaptativo de Grover basado en un Oráculo Efectivo”, con G. Fogel y M. Villagra. IEEE Aranducom 2016. Asunción &#8211; Paraguay.</li>
+<li>“Reconfiguración óptima global de redes de distribución a través de la Beta-Radialidad”, con N. Cáceres y E. Chaparro. IEEE Aranducom 2016. Asunción &#8211; Paraguay.</li>
+<li>“Workload Generation for Virtual Machine Placement in Cloud Computing Environments”, con J. Ortigoza y F. Lopez. Symposium on Infrastructure, Hardware and Software (SLIHS) en el marco de la XLII Conferencia Latinoamericana de Informática, CLEI’. Valparaíso &#8211; Chile.</li>
+<li>“An Experimental Comparison of Algorithms for Virtual Machine Placement Considering Many Objectives”, con F. López-Pires, A. Amarilla, L. Benítez, R. Ferreira y S. Zalimben. IFIP/ACM 9thLatin-American Networking Conference (LANC) en el marco de la XLII Conferencia Latinoamericana de Informática, CLEI’. Valparaíso &#8211; Chile.</li>
+<li>“Simulated Annealing for Many Objective optimization problems”, con E. Morales. 35thInternational Conference of the Chilean Computer Science Society (SCCC) en el marco de la XLII Conferencia Latinoamericana de Informática, CLEI’. Valparaíso &#8211; Chile.</li>
+<li>“Multi-Objective optimization of monitoring well location for CO2 leakage detection”, con G. Royg y J.P. Nogues. 35thInternational Conference of the Chilean Computer Science Society (SCCC) en el marco de la XLII Conferencia Latinoamericana de Informática, CLEI’. Valparaíso &#8211; Chile.</li>
+<li>“A Multi-Objective Approach for VNE Problems using multiple ILP formulations”, con E. Dávalos, C. Aceval y V. Franco. CLEI Electronic Journal – CLEIej, Vol. 9, Nº 2, Paper 1.</li>
+<li>“Reconfiguración Óptima y Determinística de Sistemas Eléctricos de Distribución radiales basada en Bloques Lineales”, con N. Cáceres E. Chaparro. XII Seminario del Sector Eléctrico Paraguayo &#8211; XII SESEP organizado por CIGRÉ-Paraguay, Asunción – Paraguay.</li>
+<li>“Multiobjective Optimization in a Quantum Adiabatic Computer”, con M. Villagra. 5th International Conference on Engineering Optimization – EngOpt’, Cataratas del Iguazú, Brasil</li>
+<li>“Multiobjective Optimization of Monitoring Well Location for CO2 Leakage Detection”, con J.P. Nogués y G. Royg. 5th International Conference on Engineering Optimization – EngOpt’, Cataratas del Iguazú, Brasil</li>
+<li>“A Comparative Evaluation on Algorithms for Auction-based Cloud Pricing Prediction”, con S. Arévalos y F. López-Pires. IEEE International Conference on Cloud Engineering &#8211; IC2E’, Berlín – Alemania (http://conferences.computer.org/IC2E/).</li>
+<li>“A Genetic Algorithm for Dynamic Cloud Application Brokerage”, con L. Chamorro y F. López-Pires. IEEE International Conference on Cloud Engineering &#8211; IC2E’, Berlín – Alemania (http://conferences.computer.org/IC2E/ ).</li>
+<li>“A Taxonomy on Dynamic Environments for Provider-oriented Virtual Machine Placement”, con J. Ortigoza y F. López-Pires. IEEE International Conference on Cloud Engineering &#8211; IC2E’, Berlín – Alemania (http://conferences.computer.org/IC2E/ ).</li>
+<li>“Predicción de ingresos de causas penales mediante programación genética lineal”, con A. D. Garcete. Revista FPUNE Scientific de la FPUNE, CDE &#8211; Paraguay.</li>
+<li>“Experimental comparison of many-objective evolutionary preference-based methods in a parallel framework”, con C. von Lücken y C. Brizuela. Journal of Computational Interdisciplinary Science.</li>
+</ul>
+<p><strong>Año 2015</strong></p>
+<ul>
+<li>“Particle swarm optimisation algorithms for solving many-objective problems”, con M. Torres y U. Yael. Journal of Computational Interdisciplinary Science.</li>
+<li>“Many-Objective Virtual Machine Placement for Dynamic Environments”, con D. Ihara y F. López-Pires.8th IEEE/ACM International Conference on Utility and Cloud Computing, UCC’ .Limassol -Chipre.</li>
+<li>“Predicción de Ingresos de Causas Penales utilizando Programación Genética Lineal”, con A. Garcete. XXI Congreso Argentino de Ciencias de la Computación, CACIC’ . Junin – Argentina.</li>
+<li>“Un Enfoque Multiobjetivo en Redes Periódicas de Tiempo Continuo”, con D. Bosch y U. Yael.XXI Congreso Argentino de Ciencias de la Computación, CACIC’ . Junin – Argentina.</li>
+<li>“Optimización Basada en Colonias de Hormigas: Una aplicación a la distribución de sobres”, con A. Ojeda y H. Kuna.XXI Congreso Argentino de Ciencias de la Computación, CACIC’ . Junin – Argentina.</li>
+<li>“Optimización basada en Colonias de Hormigas para el Problema del Vendedor Viajante con muchos objetivos contradictorios”, con F. Riveros, N. Benítez y J. Paciello.XXI Congreso Argentino de Ciencias de la Computación, CACIC’ . Junin – Argentina.</li>
+<li>“Entorno para Experimentación de Vulnerabilidades en la Enseñanza de Buenas Prácticas de Programación”, con U. Yael.XXI Congreso Argentino de Ciencias de la Computación, CACIC’ . Junín – Argentina.</li>
+<li>“Auction-based Resource Provisioning in Cloud Computing. A Taxonomy”, con S. Arévalos y F. López. Simposio Latinoamericano de Infraestructura, Hardware y Software. XLI Conferencia Latinoamericana de Informática, CLEI’ . Arequipa – Perú.</li>
+<li>“Protection with Quality of Service in optical WDM networks using Many-Objective Ant Colony Optimization”, con V. Ayala,T. Nuñez y J. Paciello. Simposio Latinoamericano de Infraestructura, Hardware y Software.XLIConferencia Latinoamericana de Informática, CLEI’ . Arequipa – Perú.</li>
+<li>“Un enfoque multi-objetivo en la resolución del problema VNE (Virtual Network Embedding)”, con E. Dávalos, C. Aceval y V. Franco. Simposio Latinoamericano de Infraestructura, Hardware y Software.XLIConferencia Latinoamericana de Informática, CLEI’ . Arequipa – Perú.</li>
+<li>“Asignación de recursos virtuales en redes ópticas con traffic grooming”, con E. Dávalos, M. Tilería y A. Yu. Simposio Latinoamericano de Infraestructura, Hardware y Software.XLIConferencia Latinoamericana de Informática, CLEI’ . Arequipa – Perú.</li>
+<li>“Performance metrics in multi-objective optimization”, con N. Riquelme y C. von Lucken. Simposio Latinoamericano de Investigación de Operaciones e Inteligencia Artificial.XLIConferencia Latinoamericana de Informática, CLEI’ . Arequipa – Perú.</li>
+<li>“Optimización de Enjambre de Partículas para Problemas de Muchos Objetivos”, con M. Torres. Simposio Latinoamericano de Investigación de Operaciones e Inteligencia Artificial.XLIConferencia Latinoamericana de Informática, CLEI’ . Arequipa – Perú.</li>
+<li>“Generalization of the MOACS algorithm for Many Objectives. An application to motorcycle distribution”, con M. Laufer y G. Insaurralde, CLEI Electronic Journal, Volumen 18, Nº 2, Artículo 8, .</li>
+<li>“A parallel approach to convert quantum circuits to an LNN architecture”, con E. Meza, J. Fernandez y J. Lima, IARA Ninth International Conference on Quantum, Nano/Bio, and Micro Technologies &#8211; ICQNM’ , Venecia, Italia.</li>
+<li>“An Improved Hirata Algorithm for Quantum Circuit LNN Conversion”, con A. Amarilla y J. Lima, IARA Ninth International Conference on Quantum, Nano/Bio, and Micro Technologies &#8211; ICQNM’ , Venecia, Italia.</li>
+<li>“Dimensionality reduction in many-objective problems combining PCA and spectral clustering”, con C. von Lücken, H. Monzón y C. Brizuela. Sesión de poster de la conferencia“Genetic and Evolutionary Computation Conference” &#8211; GECCO’ , Madrid &#8211; España.</li>
+<li>“Estimating electrical energy consumption using Linear Genetic Programming”, con J. Paciello, V. Cañete y N. Hernández.International Conference on Engineering &amp; MIS (Management Information Systems), ACM ICEMIS , organizador por la International Association of Researchers (IARES),Estambul, Turquía.</li>
+<li>“Clustering based parallel Many-objective Evolutionary Algorithms using the shape of the objective vectors”, con C. von Lucken y C. Brizuela. 8th International Conference on Evolutionary Multi-Criterion Optimization, EMO’ .Guimarães, Portugal.</li>
+<li>“A Many-Objective Optimization Framework for Virtualized Datacenters”, con F. López. 5th International Conference on Cloud Computing and Services Science, CLOSER’ . Lisboa, Portugal.Student Best Paper Award.</li>
+<li>“A Virtual Machine Placement Taxonomy” con F. López. 15th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing – CCGrid’ , Shenzhen &#8211; China, .</li>
+<li>“Multi-objective Optimization in Optical Networks” con D. Pinto-Roa. Capítulo 10 del libro Bio-Inspired Computation in Telecommunications, editado por Xin-She Yang, Su Fong Chien y T. O. Ting, Elsevier Inc., ISBN: 978-0-12-801538-4.</li>
+<li>“Multi-objective Routing and Wavelength Converter Allocation under Uncertain Traffic” con D. Pinto-Roa y C. Brizuela. Optical Switching and Networking, Vol. 16, pg. 1–20, Editorial Elsevier (http://www.sciencedirect.com/science/article/pii/S157342771400112X?np=y).</li>
+</ul>
+<p><strong>Año 2014</strong></p>
+<ul>
+<li>“Implementation of a distributed parallel in time scheme with Portable Extensible Toolkit for Scientific Computation”, con J.J. Cáceres y C. Schaerer. 7th Workshop on Computer Aspects of Numerical Algorithms en el marco del Federated Conference on Computer Science and Information Systems (FedCSIS) &#8211; CANA&#8217;14. Varsovia – Polonia.</li>
+<li>“Generalización del algoritmo MOACS para Varios Objetivos. Una aplicación a la distribución de motocicletas”, con M. Laufer y M.G. Insaurralde. XLConferencia Latinoamericana de Informática, CLEI’ . Montevideo – Uruguay.</li>
+<li>“Implementación de un esquema de paralelización temporal distribuida usando PETSc”, con J.J. Cáceres y C. Schaerer. XLConferencia Latinoamericana de Informática, CLEI’ . Montevideo – Uruguay.</li>
+<li>“Infraestructura de Clave Pública en una Universidad del Paraguay”, con S. Cantero y F. Stuardo. VICongreso Internacional de Computación y Telecomunicaciones, COMTEL’ . Lima – Perú.</li>
+<li>“A survey on multi-objective evolutionary algorithms for many-objective problems”, con C von Lücken y C Brizuela.Computational Optimization and Applications, pg. 1-50. Springer US, ISSN: 0926-6003.</li>
+<li>“Planificación de Rutas de Distribución de Motocicletas para una empresa Paraguaya utilizando Optimización por Colonia de Hormigas”, con G. Insaurralde y M. Laufer. Revista de la Sociedad Científica del Paraguay, Tercera Época, Año XV, Vol. 19, Nº 1, . ISSN 0379-9123.</li>
+<li>“Implementing the Parareal method as a PETSc function”, con J.J. Cáceres y C. Schaerer. Sesión de Poster. Conference on Computational Interdisciplinary Science &#8211; CCIS’ . Asunción – Paraguay.</li>
+<li>“Ant Colony Multi-objective Optimization Algorithms applied to 2 the Reactive Power Compensation Problem”, con H.R. Benítez, R. Páez, D. Pinto y P. Gardel-Sotomayor. Conference on Computational Interdisciplinary Science &#8211; CCIS’ .Asunción – Paraguay.</li>
+<li>“A Survey on Virtual Optical Network Embedding”, con E. Dávalos y D.P. Pinto-Roa. Conference on Computational Interdisciplinary Science &#8211; CCIS’ .Asunción – Paraguay.</li>
+<li>“Experimental Comparison of Many-objective Evolutionary Preference-based Methods in a Parallel Framework”, con C. von Lucken y C. Brizuela.Conference on Computational Interdisciplinary Science &#8211; CCIS’ .Asunción – Paraguay.</li>
+<li>“Solving a parallel in time Parabolic Differential Control Problem with PETSc”, con J.J. Cáceres y C. Schaerer.Conference on Computational Interdisciplinary Science &#8211; CCIS’ .Asunción – Paraguay.</li>
+<li>“Energy Planning in terms of Useful Energy for the Republic of Paraguay”, con E. Buzarquisa1, J. Amatte, y G. Blanco. Sesión de Poster. Conference on Computational Interdisciplinary Science &#8211; CCIS’ . Asunción – Paraguay.</li>
+<li>“Solving Many Objective Optimisation Problems with Harmony Search”, con D. Brassel, O. Brassel y J. Lima. Conference on Computational Interdisciplinary Science &#8211; CCIS’ .Asunción – Paraguay.</li>
+<li>“Particle Swarm Optimisation Algorithms for solving many-objective problems”, con M. Torres y U.Yael. Conference on Computational Interdisciplinary Science &#8211; CCIS’ .Asunción – Paraguay.</li>
+<li>“A new variant of MOACS for many-objective TSP”, con F. Riveros, N. Benitez y J.Paciello. Sesión de Poster. Conference on Computational Interdisciplinary Science &#8211; CCIS’ . Asunción – Paraguay.</li>
+<li>“A new variant of MOACS for many-objective TSP”, con F. Riveros, N. Benitez y J. Pacielo. Journal of Computational Interdisciplinary Science.</li>
+</ul>
+<p><strong>Año 2013</strong></p>
+<ul>
+<li>“Multi-Objective Virtual Machine Placement with Service Level Agreement”, con F. López. 6th IEEE/ACM International Conference on Utility and Cloud Computing, UCC’ .Dresden – Alemania</li>
+<li>“Ubicación óptima de máquinas virtuales. Un enfoque multiobjetivo”, con F. López y E. Melgarejo. Revista FPUNE Scientific, Nº 9, año , pg. 11 – 19, ISSN 222-2286. CDE– Paraguay.</li>
+<li>“A Multi-objective Approach for Routing and Wavelength Converter Allocation Under Uncertainty”, con D. Pinto y C.- Brizuela. 20th International Conference on Telecommunication – ICT’ . Casablanca – Marruecos.</li>
+<li>“Ubicación de Máquinas Virtuales. Un Enfoque Multi-Objetivo”, con F. López y E. Melgarejo. XXXIXConferencia Latinoamericana de Informática, CLEI’ . Naiguatá, Vargas – Venezuela.</li>
+</ul>
+<p><strong>Año 2012</strong></p>
+<ul>
+<li>“Propuestas Multiobjetivas de la Metaheurística Harmony Search”, con G. Hütteman, J. Ricard y J. Lima. Revista de la Sociedad Científica del Paraguay, Tercera Época, Año XVII, Vol. 17, Nº 1, pg. 13-30. Junio .</li>
+<li>“Revisión de Métodos de Protección de Redes Opticas WDM con Tráfico Dinámico”, con E. Dávalos y D. Pinto.CLAIO/SBPO , Conferencia Latinoamericana de Investigación Operativa. Rio de Janeiro, Brasil.</li>
+<li>“Estado del arte en la conversión de circuitos cuánticos a laArquitectura LNN”, con L. Frutos. IEEE ARANDUCON’ . Asunción &#8211; Paraguay.</li>
+<li>“Operador de Corrección de Radialidad en la reconfiguración desistemas de distribución eléctrica utilizando AlgoritmosGenéticos”, con N. Cáceres y E. Chaparro. IEEE ARANDUCON’ . Asunción &#8211; Paraguay.</li>
+<li>“Taxonomía de Ubicación Óptima de Máquinas Virtuales enCentros de Datos Eficientes”, con F. López Pires. IEEE ARANDUCON’ . Asunción &#8211; Paraguay.</li>
+<li>“Ingeniería de tráfico en redes dinámicas periódicas en tiempocontinuo con eras de duración estocástica”, con D. Bosch y U. Yael. IEEE ARANDUCON’ . Asunción &#8211; Paraguay.</li>
+<li>“Ubicación estratégica de medidores digitales en un Sistema deDistribución de Potencia Eléctrica”, con G. Planás, E. Benítez y D. Pinto. IEEE ARANDUCON’ . Asunción &#8211; Paraguay.</li>
+</ul>
+<p><strong>Año 2011</strong></p>
+<ul>
+<li>“Routing and wavelength converter allocation in WDM networks: a multi-objective evolutionary optimization approach”, con D. Pinto-Roa y C. Brizuela. Photonic Network Communications.Volumen 22, Número 1, pg. 23-45. Springer.Agosto .</li>
+<li>“Multiobjective Harmony Search Algorithm Proposals”, con G. Hüttemann, J. Ricart y J. Lima. XXXVIIConferencia Latinoamericana de Informática, CLEI’ . Quito – Ecuador.</li>
+<li>Seleccionado como uno de los mejores artículos, es republicado en revista Electronic Notes in Theoretical Computer Science (ENTCS)Volumen 281, en fecha 29 de diciembre de , pag. 51-67.</li>
+<li>“A Cooperative game for Distributed Wavelength Assignment in WDM Networks”, con H. Caniza y A. Wich.IARIA Third International Conference on Evolving Internet – INTERNET .Luxemburgo.</li>
+</ul>
+<p><strong>Año 2010</strong></p>
+<ul>
+<li>“Reconfiguración de Tráfico Dinámico en Redes Ópticas WDM: Un enfoque basado en Algoritmos de Colonia de Hormigas”, con E. Dávalos y D. Pinto. XXXVIConferencia Latinoamericana de Informática, CLEI’. Asunción – Paraguay.</li>
+<li>“Evolución de Reglas de Clasificación Binaria utilizando Programación Genética Lineal. Una Aplicación al Descarte de Ganado”, con M. Abente y J. Martínez. XXXVIConferencia Latinoamericana de Informática, CLEI’. Asunción – Paraguay.</li>
+<li>“Metodología para el Monitoreo Efectivo de las Variaciones de Tensión de CortaDuración en Sistemas Eléctricos de Potencia”, con J. Campuzano, L. Salinas, P.Gardel y E. Dávalos. Congreso Internacional de Distribución de Energía Eléctrica &#8211; CIDEL’, Bs. Aires – Argentina.</li>
+<li>“Routing in Periodic Dynamic Networks using a Multi-Objective Evolutionary Algorithm”, con U. Yael. ALIO/INFORMS . Bs. Aires -Argentina.</li>
+<li>“Optical Multicast Protection with Multi-objective Evolutionary Algorithm”, con D. Pinto y R. Lugo. ALIO/INFORMS . Bs. Aires &#8211; Argentina.</li>
+<li>“Introduciendo la Computación Cuántica», con N. Fernández y N. Cardozo. Revista de la Sociedad Científica del Paraguay N° 27. ISSN 99925-862-3-0.</li>
+</ul>
+<p><strong>Año 2009</strong></p>
+<ul>
+<li>“Estimation Models Generation using Linear Genetic Programming”, con J. Martinez y R. Sanchez, CLEI Electronic Journal, Volume 12, Number 3. Diciembre de (http://www.clei.cl/cleiej/volume.php).</li>
+<li>“Optimal Selection of sigma-Cycle for Optical Networks”, con C. Colmán y D. Pinto, CLEI Electronic Journal, Volume 12, Number 3. Diciembre de (http://www.clei.cl/cleiej/volume.php).</li>
+<li>“Programación Lineal Entera para Reconfiguración de Redes Ópticas «, con E. Dávalos y D. Pinto. Revista de la Sociedad Científica del Paraguay N° 26. ISBN 99925-862-3-0.</li>
+<li>“Ubicación óptima de Conversores de Longitud de Onda: una nueva propuesta multi-objetivo «, con M. Sobrino, R. Maciel y D. Pinto. Revista de la Sociedad Científica del Paraguay N° 25. ISBN 99925-862-3-0.</li>
+<li>“Minimal Disruption-Reconfiguration problem over WDM Optical Networks”, con D. Pinto y E. Dávalos.8th International Information and Telecommunication Technologies Symposium- I2TS’.Florianópolis, Santa Catarina &#8211; Brasil.</li>
+<li>“Wavelength Converter Allocation in Optical Networks: An Evolutionary Multi-Objective Optimization Approach”, con D. Pinto y C. Brizuela. 9thInternational Conference on Intelligent Systems Design and Applications &#8211; ISDA’09. Pisa, Italia.</li>
+<li>“Optimal Wavelength Converter Allocation: A New Approach Based MOEA”, con R. Maciel, M. Sobrino, D. Pinto y C. Brizuela. 5th IFIP/ACM Latin-American Networking Conf. &#8211; LANC .Pelotas, Brasil.</li>
+<li>“Una nueva propuesta de Templado Simulado Multiobjetivo”, con H. Meyer. XXXV Conferencia Latinoamericana de Informática, CLEI’. Pelotas, RS – Brasil.</li>
+<li>“Estrategia Multiobjetiva de Compra de Energía y Potencia en el Sistema Eléctrico Paraguayo”, con P. Gardel y H. Checo. VIII Congreso Chileno de Investigación Operativa, OPTIMA . Termas de Chillan – Chile.</li>
+<li>“Optimizing p-Cycles Selection with MOEAs approach to protect WDM Optical Networks”, con C. Colmán y D. Pinto.24th IFIP TC7 Conference on System Modeling and Optimization. Bs. Aires – Argentina.</li>
+<li>“Multiobjective energy purchase strategy with an evolutionary algorithm”, con H. Checo y P. Gardel. 24th IFIP TC7 Conference on System Modeling and Optimization. Bs. Aires – Argentina.</li>
+</ul>
+<p><strong>Año 2008</strong></p>
+<ul>
+<li>“Postal Envelope Segmentation using Learning-Based Approach”, con H. Legal y J. Facon, CLEI Electronic Journal, Volume 11, Number 2. Diciembre de (http://www.clei.cl/cleiej/volume.php).</li>
+<li>“Macro-Economic Time-Series Forecasting Using Linear Genetic Programming «, con R. Sánchez y J. Martinez. Computational Intelligence in Economics and Finance &#8211; CIEF.11th Joint Conference on Information Sciences JCIS’ .Kylin Villa – Shenzhen, China.</li>
+<li>“MASTERGOAL: an interesting testbed for AI techniques», con A. Samaniego y A. Alliana. GAME-ON&#8217; , organizado por EUROSIS (European Simulation Society). Valencia, España.</li>
+<li>“Team Algorithms based on Ant Colony Optimization. A new Multi-Objective Optimization approach», con D. Pinto y C. Lezcano. 10th International Conference on Parallel Problem Solving From Nature &#8211; PPSN&#8217; . Alemania</li>
+<li>“Multiobjective allocation of remotely controlled switches in an electric distribution power system», con A. Villasanti y P. Gardel.IEEE PES Transmission and Distribution Conference &#8211; Latin America. Bogotá &#8211; Colombia.</li>
+<li>“Selección Óptima de p-Cycle en Redes WDM. Un enfoque basado en MOEA», con C. Colmán y D. Pinto. Congreso Colombiano de Comunicaciones IEEE – COLCOM’ . Popayán &#8211; Colombia.</li>
+<li>“Solving Multi-Objective p-Cycle Protection Problem in WDM Optical Networks with an Evolutionary Algorithm approach», con C. Colmán y D. Pinto.7th International Information and Telecommunication Technologies Symposium IEEE – I2TS’ .Foz do Iguaçu, Paraná &#8211; Brasil.</li>
+<li>“Optimización por Enjambre de Partículas para Satisfacción de Fórmulas Booleanas”, con V. Gonzalez y M. Villagra. XXXIV Conferencia Latinoamericana de Informática – CLEI’ . Santa Fe &#8211; Argentina.</li>
+<li>“Algoritmos Evolutivos en la Optimización de Funciones de Evaluación del Juego Mastergoal”, con A. Samaniego. XXXIV Conferencia Latinoamericana de Informática – CLEI’ . Santa Fe &#8211; Argentina.</li>
+<li>“Generación de modelos de estimación utilizando Programación Genética Lineal”, con J. Martínez y R. Sánchez. XXXIV Conferencia Latinoamericana de Informática – CLEI’ . Santa Fe &#8211; Argentina.</li>
+<li>“Selección Óptima de p-Cycle en Redes WDM. Un enfoque basado en Algoritmo Genético”, con C. Colmán y D. Pinto. XXXIV Conferencia Latinoamericana de Informática – CLEI’ . Santa Fe &#8211; Argentina.</li>
+<li>“Equipo de Algoritmos de Hormigas. Una nueva propuesta para Optimización Multiobjetivo”, con C. Lezcano y D. Pinto. XXXIV Conferencia Latinoamericana de Informática – CLEI’ . Santa Fe &#8211; Argentina.</li>
+<li>“Interconectando a los pueblos Latnoamericanos. El gran desafío”.Challenges Research in Latin-America- CharLA Workshop. Bs. Aires &#8211; Argentina.</li>
+<li>“Pronóstico de Series de Tiempo utilizando Programación Genética Lineal «, con R. Sánchez y J. Martínez. Revista de la Sociedad Científica del Paraguay N° 23. ISBN 99925-862-3-0.</li>
+</ul>
+<p><strong>Año 2007</strong></p>
+<ul>
+<li>“Ant Colony Optimization with Adaptive Fitness Function for Satisfiability Testing”, con M. Villagra. Fourteenth Workshop on Logic, Language, Information and Computation – WoLLIC’ .Rio de Janeiro – Brasil.</li>
+<li>“A Global Convexity Analysis on the MAX-SAT Domain”, con M. Villagra. 2nd International Conference on Bio-Inspired Models of Network, Information, and Computing Systems &#8211; BIONETICS . Budapest – Hungría.</li>
+<li>“Asynchronous Team Algorithms for Boolean Satisfiability”, con C. Rodríguez y M. Villagra. 2nd International Conference on Bio-Inspired Models of Network, Information, and Computing Systems &#8211; BIONETICS .Budapest – Hungría.</li>
+<li>“Routing and Wavelength Assignment over WDM Optical Networks. A Comparison between MOACOs and Classical approaches”, con A. Arteta y D. Pinto. IFIP/ACM Latin-American Networking Conference – LANC’ . San José de Costa Rica. Premio Chevron.</li>
+<li>“Optimización multiobjetiva del diseño de redes de distribución de agua utilizando Algoritmo Evolutivo”, con M. Duarte, D. Alviso y P. Gardel. XXXIII Conferencia Latinoamericana de Informática – CLEI’ . San José de Costa Rica.</li>
+<li>“Ubicación óptima de llaves telecomandadas en un sistema de distribución eléctrica utilizando un Algoritmo Evolutivo Multiobjetivo”, con A. Villasanti y P. Gardel. XXXIII Conferencia Latinoamericana de Informática – CLEI’ . San José de Costa Rica.</li>
+<li>“Equipo de Algoritmos Meméticos con Adaptación Multinivel para Optimización Multiobjetivo”, con M. Báez y D. Zárate. Revista de la Sociedad Científica del Paraguay. Tercera época – Año XI, N° 22. Asunción &#8211; Paraguay. ISSN 0379-9123.</li>
+<li>“Learning-Based Approach for Postal Envelope Address Block Segmentation”, con H. Legal y J. Facon. XXXIII Conferencia Latinoamericana de Informática – CLEI’ . San José de Costa Rica.</li>
+<li>“Algoritmos Meméticos Adaptativos para Optimización Multi-Objetivo”, con M. Báez y D. Zárate. XXXIII Conferencia Latinoamericana de Informática – CLEI’ . San José de Costa Rica.</li>
+<li>“Asignación Óptima de Lightpath bajo requerimientos de QoS. Un enfoque multiobjetivo basado en MOEAs”, con C. Núñez y D. Pinto. XXXIII Conferencia Latinoamericana de Informática – CLEI’ . San José de Costa Rica.</li>
+<li>“Multiobjective Evolutionary Algorithms for Biological Multiple Sequence Alignment”, con M. Ruiz Olazar y E. Kaszkurewicz. International Workshop on Genomic Databases &#8211; IWGD&#8217;07. Angra dos Reis – Brasil.</li>
+<li>“Asynchronous Team Algorithms”, con M. Villagra. Conference of the Israeli Operations Research Society – ORSIS’ , sponsored by the Hebrew University of Jerusalem and IBM Research.Jerusalén – Israel.</li>
+<li>“Ómicron SAT: Un algoritmo de Colonia de Hormigas para el problema de Satisfacción Booleana”, con M. Villagra. Revista de la Sociedad Científica del Paraguay. Tercera época – Año XI, N° 21. Asunción &#8211; Paraguay.</li>
+</ul>
+<p><strong>Año 2006</strong></p>
+<ul>
+<li>“Multiobjective Multicast Routing with Ant Colony Optimization”, con D. Pinto. 5th IFIP International Conference on Network Control &amp; Engineering for QoS, Security and Mobility, en el marcodel 9th IFIP World Computer Congress. Santiago de Chile.</li>
+<li>“Global Convexity in the Bi-Criteria Traveling Salesman Problem”, con M. Villagra y O. Gómez. 1st IFIP International Conference on Artificial Intelligence in Theory and Practice, en el marcodel 9th IFIP World Compute Congress. Santiago de Chile.Publicado enArtificial Intelligence in Theory and Practice IFIP International Federation for Information Processing, Springer, Volume 217, , pp 217-226.ISSN/ISBN: 9781-4419</li>
+<li>«Optimizing Multiples Objectives in Dynamic Multicast Groups using a probabilistic BFS Algorithm», con Y. Donoso, R. Fabregat, F. Solano y J.L. Marzo. 5th International Conf. on Networking, ICN&#8217;06, Mauritius, .</li>
+<li>“Multitree-Multiobjective Multicast Routing for Traffic Engineering”, con J. Prieto y J. Crichigno. 1st IFIP International Conference on Artificial Intelligence in Theory and Practice, en el marzo del 9th IFIP World Compute Congress. Santiago de Chile.</li>
+<li>“Optimización de Enjambre de Partículas aplicada al Problema del Cajero Viajante Bi-objetivo”, con J. Lima. Revista Iberoamericana de Inteligencia Artificial, editada por la Asociación Española para la Inteligencia Artificial (ISSN: 1137-3601 (c) AEPIA).</li>
+<li>“Diseño de Topologías Virtuales en Redes Ópticas. Un enfoque basado en Colonia de Hormigas”, con C. Insfrán y D. Pinto. XXXII Conferencia Latinoamericana de Informática – CLEI’ . Santiago de Chile.</li>
+<li>“Algoritmos de Optimización multi-objetivos basados en colonias de hormigas”, con J. Paciello, H. Martínez y C. Lezcano. XXXII Conferencia Latinoamericana de Informática – CLEI’ . Santiago de Chile.</li>
+<li>“Arquitectura Distribuida DSOARA para Detección de Intrusos”, con M. Alvarez, J. Pane, y J. Levera. 7th Argentine Symposium on Computing Technology &#8211; AST , en el marco de las 35° Jornadas Argentinas de Informática e Investigación Operativa – 35 JAIIO. Mendoza &#8211; Argentina.</li>
+<li>“Equipo distribuido de algoritmos ACO multi-objetivos”, con H. Martínez y J. Paciello. VIII Argentine Symposium on Artificial Intelligence – ASAI, en el marco de las 35° Jornadas Argentinas de Informática e Investigación Operativa – 35 JAIIO. Mendoza &#8211; Argentina.</li>
+<li>“Aplicación de Optimización de Enjambre de Partículas al Problema del Cajero Viajante bi-objetivo”, con J. Lima. VIII Argentine Symposium on Artificial Intelligence – ASAI, en el marco de las 35° Jornadas Argentinas de Informática e Investigación Operativa – 35 JAIIO. Mendoza &#8211; Argentina.</li>
+<li>“Aplicación de un equipo de algoritmos ACO al VRPTW bi-objetivo”, con J. Paciello y H. Martínez. XIII Conferencia Latino-IberoAmericana de Investigación Operativa &#8211; CLAIO . Montevideo &#8211; Uruguay.</li>
+<li>“Comparación de técnicas de optimización por colonia de hormigas, algoritmo genético y heurística con optimizador local en el problema de compensación de potencia reactiva multiobjetivo”, con P. Gardel y U. Fernández. VII Seminario del Sector Eléctrico Paraguayo &#8211; CIGRE. Asunción &#8211; Paraguay.</li>
+<li>“A Parallel Multi-criterion Evolutionary Approach for Pension Fund Asset Liability Management”, con C. von Lucken, F. Laufer, M. Rojas, M. Escurra y W. Delgado.Computational Intelligence in Economics and Finance &#8211; CIEF.9th Joint Conference on Information Sciences – JCIS’ .Kaohsiung &#8211; Taiwan.</li>
+<li>“Multiobjective Reactive Power Compensation with an Ant Colony Optimization Algorithm”, con P. Gardel y U. Fernández. 8th IEE International Conference on AC and DC Power Transmission &#8211; ACDC .Londres – Gran Bretaña.</li>
+<li>“Optimización Multiobjetivo basada en Colonia de Hormigas”, con H. Martínez y J. Paciello. Revista de la Sociedad Científica del Paraguay. Tercera época – Año XI, N° 20. Asunción &#8211; Paraguay.</li>
+<li>“Equipo Paralelo de Algoritmos Evolutivos Multiobjetivo”, con J.M. Fernández. Revista de la Sociedad Científica del Paraguay. Tercera época – Año XI, N° 19. Asunción &#8211; Paraguay.</li>
+</ul>
+<p><strong>Año 2005</strong></p>
+<ul>
+<li>“Omicron ACO.A New Ant Colony Optimization Algorithm”, con O. Gómez, CLEI Electronic Journal, Volume 8, Number 1. Agosto de (http://www.clei.cl/cleiej/volume.php).</li>
+<li>“Multi-objective pump scheduling optimisation using evolutionary strategies”, con C. von Lucken y A. Sotelo. Special Issues of Computers &amp; Structures.Advances in Engineering Software Journal. Elsevier Science Ltd.Volumen 36, Issue 1, Enero , pg. 39-47.</li>
+<li>“Solving Multiobjective Multicast Routing Problem with a New Ant Colony Optimization Approach”, con D.P. Pinto. IFIP/ACM Latin-American Networking Conference &#8211; LANC , Cali &#8211; Colombia.</li>
+<li>“A Multitree Approach for Multicast Routing”, con J. Prieto y J. Crichigno. IFIP/ACM Latin-American Networking Conference &#8211; LANC , Cali &#8211; Colombia.</li>
+<li>“Hashing Based Traffic Partitioning in a Multicast-Multipath MPLS Network Model”, con X. Hesselbach, R. Fabregat, Y. Donoso y F. Solano. IFIP/ACM Latino-American Networking Conference &#8211; LANC , Cali &#8211; Colombia.</li>
+<li>“Multi-objective Optimization Scheme for Multicast Flows: a Survey, a Model and a MOEA Solution”, con R. Fabregat, Y. Donoso, F. Solano y J.L. Marzo. IFIP/ACM Latino-American Networking Conference &#8211; LANC , Cali &#8211; Colombia.</li>
+<li>“Equipo Elitista de Algoritmos Evolutivos Multiobjetivo”, con J. Fernández. XXXI Conferencia Latinoamericana de Informática – CLEI’ . Cali – Colombia.</li>
+<li>“Generalized Multiobjective Multitree model for Dynamic Multicast Groups”, con Y. Donoso, R. Fabregat, F. Solano, J.L. Marzo. IEEE ICC . Seoul &#8211; Corea.</li>
+<li>“Pump Scheduling Optimization using Asynchronous Parallel Evolutionary Algorithms”, con C. von Lucken y A. Sotelo. CLEI Electronic Journal (ISSN 0717- 5000).</li>
+<li>“Generalized Multiobjective Multitree model solution using MOEA”, con Y. Donoso, F. Solano, R. Fabregat y J.L. Marzo. WSEAS , 6° International Conference on Evolutionary Computing.Lisboa, Portugal.</li>
+<li>“Multi-Objective Multicast Routing based on Ant Colony Optimization”, con D. Pinto y R. Fabregat. Congreso Catalá de Inteligencia Artificial &#8211; CCIA&#8217; . L&#8217;Aguer &#8211; España. Re-impreso en Frontiers in Artificial Intelligence and Applications, Vol. 131, , ISBN 978-1-58603-560-0.</li>
+<li>“Enrutamiento Multicast Multiobjetivo basado en Colonia de Hormigas”, con D. Pinto. Revista de la Sociedad Científica del Paraguay, Tercera Época, Año X, N° 18. Asunción – Paraguay.</li>
+<li>“Equipo Probabilístico de Algoritmos Evolutivos Multiobjetivo en Computación Paralela”, con J.M. Fernández. 34rd International Conference on Computer Science and Operational Research &#8211; JAIIO .Rosario &#8211; Argentina.</li>
+<li>“Multiobjective Max-Min Ant System. An application to Multicast Traffic Engineering”, con D.P. Pinto. 7th Argentine Symposium on Artificial Intelligence – ASAI . Rosario &#8211; Argentina.</li>
+<li>“Policies for Dynamical MultiObjective Environment of Multicast Traffic Engineering”, con F. Talavera y J. Crichigno. IEEE ICT . Sudáfrica.</li>
+<li>“Razones de Éxito de Optimización por Colonias de Hormigas en el Problema del Cajero Viajante” con O. Gómez. Revista de la Sociedad Científica delParaguay. Tercera Época. Año X, N° 17. Paraguay.</li>
+<li>“Enrutamiento Multicast Multiobjetivos basado en Colonia de Hormigas”, con D. Pinto y H. Estigarribia. Encuentro Científico Tecnológico &#8211; ECT . Ciudad del Este &#8211; Paraguay.</li>
+<li>“Comparación del Omicron ACO con el SPEA en el problema de Compensación de Potencia Reactiva en un Contexto Multiobjetivo.”, con P. Gardel, U. Fernández y H. Estigarribia. Encuentro Científico Tecnológico &#8211; ECT . Ciudad del Este &#8211; Paraguay.</li>
+<li>“Equipo de Algoritmos Evolutivos Multiobjetivo Paralelos”, con J.M. Fernández. Encuentro Científico Tecnológico &#8211; ECT . Ciudad del Este &#8211; Paraguay.</li>
+</ul>
+<p><strong>Año 2004</strong></p>
+<ul>
+<li>“Pump Scheduling Optimization using Asynchronous Parallel Evolutionary Algorithms”, con C. von Lucken y A. Sotelo, CLEI Electronic Journal, Volume 7, Number2. Diciembre de (http://www.clei.cl/cleiej/volume.php).</li>
+<li>“Dispatch of Hydroelectric Generating Units using Multi-objective Evolutionary Algorithms”, con C.M. Villasanti y C. von Lücken. IEEE/PES T&amp;D Latin America .Sao Paulo – Brasil.</li>
+<li>“Multiobjective Reactive Power Compensation with Voltage Security, an application of a multi-objective evolutionary algorithms to reactive power compensation”, con J. Vallejos, R. Ramos y U. Fernández. IEEE/PES T&amp;D Latin America . Sao Paulo – Brasil.</li>
+<li>“Optimización Multiobjetivo para la Ubicación de Locutorios de Cabinas Telefónicas”, con N.Amarilla y C. Almeida. XXX Conferencia Latinoamericana de Informática – CLEI’ . Arequipa – Perú.</li>
+<li>Comparación de un sistema de colonias de hormigas y una estrategia evolutiva para un Problema Multiobjetivo”, con A. Hermosilla. XXX Conferencia Latinoamericana de Informática – CLEI’ . Arequipa – Perú.</li>
+<li>“Infraestructura de clave pública en un ccTLD empleando al DNS”, con P. Greenwood y R. Chaparro. XXX Conferencia Latinoamericana de Informática – CLEI’ . Arequipa – Perú.</li>
+<li>“Experimental Studies Using SOARA: An Approach to Reduce Alarm Rates on Streams of Intrusion”, con J. Levera y R. Grossman. XXX Conferencia Latinoamericana de Informática – CLEI’ . Arequipa – Perú.</li>
+<li>“Alternativa de Infraestructura de Clave Pública Basada en el uso de DNSSEC”, con R. Chaparro y P. Greenwood. XXX Conferencia Latinoamericana de Informática – CLEI’ . Arequipa – Perú.</li>
+<li>“Estudio del Espacio de Soluciones del Problema del Cajero Viajante”, con O. Gómez y P. Gardel. XXX Conferencia Latinoamericana de Informática – CLEI’ . Arequipa – Perú.</li>
+<li>“Relationship between Genetic Algorithms and Ant Colony Optimization Algorithms”, con O. Gómez. XXX Conferencia Latinoamericana de Informática – CLEI’ . Arequipa – Perú.</li>
+<li>“Omicron ACO”, con O. Gómez. XXX Conferencia Latinoamericana de Informática – CLEI’ . Arequipa – Perú.</li>
+<li>“Comparación de Algoritmos Evolutivos Multi-Objetivos”, con F. Talavera, J. Crichigno y J. Prieto. Congreso Argentino de Ciencias de la Computación &#8211; CACIC’ . Bs. Aires – Argentina.</li>
+<li>“Enrutamiento Multicast Utilizando Optimización Multiobjetivo”, con J. Prieto, J. Crichigno y F. Talavera. Congreso Argentino de Ciencias de la Computación &#8211; CACIC’ . Bs. Aires – Argentina.</li>
+<li>“Analisis del Omicron ACO con optimizacion local”, con P. Gardel y O. Gómez. Congreso Argentino de Ciencias de la Computación &#8211; CACIC’ . Bs. Aires – Argentina.</li>
+<li>“Algoritmos Evolutivos para Optimización Multiobjetivo: Un Estudio Comparativo en un Ambiente Paralelo Asíncrono”, con C. von Lucken y A. Hermosilla. Congreso Argentino de Ciencias de la Computación &#8211; CACIC’ . Bs. Aires – Argentina.</li>
+<li>“Reasons of ACO&#8217;s Success in TSP”, con O. Gómez. ANTS’ – Fourth International Workshop on Colony Optimization and Swarm Intelligence. Bruselas &#8211; Bélgica.</li>
+<li>“Multiobjective Multicast Routing Algorithm for Traffic Engineering”, con J. Crichigno. IEEE International Conference on Computers and Communication Networks &#8211; ICCCN’ .Chicago, Estados Unidos.</li>
+<li>“Algoritmo Evolutivo Multiobjetivo con Corrección de Radialidad para la Reconfiguración de Sistemas Eléctricos de Distribución”, con N. Cáceres y E. C. Viveros. Conferencia Brasilera de Automática – CBA , Gramado, Brasil.</li>
+<li>“A Multicast Routing Algorithm Using Multiobjective Optimization”, con J.Crichigno. IEEE “11th International Conference on Telecommunications – ICT’04”. Ceará- Brasil.</li>
+<li>“Multiobjective Multicast Routing Algorithm”, con J.Crichigno. IEEE “11th International Conference on Telecommunications – ICT’04”. Ceará- Brasil.</li>
+<li>“Argumnents of ACO Success”, con O.Gómez, “Genetic and Evolutionary Computation Conference – GECCO ”. Seattle, Washington. Estados Unidos.</li>
+<li>«Experimental Studies Using Median Polish Procedure to Reduce Alarm Rates in Data Cubes of Intrusion Data”, con J. Levera y B. Grossman, “2nd Symposium on Intelligence and Security Informatics”, Tucson, Arizona. Estados Unidos.</li>
+</ul>
+<p><strong>Año 2003</strong></p>
+<ul>
+<li>«Ampliación de Redes de Telefonía Básica”, con C. Almeida y N. Amarilla, Tercer Congreso Iberoamericano de Telemática &#8211; CITA, Montevideo, Uruguay.</li>
+<li>«Telecommunication Network Design with Parallel Multi-objective Evolutionary Algorithms”, con S. Duarte y D.Benítez, IFIP/ACM Latin America Networking Conference, La Paz, Bolivia.</li>
+<li>«Optimización Multiobjetivo en la Planificación de Centrales Telefónicas”, con C. Almeida y N. Amarilla, XXIX Conferencia Latinoamericana de Informática CLEI, La Paz, Bolivia.</li>
+<li>«Pump Scheduling Optimisation Using Parallel Multiobjective Evolutionary Algorithms”, con C. Von Lucken, XXIX Conferencia Latinoamericana de Informática CLEI, La Paz, Bolivia.</li>
+<li>”Comparación de un Sistema de Colonias de Hormiga y una Estrategia Evolutiva para el Problema del Ruteo de Vehículos con Ventanas de Tiempo en un Contexto Multiobjetivo”, con A. Hermosilla, IX Jornadas Iberoamericanbas de Informática, Cartagena de Indias, Colombia.</li>
+<li>“A Multiobjective Ant Colony System For Vehicle Routing Problem With Time Windows”, con M. Schaerer, IASTED International Conference on Applied Informatics, Innsbruck, Austria.</li>
+</ul>
+<p><strong>Año 2002</strong></p>
+<ul>
+<li>“Models for Parallel and Distributed Computation», Kluwer Academic Publishers, en calidad de co-autor.Volumen 67 de la serie de libros sobre “Applied Optimization.” ISBN: 1-4020-0623-3.</li>
+<li>“Colonia de Hormigas en un Ambiente Paralelo Asíncrono” con M. Almirón, XXVIII Conferencia Latinoamericana de Informática CLEI’ , Montevideo &#8211; Uruguay.</li>
+<li>“Multiobjective Evolutionary Algorithms in Pump Scheduling Optimisation «, con A. Sotelo y C. von Lucken.Third International Conference on Engineering Computational Technology ECT- .Praga, República Checa.</li>
+<li>“Solving Electrical Power Load Flow Problems Using Intervals», con E. A. Martinez y T. A. Diverio, SIAM Workshop on Validated Computing. Toronto, Canadá.</li>
+</ul>
+<p><strong>Año 2001</strong></p>
+<ul>
+<li>“Multiple-Objective Reactive Power Compensation», con J. Vallejos, R. Ramos y U. Fernández, IEEE/PES Transmisión and Distribution Conference, Atlanta, Estados Unidos.</li>
+<li>“Multipleobjective Network Design Optimisation using Parallel Evolutionary Algorithms” con S. Duarte, XXVII Conferencia Latinoamericana de Informática CLEI’, Mérida Venezuela.</li>
+<li>“Reactive Power Compensation using a Multiobjective Evolutionary Algorithm», con J. Vallejos, R. Ramos y U. Fernández, IEEE Power Tech’, Porto, Portugal.</li>
+<li>“Improved AntNet Routing»,invited paper de la Conferencia sobre Comunicaciones de Datos en América Latina y el Caribe &#8211; ACM SIGCOMM, San José de Costa Rica. Publicado en Supplement to Computer Communication Review, Volumen 31, Número 2, abril – .</li>
+<li>“Steganographic Watermarking for Documents», con S. Gómez y V. Bogarín, Hawaii International Conference on Systems Sciences HICSS’ , Hawaii &#8211; Estados Unidos.</li>
+<li>«Fuzzy Clusstering. Criterion to Class Depuration», con A. Rojas, Jornadas Chilenas de Computación – , Punta Arenas, Chile.</li>
+<li>«Optimización de los Costos de Bombeo en Sistemas de Suministro de Agua mediante un Algoritmo Evolutivo Multiobjetivo Combinado «, con A. Sotelo, XV Congreso Internacional de Ingeniería Hidráulica, Concepción, Chile.</li>
+<li>«Sistema Paralelo de Hormigas «, con M. Almirón, Jornadas de Telecomunicaciones – Congreso Internacional de Tecnologías y Aplicaciones Informáticas, JIT-CITA , Asunción, Paraguay.</li>
+<li>«Multi-objective Evolutionary Algorithms. Experimental Comparison «, con C. von Lucken, Jornadas de Telecomunicaciones – Congreso Internacional de Tecnologías y Aplicaciones Informáticas, JIT-CITA , Asunción, Paraguay.</li>
+<li>«Multi-Objective Optimization in Reactive Power Compensation «, con J. Vallejos y R. Ramos, Jornadas de Telecomunicaciones – Congreso Internacional de Tecnologías y Aplicaciones Informáticas, JIT-CITA , Asunción, Paraguay.</li>
+<li>«Algoritmos Evolutivos Multiobjetivo Combinados para la Optimización de la Programación de Bombeo en Sistemas de Suministro de Agua «, con A. Sotelo, J. Basualdo y P. Doldán, Jornadas de Telecomunicaciones – Congreso Internacional de Tecnologías y Aplicaciones Informáticas, JIT-CITA , Asunción, Paraguay.</li>
+<li>» Algoritmos Evolutivos para el Diseño de Redes Económicas y Confiables», con S. Duarte, Jornadas de Telecomunicaciones – Congreso Internacional de Tecnologías y Aplicaciones Informáticas, JIT-CITA , Asunción, Paraguay.</li>
+</ul>
+<p><strong>Año 2000</strong></p>
+<ul>
+<li>“AntNet: Routing Algorithm for Data Networks based on Mobile Agents», con R. Sosa, Argentine Symposium on Artificial Intelligence ASAI- , Tandil – Argentina ( ). Trabajo seleccionado entre los tres mejores de la conferencia para re-print en la Revista Iberoamericana de Inteligencia Artificial, publicada por la Asociación Española para la Inteligencia Artificial (AEPIA), con ISSN: 1137-3601, páginas 75-84 ( ).</li>
+<li>“A New Approach for Antnet Routing», con R. Sosa, International Conference on Computer Communication and Networks IEEE ICCCN- , Las Vegas &#8211; Estados Unidos.</li>
+<li>“Interval Newton/Generalized Bisection in the resolution of Electrical Power Load Flow Problem», con E.A. Martinez y T.A. Diverio, SCAN- , Karlsruhe &#8211; Alemania.</li>
+<li>“Colonias Distribuidas de Hormigas en un Entorno Paralelo Asíncrono», con M. Almirón, XXVI Conferencia Latinoamericana de Informática CLEI- , Ciudad de México.</li>
+<li>“Diseño Económico de Redes confiables empleando A-Teams», con F. Laufer, XXVI Conferencia Latinoamericana de Informática CLEI- , Ciudad de México.</li>
+<li>“Resolución Paralela Intervalar del Problema de Flujo de Potencia Eléctrica basada en el Método de Newton Intervalar con Bisección Generalizada», con E.A. Martinez y T.A. Diverio, XXVI Conferencia Latinoamericana de Informática CLEI- , Ciudad de México.</li>
+</ul>
+<p><strong>Año 1999</strong></p>
+<ul>
+<li>“Topological Optimization of Reliable Networks using A-Teams», con F. Laufer, Focus Symposium: “Architecture, Tools and Algorithm for Networks, Parallel and Distributed Systems”, Conferencia Internacional Systemics, Cybernetics and Informatics SCI’99, Orlando &#8211; Florida, Estados Unidos.</li>
+<li>“Measurement and Analysis of Poverty and Welfare using Fuzzy Sets», en co-autoría con A.Rojas, D.Britez y L.Barán, Conferencia Internacional Systemics, Cybernetics and Informatics SCI’99, Orlando &#8211; Florida, Estados Unidos. Trabajo realizado en el marco del Proyecto MECOVI, con auspicios de la DGEEyC de la STP, el Banco Mundial y el BID.</li>
+<li>“Sistema Distribuido de Hormigas para el problema del Cajero Viajante», con M. Almirón y E. Chaparro, XXV Conferencia Latinoamericana de Informática – CLEI’99. Asunción &#8211; Paraguay.</li>
+<li>“Descomposición Automática de Dominio en la resolución paralela del Problema Meteorológico del Frente Frío «, con R. Ramos y E. Kaszkurewicz, XXV Conferencia Latinoamericana de Informática – CLEI’99. Asunción &#8211; Paraguay.</li>
+<li>“Matemática Intervalar en la Resolución del Problema del Flujo de Potencia Eléctrica», con E. Martínez y T.A. Diverio, XXV Conferencia Latinoamericana de Informática – CLEI’99. Asunción &#8211; Paraguay.</li>
+<li>“Sellos Digitales para Documentos», con G. Gómez y V. Bogarín, XXV Conferencia Latinoamericana de Informática – CLEI’99. Asunción &#8211; Paraguay.</li>
+<li>“Optimización distribuida basada en colonias de hormigas», con M Almirón, Revista de la Sociedad Científica del Paraguay. Año IV, Tercera Epoca, N° 6 y 7, junio de .</li>
+</ul>
+<p><strong>Año 1998</strong></p>
+<ul>
+<li>“A-Teams en la Optimización del Caudal Turbinado de una Represa Hidroeléctrica», con E. Chaparro y N. Cáceres, Conferencia Iberoamericana de Inteligencia Artificial IBERAMIA-98, Lisboa &#8211; Portugal.</li>
+<li>“Hydroelectric optimization using A-Teams», en coautoría con E. Chaparro y N. Cáceres, EPSOM-98 (International Conference in Electrical Power System Operation and Management), Zurich – Suiza.</li>
+<li>“Combinación de métodos numéricos con técnicas de inteligencia artificial”, con E. Chaparro. Revista de la Sociedad Científica del Paraguay, Año III, Tercera Época N° 4 y 5, diciembre &#8211; , pg. 119-139.</li>
+<li>“Caracterización del Backbone ATM de la Red Metropolitana del Sector Publico Paraguayo», en coautoría con S. Aguayo. XXIV Conferencia Latinoamericana de Informática – PANEL’98. Quito – Ecuador.</li>
+<li>“Heuristic Partitioning Algorithm with Partial Overlapping for a System of Equations Distributed Solution», en coautoría con D. Benítez, Focus Symposium: “Architecture, Tools and Algorithm for Networks, Parallel and Distributed Systems”, SCI’98, Orlando &#8211; Florida, Estados Unidos.</li>
+<li>“Partición de Sistemas de Ecuaciones en Subsistemas menores para su Resolución Distribuida”, en coautoría con D. Benítez. Revista de la Sociedad Científica del Paraguay. Tercera Época N° 3.</li>
+</ul>
+<p><strong>Año 1997</strong></p>
+<ul>
+<li>“Algoritmos Asíncronos combinados en un Ambiente Heterogéneo de Red», en coautoría con E. Chaparro, XXIII Conferencia Latinoamericana de Informática organizada por CLEI , SCCC, UTFSM y la UCV, Valparaiso &#8211; Chile.</li>
+<li>“Métodos Combinados para Sistemas Distribuidos”, Revista de la Sociedad Científica del Paraguay, Año I, Tercera Época N° 2, junio &#8211; , pg. 29-40.</li>
+<li>“Partición de Sistemas Eléctricos en Subsistemas Menores para su Resolución Distribuida”, en coautoría con D.Benítez y R.Ramos, VII Encuentro Regional Latinoamericano de la CIGRE &#8211; VII erlag, Puerto Iguazu &#8211; Argentina.</li>
+<li>“Algoritmos Genéticos Asíncronos Combinados para una Red Heterogénea de Computadoras”, en coautoría con E. Chaparro, I Simposio de Inteligencia Artificial &#8211; CIMAF’97, La Habana &#8211; Cuba.</li>
+</ul>
+<p><strong>Año 1996</strong></p>
+<ul>
+<li>“Parallel Asynchronous Team Algorithms: Convergence and Performance Analysis”, en coautoría con E. Kaszkurewicz y A. Bhaya. IEEE Transactions on Parallel &amp; Distributed Systems, Vol.7, N° 7, julio , pg. 677-688.</li>
+<li>“Solving the Point of Collapse Problem using a Heterogeneous Computer Network”, en coautoría con F. Cardozo, J. Atlasovich y C. Schaerer. International Conference on Information Systems, Analysis and Synthesis &#8211; ISAS´96.Orlando &#8211; Florida, Estados Unidos.</li>
+<li>“Partición de sistemas de ecuaciones para su resolución distribuida” , en coautoría con los alumnos D. Benítez y R. Ramos. XXI Conferencia Latinoamericana de Informática &#8211; PANEL´96, Bogotá &#8211; Colombia.</li>
+</ul>
+<p><strong>Año 1995</strong></p>
+<ul>
+<li>“Team Algorithms in Distributed Load Flow Computations”, en coautoría con E. Kaszkurewicz y D.M. Falcão.IEE Proceedings on Generation, Transmission and Distribution.Vol. 142, N° 6, Londres &#8211; Gran Bretaña &#8211; noviembre/ , pg. 583-588.</li>
+<li>«Cálculo del Punto de Colapso utilizando Team Algorithms», en coautoría con los alumnos C. Schaerer y J. Atlasovich. XXI Conferencia Latinoamericana de Informática, XV Congreso de la Sociedad Brasilera de Computación y XXII Simposio de Hardware y Software. Canelas &#8211; Rio Grande do Sul &#8211; Brasil.</li>
+<li>“Reducción del Tiempo de Búsqueda utilizando una Combinación de Algoritmos Genéticos y Métodos Numéricos”, en coautoría con los alumnos N.Cáceres y E.Chaparro, XV International Conference of the Chilean Computer Science Society. Arica, Chile.</li>
+</ul>
+<p><strong>Año 1994</strong></p>
+<ul>
+<li>«Component Solution Method in a Parallel Asynchronous Environment», en coautoría con E. Kaszkurewicz. XX Conferencia Latinoamericana de Informática. Ciudad de México &#8211; México.</li>
+</ul>
+<p><strong>Año 1993</strong></p>
+<ul>
+<li>«Study of Parallel Asynchronous Team Algorithms».Tesis Doctoral defendida en el Departamento de Ingeniería de Sistemas y Computación de la Universidad Federal de Rio de Janeiro &#8211; Brasil.</li>
+<li>«Distributed Asynchronous Team Algorithms: Application to the Load Flow Problem», en coautoría con E. Kaszkurewicz y A. Bhaya. XIX Conferencia Latinoamericana de Informática. 22as Jornadas Argentinas de Informática e Investigación Operativa. Bs. Aires &#8211; Argentina.</li>
+<li>«TEAM ALGORITHMS. Algoritmos Combinados Paralelos Asíncronos». Revista de la Universidad Nacional de Asunción, Año 4, No. 4, Dic. 93.</li>
+</ul>
+<p><strong>Año 1992</strong></p>
+<ul>
+<li>«Team Algorithms. Una aplicación para Flujo de Potencia Eléctrica», en coautoría con D.M. Falcão, XVIII Conferencia Latinoamericana de Informática. Las Palmas de Gran Canaria &#8211; España.</li>
+</ul>
+<p><strong>Año 1991</strong></p>
+<ul>
+<li>«Confiabilidade de Sistemas Computacionais: Sistema SCADA de ITAIPU», (en coautoría). «Seminário Nacional de Producão e Transmissão de Energía Elétrica: XI SNPTEE». Cigré. Río de Janeiro, Brasil.</li>
+</ul>
+<p><strong>Año 1990</strong></p>
+<ul>
+<li>«Algoritmo Tipo Gradiente: Uma Proposta para Sistemas Computacionais Paralelos Parcialmente Assíncronos», con R.Corrêa, XVI Conferencia Latinoamericana de Informática. Asunción &#8211; Paraguay.</li>
+</ul>
+<p><strong>Año 1987</strong></p>
+<ul>
+<li>«Informática y Cooperación. Una perspectiva”, en coautoría, XIII Conferencia Latinoamericana de Informática. Bogotá &#8211; Colombia.</li>
+<li>«Adaptive Digital Filter in the Frequency Domain», presentado en el seminario realizado en «Northeastern University». Boston &#8211; USA, marzo de 1987.</li>
+</ul>
+<p><strong>Año 1982</strong></p>
+<ul>
+<li>«Comunicaciones por Fibras Ópticas». Tesis en Ingeniería Electrónica. Asunción &#8211; Paraguay.</li>
+</ul>
+[/su_list]
+
+			</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+			</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+			
+			
+		
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+	</div><!-- #content -->
+</div><!-- #page -->
+
+
+
+
+<script type='text/javascript' src='http://cvbaran.cba.com.py/wp-content/plugins/wp-gallery-custom-links/wp-gallery-custom-links.js?ver=1.1'></script>
+<script type='text/javascript' src='http://cvbaran.cba.com.py/wp-includes/js/hoverIntent.min.js?ver=1.8.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var megamenu = {"effect":{"slide":{"in":{"animate":{"height":"show"},"css":{"display":"none"}},"out":{"animate":{"height":"hide"}}}},"timeout":"300","interval":"100"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://cvbaran.cba.com.py/wp-content/plugins/megamenu/js/maxmegamenu.js?ver=2.2.3.1'></script>
+<script type='text/javascript' src='http://cvbaran.cba.com.py/wp-includes/js/wp-embed.min.js?ver=4.6.21'></script>
+
+</body>
+</html>

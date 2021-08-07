@@ -1,1958 +1,428 @@
-<!DOCTYPE html>
-<html>
+																																																																																																																																								<!DOCTYPE html>
+<html lang="es-ES">
 <head>
-<meta charset="utf-8">
-<title>Luis Bobadilla</title>
-<!-- Behavioral Meta Data -->
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="shortcut icon" type="image/png" href="IMG/cropped-metagross-no-outline2" />
-<link href="CSS/animate.css" rel="stylesheet" />
-<style>
-
-/*
-Theme Name: Spore
-Theme URI: 
-Author: Rijo Abraham
-Author URI: https://designseer.com
-Description: Spore is a magnificent free HTML5 masonry blog template for displaying amazing blog posts, portfolio, photography or design works in a distinctive way. A wordpress version is a work in progress. Stay tuned with us.
-Version: 1.0.0
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: white, three-columns, responsive-layout, featured-images, full-width-template, blogging
-
-*/
-
-/* CONTENT BODY SETTINGS - DON'T TOUCH ! */
-
-html,body{
-	height: 100%; /** Adaptative screen **/
-    margin:0;padding:0;
-}
-
-/* FONTS */
-
-@font-face{font-family:open_sansregular;src:url(CSS/FONT/opensans-regular-webfont.eot);src:url(CSS/FONT/opensans-regular-webfont.eot?#iefix) format('embedded-opentype'),url(CSS/FONT/opensans-regular-webfont.woff2) format('woff2'),url(CSS/FONT/opensans-regular-webfont.woff) format('woff'),url(CSS/FONT/opensans-regular-webfont.ttf) format('truetype'),url(CSS/FONT/opensans-regular-webfont.svg#open_sansregular) format('svg')}@font-face{font-family:open_sanssemibold;src:url(CSS/FONT/opensans-semibold-webfont.eot);src:url(CSS/FONT/opensans-semibold-webfont.eot?#iefix) format('embedded-opentype'),url(CSS/FONT/opensans-semibold-webfont.woff2) format('woff2'),url(CSS/FONT/opensans-semibold-webfont.woff) format('woff'),url(CSS/FONT/opensans-semibold-webfont.ttf) format('truetype'),url(CSS/FONT/opensans-semibold-webfont.svg#open_sanssemibold) format('svg')}@font-face{font-family:open_sansbold;src:url(CSS/FONT/opensans-bold-webfont.eot);src:url(CSS/FONT/opensans-bold-webfont.eot?#iefix) format('embedded-opentype'),url(CSS/FONT/opensans-bold-webfont.woff2) format('woff2'),url(CSS/FONT/opensans-bold-webfont.woff) format('woff'),url(CSS/FONT/opensans-bold-webfont.ttf) format('truetype'),url(CSS/FONT/opensans-bold-webfont.svg#open_sansbold) format('svg')}@font-face{font-family:socialicoregular;src:url(CSS/FONT/socialico-webfont.eot);src:url(CSS/FONT/socialico-webfont.eot?#iefix) format('embedded-opentype'),url(CSS/FONT/socialico-webfont.woff2) format('woff2'),url(CSS/FONT/socialico-webfont.woff) format('woff'),url(CSS/FONT/socialico-webfont.ttf) format('truetype'),url(CSS/FONT/socialico-webfont.svg#socialicoregular) format('svg')}@font-face{font-family:socialico_plusregular;src:url(CSS/FONT/socialico_plus-webfont.eot);src:url(CSS/FONT/socialico_plus-webfont.eot?#iefix) format('embedded-opentype'),url(CSS/FONT/socialico_plus-webfont.woff2) format('woff2'),url(CSS/FONT/socialico_plus-webfont.woff) format('woff'),url(CSS/FONT/socialico_plus-webfont.ttf) format('truetype'),url(CSS/FONT/socialico_plus-webfont.svg#socialico_plusregular) format('svg')}
-
-/* LIST AND CLASS ACTIONS FOR THE LIST / LINKS AND ANIMATIONS IMAGES - WHEN YOU CLICK ON A LINK SPECIAL COLOR OR ANIMATIONS*/
-
-ul { 
-list-style-type: none; 
-margin:0;
-padding:0;
-}
-
-.text-part-A5 ul li a {
-	text-decoration:none;
-	color:#666;
-	-webkit-transition:color 250ms ease-out; 
-	-moz-transition:color 250ms ease-out;
-	-o-transition:color 250ms ease-out;
-	transition:color 250ms ease-out;
-}
- 
-.text-part-A5 ul li a:hover {color:#999;}
-
-.text-part-menutab ul li a {
-	text-decoration:none;
-	color:#CCC;
-	-webkit-transition:color 250ms ease-out; 
-	-moz-transition:color 250ms ease-out;
-	-o-transition:color 250ms ease-out;
-	transition:color 250ms ease-out;
-}
- 
-.text-part-menutab ul li a:hover {color:#999;}
-
-
-.grayscale{ 
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);  /* For Webkit browsers */
-    filter: gray;  /* For IE 6 - 9 */
-    -webkit-transition: all .6s ease;  /* Transition for Webkit browsers */
-}
-
-.grayscale:hover { 
-    filter: grayscale(0%);
-    -webkit-filter: grayscale(0%);
-    filter: none;
-}
-
-.grow { transition: all 1s ease-in-out; }
-.grow:hover { transform: scale(1.1); }
-
-.object {
-	
-    transition: all 0.25s ease-in-out;
-    -webkit-transition: all 0.25s ease-in-out; /** Chrome & Safari **/
-    -moz-transition: all 0.25s ease-in-out; /** Firefox **/
-    -o-transition: all 0.25s ease-in-out; /** Opera **/
-}
-
-/*Youtube fast processing*/
-.ytLoader {
-    position: relative;
-    margin-top: -35px;
-}
-img.cover {
-    width: 100%;
-    margin-top: -8px;
-}
-img.playBtn {
-    position: relative;
-    top: -150px;
-    left: 110px;
-    width: 70px;
-}
-img.playBtn:hover{
-    cursor:pointer;
-    opacity:0.8;
-    transform: scale(0.9);
-    transition-duration: 0.3s;
-}
-
-/* HEADER / BODY */
-
-.blank{
-	position:relative; /** Div for the transition when your leave the url - fade out/in white color **/
-	width:100%;
-	height:100%;
-	z-index:50;
-	background-color:#FFF;
-}
-
-
-#A0{
-	background: url(IMG/gallery-in-a-page.jpg)  50% 50% no-repeat; /** Background image - change it here !**/
-	position:absolute;
-    background-size: cover;
-	-webkit-background-size:cover;
-    -moz-background-size:cover;
-    -o-background-size:cover;
-    background-size:cover;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-	z-index:1;
-	
-}
-
-#A1-main{
-	position:relative; /** Main div to adapt all the element to the body**/
-	width:100%;
-	height:100%;
-	z-index:1;
-}
-
-
-#A1{
-	position:relative; /** Sub div to adapt the background for the body**/
-	width:100%;
-	height:100%;
-	z-index:1;
-}
-
-
-#A0-2{
-	background-color:#101613; /** Transparent background across the background **/
-	opacity:0.5;
-	position:absolute;
-    width:100%;
-	height:100%;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-	z-index:2;
-}
-
-#trame{
-	background-image: url(IMG/trame.svg); /** Pattern - overlay **/
-	background-repeat:repeat;
-	position:absolute;
-    width:100%;
-	height:100%;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-	z-index:3;
-	opacity:0.8;
-}
-
-#wrapper-head{
-	position:absolute; /** Main div for the title, arrow icon and button learn more **/
-	height:100%;
-	width:100%;
-	z-index:5;
-	opacity:0;
-	top:0;
-}
-
-#title{
-	position:absolute;
-	z-index:4;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	text-align:center;
-	font-size:24px;
-	line-height:130%;
-	color:#FFF;
-    font-family: 'open_sansregular';
-	width:50%;
-	margin-left:25%;
-	height:100%;
-	top:50%;
-}
-
-#wrapper-logo{
-	position:absolute;
-	width:169px;
-	height:45px;
-	margin-left:-500px;
-	left:50%;
-	top:50px;
-	z-index:11;
-	overflow: hidden;
-	opacity:0;
-}
-
-#logo{
-	width:100%;
-	height:100%;
-	position:absolute;
-	left:0;
-	top:0;
-	background-repeat:no-repeat;
-	cursor:pointer;
-}
-
-#wrapper-plus{
-	background-image: url(IMG/plus.svg);
-	background-repeat:no-repeat;
-	position:absolute;
-	width:32px;
-	height:32px;
-	left:50%;
-	margin-left:450px;
-	z-index:5;
-	top:60px;
-	cursor:pointer;
-	opacity:0;
-}
-
-#fleche1{
-	position:absolute;
-	background-repeat:no-repeat;
-	width:40px;
-	height:40px;
-	top:90%;
-	left:50%;
-	margin-left:-20px;
-	z-index:4;
-	cursor:pointer;
-}
-
-#wrapper-learnmore{
-	position:absolute;
-	width:140px;
-	height:45px;
-	left:50%;
-	margin-left:-70px;
-	top:65%;
-	opacity:1;
-	z-index:4;
-	cursor:pointer;
-}
-
-.bouton-learnmore{
-	position:absolute;
-	width:100%;
-	height:100%;
-	left:0;
-	opacity:1;
-	top:0;
-	background-color:#transparent;
-	border:solid 2px #FFF;
-	border-radius:10px;
-}
-
-.text-learnmore{
-	position:absolute;
-	z-index:1;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	text-align:center;
-	font-size:18px;
-	line-height:45px;
-	height:45px;
-	color:#FFF;
-    font-family: 'open_sanssemibold';
-	width:80%;
-	margin-left:10%;
-}
-
-/* TAB MENU / HEADER */
-
-#main-wrapper-menu{
-	position:relative;
-	width:100%;
-	height:0;
-	z-index:10;
-	background-color:#FFF;
-}
-
-#wrapper-menu{
-	position:absolute;
-	height:auto;
-	width:100%;
-	left:50%;
-	margin-left:-50%;
-	top:50%;
-	margin-top:-20%;
-	
-}
-
-
-.recent-post{
-	position:relative;
-	width:100%;
-	height:auto;
-	z-index:1;
-	display:none;	
-}
-
-#recent-post-title,#recent-post-1,#recent-post-2,#recent-post-3,#recent-post-4{
-	position:relative;
-	width:70%;
-	left:50%;
-	margin-left:-35%;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	text-align:center;
-	font-size:17px;
-	line-height:150%;
-	color:#666;
-	font-family: 'open_sanssemibold';
-	letter-spacing:-1px;
-	padding-bottom:10px;
-	height:auto;
-}
-
-.category-post{
-	position:relative;
-	width:100%;
-	height:auto;
-	z-index:1;
-	padding-top:15px;
-	display:none;
-}
-
-#category-post-title,#category-post-1,#category-post-2,#category-post-3{
-	position:relative;
-	width:70%;
-	left:50%;
-	margin-left:-35%;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	text-align:center;
-	font-size:17px;
-	line-height:150%;
-	color:#666;
-    font-family: 'open_sanssemibold';
-	letter-spacing:-1px;
-	padding-bottom:10px;
-	height:auto;
-}
-
-#line-category-post{
-	position:relative;
-	width:75px;
-	height:1px;
-	background-color:#CCC;
-	left:50%;
-	margin-left:-37.5px;
-	margin-bottom:15px;
-}
-
-#wrapper-cross{
-	background-image: url(IMG/cross.svg);
-	background-repeat:no-repeat;
-	position:absolute;
-	width:32px;
-	height:32px;
-	left:50%;
-	margin-left:450px;
-	z-index:11;
-	bottom:10%;
-	cursor:pointer;
-	opacity:1;
-}
-
-/* PART 2 - TITLE */
-
-#A2{
-	position:relative;
-	width:100%;
-	min-height:250px;
-	z-index:1;
-}
-
-#text-2{
-	position:absolute;
-	background-color:transparent;
-	width:550px;
-	height:90px;
-	top:50%;
-	margin-top:-45px;
-	left:50%;
-	margin-left:-275px;
-	z-index:3;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	text-align:center;
-	font-size:23px;
-	line-height:150%;
-	color:#444549;
-    font-family: 'open_sansregular';
-	letter-spacing:-1px;
-}
-
-/* PART 3 PORTFOLIO ARTICLES 3 GRID LEFT/RIGHT/MID */
-
-
-#wrapper-A3{
-	position:relative;
-	width:1000px;
-	z-index:1;
-	left:50%;
-	margin-left:-500px;
-	height:auto;
-	padding-top:50px;
-	overflow:hidden;
-}
-
-#A3-right,#A3-left,#A3-middle{
-   background-color:#FFF;
-    float:left;    
-	width:30%;
-	height:auto;
-	z-index:1;
-}
-
-#A3-right{margin-right:0;}
-#A3-left{padding-right:5%;}
-#A3-middle{left:35%;padding-right:5%;}
-
-.calage
-{
-    clear: both;
-    height: 50px;
-    width: 100%;
-}
-
-/* ARTICLES 1-9 EXAMPLE */
-
-#wrapper-post1,#wrapper-post4,#wrapper-post7{
-	position:relative;
-	width:100%;
-	height:auto;
-
-}
-
-#wrapper-A3-left-date-1,#wrapper-A3-left-date-2,#wrapper-A3-left-date-3,#wrapper-A3-middle-date-4,#wrapper-A3-middle-date-5,#wrapper-A3-middle-date-6,#wrapper-A3-right-date-7,#wrapper-A3-right-date-8,#wrapper-A3-right-date-9{
-	position:relative;
-	width:100%;
-	height:40px;
-	z-index:1;
-	top:15px;
-	left:0;
-}
-
-#A3-left-date-1,#A3-left-date-2,#A3-left-date-3,#A3-middle-date-4,#A3-middle-date-5,#A3-middle-date-6,#A3-right-date-7,#A3-right-date-8,#A3-right-date-9{
-	position:absolute;
-	width:100%;
-	height:100%;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	text-align:left;
-	font-size:15px;
-	line-height:160%;
-	color:#C6C6C6;
-    font-family: 'open_sansbold';
-	margin-left:35px;
-}
-
-#A3-left-icone-1,#A3-left-icone-2,#A3-left-icone-3,#A3-middle-icone-4,#A3-middle-icone-5,#A3-middle-icone-6,#A3-right-icone-7,#A3-right-icone-8,#A3-right-icone-9{
-	position:absolute;
-	background-image: url(IMG/icone1.svg);
-	background-repeat:no-repeat;
-	width:27px;
-	height:18px;
-	left:0;
-	top:3px;
-
-}
-
-
-#A3-left-title-1,#A3-left-title-2,#A3-left-title-3,#A3-middle-title-4,#A3-middle-title-5,#A3-middle-title-6,#A3-right-title-7,#A3-right-title-8,#A3-right-title-9{
-	position:relative;
-	width:95%;
-	left:0;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	text-align:left;
-	font-size:21px;
-	line-height:160%;
-	color:#444549;
-    font-family: 'open_sanssemibold';
-	top:15px;
-	letter-spacing:-1px;
-}
-
-#A3-left-text-1,#A3-left-text-2,#A3-left-text-3,#A3-middle-text-4,#A3-middle-text-5,#A3-middle-text-6,#A3-right-text-7,#A3-right-text-8,#A3-right-text-9{
-	position:relative;
-	width:95%;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	text-align:left;
-	font-size:16px;
-	line-height:140%;
-	left:0;
-	color:#9C9C9C;
-    font-family: 'open_sansregular';
-	top:35px;
-}
-
-#wrapper-post2,#wrapper-post3,#wrapper-post5,#wrapper-post6,#wrapper-post8,#wrapper-post9{
-	position:relative;
-	width:100%;
-	height:auto;
-	margin-top:100px;
-
-}
-
-#A3-left-image-2,#A3-left-image-3,#A3-middle-image-4,#A3-middle-image-5,#A3-middle-image-6,#A3-right-image-8,#A3-right-image-9{
-	position:relative;
-	width:100%;
-	z-index:1;
-	top:0;
-	left:0;
-	overflow:hidden;
-}
-
-#A3-left-image-2 img,#A3-left-image-3 img,#A3-middle-image-4 img,#A3-middle-image-5 img,#A3-middle-image-6 img,#A3-right-image-8 img,#A3-right-image-9 img{
-	width:100%;
-}
-
-/* ARTICLES FOR THE VIDEO - EXTENDED DIV NECESSARY TO WATCH THE VIDEO*/
-
-iframe {
-    width:100%;
-    height:auto;
- }
-
-.video-container-1,.video-container-6,.video-container-7 {
-    position:relative;
-    padding-bottom:56.25%;
-    padding-top:30px;
-    height:0;
-    overflow:hidden;
-	top:0;
-	left:0;
- }
-
-.video-container-1 iframe,.video-container-6 iframe,.video-container-7 iframe,.video-container-1 object,.video-container-6 object,.video-container-7 object,.video-container-1 embed,.video-container-6 embed,.video-container-7 embed {
-    width:100%;
-    height:100%;
-    position:absolute;
-    top:0;
-    left:0;
-}
-
-/* PART 4 - BOUTON PAGE 1-4*/
-
-
-
-#A4{
-	position:relative;
-	width:100%;
-	height:200px;
-	z-index:1;
-    background-color:#FFF;
-	
-}
-
-#wrapper-A4{
-	position:absolute;
-	width:300px;
-	height:45px;
-	margin-left:-150px;
-	left:50%;
-	top:50%;
-	margin-top:-22.5px;
-}
-
-#page1{
-	position:absolute;
-	left:15%;
-	border-radius:50%;
-	height:35px;
-	width:35px;
-	background-color:transparent;/*add a background color*/
-	border:solid 4px #444549;/*add a color border*/
-	cursor:pointer;
-	z-index:1;
-	
-}
-
-#text-page1{
-    position:absolute;
-    font-family: 'open_sanssemibold';
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	font-size:15px;
-	height:35px;
-	top:0;
-	left:0;
-	line-height:35px;
-	color:#444549;
-	text-align:center;
-	width:100%;
-	z-index:2;
-}
-
-#text-page2,#text-page3,#text-page4{
-    position:absolute;
-    font-family: 'open_sansregular';
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	font-size:15px;
-	height:350px;
-	top:0;
-	left:0;
-	line-height:35px;
-	color:#FFF;
-	text-align:center;
-	width:100%;
-	z-index:2;
-}
-
-#main-page2,#main-page3,#main-page4{
-	position:absolute;
-	width:35px;
-	height:35px;
-	top:0;
-}
-
-#main-page2{left:38.5%;margin-left:-11.7px;}
-#main-page3{right:38.5%;margin-right:-11.7px;}
-#main-page4{right:15%;}
-
-#page2,#page3,#page4{
-	position:absolute;
-	left:0;
-	border-radius:50%;
-	height:35px;
-	width:35px;
-	background-color:#9C9C9C;
-	cursor:pointer;
-	border:solid 4px #9C9C9C;
-}
-
-/* PART 5 - MENU WITH SHORTCUTS*/
-
-#A5{
-	position:relative;
-	width:100%;
-	z-index:1;
-	height:auto;
-	padding-top:50px;
-	background-color:#31323a;
-}
-
-#wrapper-A5{
-	position:relative;
-	width:1000px;
-	z-index:1;
-	left:50%;
-	margin-left:-500px;
-	height:auto;
-	padding-top:20px;
-}
-
-#A5-left,#A5-middle,#A5-right{
-    float:left;    
-    width:30%;
-	height:auto;
-	z-index:1;
-}
-
-#A5-left,#A5-middle{padding-right:5%;}
-#A5-middle{left:35%;}
-#A5-right {margin-right:0;}
-
-.A5-calage{clear:both;height:50px;width:100%;}
-
-#wrapper-part-left,#wrapper-part-mid,#wrapper-part-right{
-	position:relative;
-	width:100%;
-	height:auto;
-}
-
-#left-line-post,#mid-line-post,#right-line-post{
-	position:relative;
-	background-color:#1E1F26;
-	width:33%;
-	left:0;
-	height:1px;
-}
-
-#left-line2-post,#mid-line2-post,#right-line2-post{
-	position:relative;
-	background-color:#545559;
-	width:33%;
-	left:0;
-	height:1px;
-}
-
-#left-text-post,#mid-text-post,#right-text-post{
-	position:relative;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	text-align:left;
-	font-size:17px;
-	color:#FFF;
-	font-family: 'open_sansregular';
-	left:0;
-	width:250px;
-	top:0;
-	line-height:130%;
-	z-index:5;
-	padding-bottom:20px;
-}
-
-#left-text-post-1,#mid-text-post-1,#right-text-post-1{
-	position:relative;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	text-align:left;
-	font-size:16px;
-	color:#CCC;
-	font-family: 'open_sansregular';
-	left:0;
-	width:100%;
-	top:0;
-	z-index:5;
-	line-height:130%;
-	letter-spacing:-0.5px;
-	padding-top:20px;
-}
-
-#left-text-post-4,#mid-text-post-4,#right-text-post-4{
-	padding-bottom:50px;
-}
-
-#left-text-post-2,#left-text-post-3,#mid-text-post-2,#mid-text-post-3,#right-text-post-2,#right-text-post-3,#left-text-post-4,#mid-text-post-4,#right-text-post-4{
-	position:relative;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	text-align:left;
-	font-size:16px;
-	color:#CCC;
-	font-family: 'open_sansregular';
-	left:0;
-	width:100%;
-	top:0;
-	z-index:5;
-	line-height:130%;
-	letter-spacing:-0.5px;
-	padding-top:15px;
-}
-
-/* PART 5 BIS - RELATED BLOG NUMBERS */
-
-#A5b{
-	position:relative;
-	width:100%;
-	z-index:1;
-	height:auto;
-	padding-top:50px;
-	background-color:#444549;
-}
-
-#wrapper-A5b{
-	position:relative;
-	width:1000px;
-	z-index:1;
-	left:50%;
-	margin-left:-500px;
-	height:auto;
-	padding-top:20px;
-}
-
-#A5b-left,#A5b-middle,#A5b-right{
-    float:left;    
-    width:30%;
-	height:auto;
-	z-index:1;
-}
-
-#A5b-left,#A5b-middle{padding-right:5%;}
-#A5b-middle{left:35%;}
-#A5b-right {margin-right:0;}
-
-.A5b-calage{clear:both;height:50px;width:100%;}
-
-#wrapper-A5b-part-left,#wrapper-A5b-part-mid,#wrapper-A5b-part-right{
-	position:relative;
-	width:100%;
-	height:auto;
-}
-
-#left-A5b-line-post,#mid-A5b-line-post,#right-A5b-line-post{
-	position:relative;
-	background-color:#1E1F26;
-	width:100px;
-	left:50%;
-	height:1px;
-}
-#left-A5b-line-post,#left-A5b-line2-post,#left-A5b-text-post,#left-A5b-text-post-1{margin-left:-125px;}
-#mid-A5b-line-post,#mid-A5b-line2-post,#mid-A5b-text-post,#mid-A5b-text-post-1{margin-left:-50px;}
-#right-A5b-line-post,#right-A5b-line2-post,#right-A5b-text-post,#right-A5b-text-post-1{margin-left:25px;}
-
-
-#left-A5b-line2-post,#mid-A5b-line2-post,#right-A5b-line2-post{
-	position:relative;
-	background-color:#545559;
-	width:100px;
-	left:50%;
-	height:1px;
-}
-
-#left-A5b-text-post,#mid-A5b-text-post,#right-A5b-text-post{
-	position:relative;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	text-align:center;
-	font-size:40px;
-	color:#CCC;
-	font-family: 'open_sansregular';
-	left:50%;
-	width:100px;
-	top:0;
-	line-height:130%;
-	z-index:5;
-	padding-bottom:20px;
-}
-
-#left-A5b-text-post-1,#mid-A5b-text-post-1,#right-A5b-text-post-1{
-	position:relative;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	text-align:center;
-	font-size:16px;
-	color:#9B9DA3;
-	font-family: 'open_sansregular';
-	left:50%;
-	width:100px;
-	top:0;
-	z-index:5;
-	line-height:130%;
-	letter-spacing:-0.5px;
-	padding-top:20px;
-	padding-bottom:20px;
-}
-
-
-/* PART 6 - SOCIAL LINKS*/
-
-#A6{
-	position:relative;
-	height:275px;
-	width:100%;
-	z-index:1;
-	background-color:#FFF;
-}
-
-#wrapper-social{
-	position:absolute;
-	width:300px;
-	left:50%;
-	margin-left:-150px;
-	top:125px;
-	z-index:5;
-	height:50px;
-}
-
-
-#main-behance,#main-dribbble,#main-facebook,#main-google,#main-linked{
-	position:absolute;
-	top:0;
-	height:100%;
-	width:18%;
-	cursor: pointer;
-}
-
-#main-behance{left:1%;}
-#main-dribbble{left:21%;}
-#main-facebook{left:41%;}
-#main-google{left:61%;}
-#main-linked{left:81%;}
-
-#behance,#dribbble,#facebook,#google,#linked{
-    font-family: 'socialicoregular';
-	position:absolute;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	text-align:left;
-	font-size:35px;
-	cursor:pointer;
-	color:#66676D;
-	left:50%;
-	top:50%;
-	margin-top:-25%;
-}
-
-#cadre-behance,#cadre-dribbble,#cadre-facebook,#cadre-google,#cadre-linked{
-	position:absolute;
-	background-color:transparent;
-	height:90%;
-	width:90%;
-	left:0;
-	top:0;
-	border-radius:5%;
-	margin-left:5%;
-}
-
-#dribbble{margin-left:-12px;}
-#facebook{margin-left:-8.5px;}
-#google{margin-left:-8px;}
-#linked{margin-left:-10px;}
-#behance{margin-left:-15px;}
-
-/* PART 7 - FOOTER - COPYRIGHT*/
-
-#A7{
-	position:relative;
-	background-color:#FFF;
-	height:60px;
-	width:100%;
-	top:0;
-	z-index:1;
-}
-
-#wrapper-A7{
-	position:relative;
-	height:100%;
-	width:100%;
-	top:0;
-	z-index:1;
-}
-
-#line-A7{
-	position:absolute;
-	height:1px;
-	width:1000px;
-	left:50%;
-	margin-left:-500px;
-	top:0;
-	z-index:1;
-	background-color:#444549;
-	opacity:0.2;
-}
-
-#copyright{
-	position:absolute;
-	width:100%;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	text-align:center;
-	font-size:13px;
-	height:60px;
-	line-height:60px;
-	color:#9B9DA3;
-	z-index:2;
-	font-family: 'open_sansregular';
-	text-transform: uppercase;
-	letter-spacing:-1px;
-}
-
-/* RESPONSIVE DESIGN ! IMPORTANT DONT TOUCH IT */
-
-/* X-LARGE */
-@media (max-width: 1500px) {
-#wrapper-menu{margin-top:-17.5%;}
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="http://cvbaran.cba.com.py/xmlrpc.php">
+
+<title>cvbaran</title>
+<meta name='robots' content='noindex,follow' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="cvbaran &raquo; Feed" href="http://cvbaran.cba.com.py/?feed=rss2" />
+<link rel="alternate" type="application/rss+xml" title="cvbaran &raquo; RSS de los comentarios" href="http://cvbaran.cba.com.py/?feed=comments-rss2" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/cvbaran.cba.com.py\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.6.21"}};
+			!function(e,o,t){var a,n,r;function i(e){var t=o.createElement("script");t.src=e,t.type="text/javascript",o.getElementsByTagName("head")[0].appendChild(t)}for(r=Array("simple","flag","unicode8","diversity","unicode9"),t.supports={everything:!0,everythingExceptFlag:!0},n=0;n<r.length;n++)t.supports[r[n]]=function(e){var t,a,n=o.createElement("canvas"),r=n.getContext&&n.getContext("2d"),i=String.fromCharCode;if(!r||!r.fillText)return!1;switch(r.textBaseline="top",r.font="600 32px Arial",e){case"flag":return(r.fillText(i(55356,56806,55356,56826),0,0),n.toDataURL().length<3e3)?!1:(r.clearRect(0,0,n.width,n.height),r.fillText(i(55356,57331,65039,8205,55356,57096),0,0),a=n.toDataURL(),r.clearRect(0,0,n.width,n.height),r.fillText(i(55356,57331,55356,57096),0,0),a!==n.toDataURL());case"diversity":return r.fillText(i(55356,57221),0,0),a=(t=r.getImageData(16,16,1,1).data)[0]+","+t[1]+","+t[2]+","+t[3],r.fillText(i(55356,57221,55356,57343),0,0),a!=(t=r.getImageData(16,16,1,1).data)[0]+","+t[1]+","+t[2]+","+t[3];case"simple":return r.fillText(i(55357,56835),0,0),0!==r.getImageData(16,16,1,1).data[0];case"unicode8":return r.fillText(i(55356,57135),0,0),0!==r.getImageData(16,16,1,1).data[0];case"unicode9":return r.fillText(i(55358,56631),0,0),0!==r.getImageData(16,16,1,1).data[0]}return!1}(r[n]),t.supports.everything=t.supports.everything&&t.supports[r[n]],"flag"!==r[n]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[r[n]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(a=function(){t.readyCallback()},o.addEventListener?(o.addEventListener("DOMContentLoaded",a,!1),e.addEventListener("load",a,!1)):(e.attachEvent("onload",a),o.attachEvent("onreadystatechange",function(){"complete"===o.readyState&&t.readyCallback()})),(a=t.source||{}).concatemoji?i(a.concatemoji):a.wpemoji&&a.twemoji&&(i(a.twemoji),i(a.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
 }
-
-/* VERY LARGE SCREEN */
-@media (max-width: 1280px) {
-#wrapper-menu{margin-top:-20%;}
-}
-
-/* PERSONNAL RESPONSIVE DESIGN FOR COMPUTER SMALL SCREEN, MEDIA SCREEN AND IPAD HORIZONTAL*/
-@media (max-width: 1080px) {
-#wrapper-logo{margin-left:-420px;}
-#wrapper-plus,#wrapper-cross{margin-left:370px;}
-#wrapper-A5,#line-A7,#wrapper-A5b{width:900px;margin-left:-450px;}
-}
-
-/*HYBRID*/
-@media (max-width: 1000px) {
-#wrapper-A3,#wrapper-A5,#wrapper-A5b,#line-A7{width:700px;margin-left:-350px;}
-#wrapper-logo{margin-left:-320px;}
-#wrapper-plus,#wrapper-cross{margin-left:270px;}
-}
-
-/*FOR VERTICAL IPAD NATIVE 801px INCLUDING THE NEW TABLETS HYBRID*/
-@media (max-width: 801px) {
-#wrapper-A3,#wrapper-A5,#wrapper-A5b,#line-A7{width:580px;margin-left:-290px;}
-#wrapper-logo{margin-left:-260px;}
-#wrapper-plus,#wrapper-cross{margin-left:210px;}
-#A3-left,#A3-middle,#A3-right,#A5-left,#A5-middle,#A5-right,#A5b-left,#A5b-middle,#A5b-right{float:none;position:relative;width:100%;height:auto;left:0;padding-right:none;padding-top:50px;padding-bottom:50px;}
-#left-text-post,#mid-text-post,#right-text-post,#left-text-post-2,#left-text-post-3,#mid-text-post-2,#mid-text-post-3,#right-text-post-2,#right-text-post-3,#left-text-post-4,#mid-text-post-4,#right-text-post-4,#left-text-post-1,#mid-text-post-1,#right-text-post-1{text-align:center;}
-#left-text-post,#mid-text-post,#right-text-post{width:100%;}
-#left-line-post,#mid-line-post,#right-line-post{width:33%;left:50%;margin-left:-16.6%;}
-#left-line2-post,#mid-line2-post,#right-line2-post{width:33%;left:50%;margin-left:-16.6%;}
-#left-A5b-line-post,#left-A5b-line2-post,#left-A5b-text-post,#left-A5b-text-post-1,#right-A5b-line-post,#right-A5b-line2-post,#right-A5b-text-post,#right-A5b-text-post-1{margin-left:-50px;}
-#title{font-size:22px;line-height:130%;width:60%;margin-left:20%;top:40%;}
-#wrapper-menu{margin-top:-25%;}
-}
-
-/* MQUERIES FOR SMARTPHONE VERY LARGE & E-READERS */
-@media (max-width: 640px) {
-#wrapper-A3,#wrapper-A5,#wrapper-A5b,#line-A7{width:460px;margin-left:-230px;}
-#wrapper-plus,#wrapper-cross{margin-left:150px;}
-#A5b-left,#A5b-middle,#A5-left,#A5-middle,#A3-left,#A3-middle{padding-right:0;}
-#A7{display:none;}
-#text-2{font-size:20px;width:80%;margin-left:10%;left:0%;}
-#wrapper-logo{margin-left:-195px;}
-#wrapper-menu{margin-top:-30%;}
-
-}
-
-/* MQUERIES FOR NEW SMARTPHONE HYBRID AND SMALL TABLET BY HEIGHT */
-@media (max-height: 600px) {
-#wrapper-A3,#wrapper-A5,#wrapper-A5b,#line-A7{width:400px;margin-left:-200px;}
-#wrapper-logo{margin-left:-195px;}
-#wrapper-plus,#wrapper-cross{margin-left:145px;}
-#wrapper-menu{margin-top:-35%;}
-}
-
-
-/* MQUERIES FOR SMARTPHONE LARGE & IPHONE 4 HORIZONTAL */
-@media (max-width: 480px) {
-#wrapper-A3,#wrapper-A5,#wrapper-A5b{width:400px;margin-left:-200px;}
-#wrapper-plus,#wrapper-cross{margin-left:145px;}
-#A7{display:none;}
-#text-2{font-size:20px;}
-#wrapper-logo{margin-left:-185px;}
-#wrapper-menu{margin-top:-35%;}
-}
-
-/* MQUERIES FOR SMARTPHONE LARGE & IPHONE 4 HORIZONTAL */
-@media (max-width: 400px) {
-#wrapper-A3,#wrapper-A5,#wrapper-A5b{width:300px;margin-left:-150px;}
-#wrapper-plus,#wrapper-cross{margin-left:135px;}
-#wrapper-logo{margin-left:-175px;}
-#wrapper-menu{margin-top:-40%;}
-}
-
-/* MQUERIES ADDITIONAL FOR SMARTPHONE IPHONE 3 & 4 VERTICAL POSITION BY HEIGHT*/
-@media (max-width: 320px) {
-#wrapper-A3,#wrapper-A5,#wrapper-A5b{width:280px;margin-left:-140px;}
-#wrapper-plus,#wrapper-cross{margin-left:90px;}
-#wrapper-plus{top:40px;}
-#wrapper-social,#wrapper-A4{width:280px;margin-left:-140px;}
-#wrapper-logo{margin-left:-135px;top:30px;}
-#wrapper-menu{margin-top:-45%;}
-#recent-post-title,#recent-post-1,#recent-post-2,#recent-post-3,#recent-post-4{line-height:115%;}
-#category-post-title,#category-post-1,#category-post-2,#category-post-3{line-height:115%;}
-}
-
-/* MEDIA QUERIES FOR HYBRID MOBILE*/
-@media (max-height: 650px) {
-#title{font-size:19px;line-height:130%;width:60%;margin-left:20%;top:34%;}
-#wrapper-learnmore{top:74%;}
-#fleche1{display:none;}
-#wrapper-menu{margin-top:-47.5%;}
-
-}
-
-/* MEDIA QUERIES FOR IPHONE 5 VERTICAL AND OLD VERSION*/
-@media (max-height: 568px) {
-#title{font-size:17px;line-height:130%;width:60%;margin-left:20%;top:37%;}
-}
-
-/* MQUERIES ADDITIONAL FOR SMARTPHONE IPHONE 3 & 4 HORIZONTAL POSITIONBY HEIGHT*/
-@media (max-height: 330px) {
-#wrapper-logo{top:30px;margin-left:-84.5px;}
-#wrapper-plus,#wrapper-cross{display:none;}
-#main-wrapper-menu{display:none;}
-}
-
-
-
 </style>
-
+<link rel='stylesheet' id='igit-front-style-css'  href='http://cvbaran.cba.com.py/wp-content/plugins/igit-related-posts-with-thumb-images-after-posts/css/igit_front_style.css?ver=4.6.21' type='text/css' media='all' />
+<link rel='stylesheet' id='megamenu-css'  href='http://cvbaran.cba.com.py/wp-content/uploads/maxmegamenu/style.css?ver=df9daf' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='http://cvbaran.cba.com.py/wp-includes/css/dashicons.min.css?ver=4.6.21' type='text/css' media='all' />
+<link rel='stylesheet' id='myresume-style-css'  href='http://cvbaran.cba.com.py/wp-content/themes/myresume/style.css?ver=4.6.21' type='text/css' media='all' />
+<script type='text/javascript' src='http://cvbaran.cba.com.py/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://cvbaran.cba.com.py/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://cvbaran.cba.com.py/?rest_route=/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://cvbaran.cba.com.py/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://cvbaran.cba.com.py/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.6.21" />
+		<style type="text/css">
+        #igit_rpwt_css {
+            background:#FFFFFF;            font-size:12px; 
+            font-style:normal; 
+            color:#000000 !important;
+            margin-top:10px;
+            margin-bottom:10px; 
+             height:230px;         }
+        #igit_title 
+        {
+            padding:2px 2px 2px 8px;
+            text-align:center;
+            font-size:12px;            font-family:Geneva;            
+        }
+        #igit_rpwt_css h4{
+            padding-bottom:10px;
+            border-bottom:1px solid #dbdbdb;
+		    margin-bottom: 10px !important;
+            color:#000000;        }
+        #igit_title a
+        {
+            color:#000000;            font-size:12px;            font-family:Geneva;		    border-bottom: medium none;
+        }
+        #igit_title a:hover
+        {
+            border-bottom:1px solid #000000;
+            text-decoration:none;
+        }
+        #igit_rpwt_thumb, #description 
+        {
+            margin-left:0px; 
+            border:1px solid #DDDDDD; 
+            padding: 3px;
+        }
+        .igit_relpost:hover
+        {
+            border-bottom:4px solid #808080;
+            background-color:#DDDDDD;        }
+        #igit_rpwt_css h4
+        {
+            margin: 0 0 0px;
+        }
+        .igit_relpost {
+            padding-top:7px;
+            border-right-color-value:#DDDDDD;
+            border-right-style-value:solid;
+            border-right-width-value:1px;
+            border-bottom:4px solid #FFFFFF;            float:left;
+             height:85%;             width:25%;
+        }
+        #igit_rpwt_main_image {
+            height:105px;
+            line-height:15;
+            padding-bottom:10px;
+            padding-left:2px;
+            padding-right:2px;
+            padding-top:2px;
+            text-align:center;
+		    display: inline-block;
+			width:100%;
+        }
+		#igit_rpwt_main_image > a {
+   			 display: inline-block;
+			 border-bottom: none !important;
+		}
+		img#igit_rpwt_thumb{
+			 height:100px;
+			  width:100px;
+		}
+        </style>
 </head>
-<body>
 
-<!-- MENU TAB -->
-<div id="main-wrapper-menu">
-  <div id="wrapper-cross"></div>
-	<div id="wrapper-menu">
+<body class="home blog">
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
 	
-    <div class="recent-post text-part-menutab">
-        <ul>
-        <li><div id="recent-post-title">Our recent post</div></li>
-    	<li><div id="recent-post-1"><a href="spore-video.html">Post a youtube video</a></div></li>
-		<li><div id="recent-post-2"><a href="spore-post.html">Post an animated image</a></div></li>
-		<li><div id="recent-post-3"><a href="spore-post.html">Post featured image</a></div></li>
-		<li><div id="recent-post-4"><a href="spore-post.html">Auto-resized image</a></div></li>
-        </ul>
-    </div>
-    
-	<div class="category-post text-part-menutab">
-    	<div id="line-category-post"></div>
-        <ul>
-        <li><div id="category-post-title">Categories post</div></li>
-    	<li><div id="category-post-1"><a href="spore-category.html">Video articles</a></div></li>
-		<li><div id="category-post-2"><a href="spore-category.html">Hot articles</a></div></li>
-		<li><div id="category-post-3"><a href="spore-category.html">Images</a></div></li>
-        </ul>
-    </div>
-    
-    </div>
-</div>
 
-<!-- BOUTON MENU TAB -->
 
-<div id="wrapper-plus" class="object"></div>
+	<header id="masthead" class="site-header" role="banner">
 
-<!-- HEADER -->
-
-<div id="A1-main">
-	    
-    <div id="wrapper-logo" class="object">
-	<a href="#"><div id="logo" class="shadow object" ><img src="IMG/logotop.svg" width="169" height="45"/></div></a>
+	<div id="site-header">
+		<a href="http://cvbaran.cba.com.py/" rel="home">
+			<img src="http://cvbaran.cba.com.py/wp-content/uploads/2016/09/cropped-cropped-baran.jpg"  alt="cvbaran">
+	<span class="site-title">
+	
+	
+D.Sc. Benjamín Barán	
+	
+	
+	</span>
+			<span class="site-description">
+Doctor en Ciencias, en Ingeniería de Sistemas y Computación
+			</span>	
+		</a>
 	</div>
-    
-    <div id="A1">
-    
-    	<div class="blank"></div>
-    
-    	<div id="A0"></div>
-    	<div id="A0-2"></div>
-    	<div id="trame"></div>
-        
 		
-    	<div id="wrapper-head">
-   			<div id="title" class="object">Spore is a creative onepage wordpress theme for web developers who change the world.</div>
-            <div id="wrapper-learnmore">
-            	<div class="bouton-learnmore object">
-        			<div class="text-learnmore object">Learn more</div>
-    			</div>
-            </div>
-           <a href="#ancre"><div id="fleche1"></div></a>
-   	    </div>
+	</header><!-- #masthead -->
 
+<div id="mega-menu-wrap-max_mega_menu_1" class="mega-menu-wrap"><div class="mega-menu-toggle" tabindex="0"><div class='mega-toggle-block mega-menu-toggle-block mega-toggle-block-right mega-toggle-block-1' id='mega-toggle-block-1'></div></div><ul id="mega-menu-max_mega_menu_1" class="mega-menu mega-menu-horizontal mega-no-js" data-event="click" data-effect="fade_up" data-effect-speed="200" data-second-click="close" data-document-click="collapse" data-reverse-mobile-items="true" data-vertical-behaviour="accordion" data-breakpoint="600"><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-current-menu-item mega-current_page_item mega-menu-item-home mega-align-bottom-left mega-menu-flyout mega-menu-item-6' id='mega-menu-item-6'><a class="dashicons-admin-home mega-menu-link" href="http://cvbaran.cba.com.py/" tabindex="0">Inicio</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-51' id='mega-menu-item-51'><a class="dashicons-welcome-learn-more mega-menu-link" href="http://cvbaran.cba.com.py/?page_id=47" tabindex="0">Educación</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-52' id='mega-menu-item-52'><a class="dashicons-awards mega-menu-link" href="http://cvbaran.cba.com.py/?page_id=9" tabindex="0">Distinciones</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-53' id='mega-menu-item-53'><a class="dashicons-book mega-menu-link" href="http://cvbaran.cba.com.py/?page_id=11" tabindex="0">Publicaciones</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-disable-link mega-menu-item-54' id='mega-menu-item-54'><a class="dashicons-pressthis mega-menu-link" tabindex="0">Actividades</a>
+<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-28' id='mega-menu-item-28'><a class="mega-menu-link" href="http://cvbaran.cba.com.py/?page_id=23">Docente</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-27' id='mega-menu-item-27'><a class="mega-menu-link" href="http://cvbaran.cba.com.py/?page_id=25">Profesional</a></li></ul>
+</li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-55' id='mega-menu-item-55'><a class="dashicons-images-alt2 mega-menu-link" href="http://cvbaran.cba.com.py/?page_id=19" tabindex="0">Galería</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-56' id='mega-menu-item-56'><a class="dashicons-groups mega-menu-link" href="http://cvbaran.cba.com.py/?page_id=17" tabindex="0">Proyectos</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-26' id='mega-menu-item-26'><a class="dashicons-edit mega-menu-link" href="http://cvbaran.cba.com.py/?page_id=15" tabindex="0">Eventos</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-50' id='mega-menu-item-50'><a class="dashicons-email mega-menu-link" href="http://cvbaran.cba.com.py/?page_id=49" tabindex="0">Mis Datos</a></li></ul></div>
+	<div id="content" class="site-content">
 
-		<div id="wrapper-plus" class="object"></div>
-        
-	</div>
-        
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main full-width" role="main">
+
+<div class="intro">
+<p ALIGN="center">
+Doctor en Ingeniería de Sistemas y Computación (Universidad Federal de Rio de Janeiro – Brasil, 1993), Master en Ingeniería Eléctrica (Northeastern University, Boston – Estados Unidos, 1987), Ingeniero Electrónico (Universidad Nacional de Asunción, Paraguay – 1983), con una amplia experiencia científica y académica de más de 3 décadas en varias universidades de tres continentes, tiene publicado más de un centenar de artículos científicos, habiendo sido galardonado con una docena de premios y reconocimientos como: el Honor al Mérito Latinoamericano en Informática 2013, el Premio Panamericano en Computación Científica 2012, el Premio Nacional de Ciencias del Paraguay – 1996, el premio Andrés Barbero – 1982 de la Sociedad Científica del Paraguay, entre otros, recibiendo un Doctorado Honoris Causa por la Universidad Nacional del Este en 2012. 
+Es miembro de la Comisión Científica Honoraria (categoría III) del Programa Nacional de Incentivo a los Investigadores – PRONII del CONACYT. 
+Desde hace más de dos décadas se desempeña como Presidente de la Consultora Barán y Asociados – CBA, liderando grandes proyectos en computación y comunicaciones tanto del sector público como del sector privado, incluyendo trabajos de consultoría para organismos internacionales como UIT, UNESCO, PNUD, OEA, Banco Mundial y BID, entre otros.
+Sus principales áreas de investigación son: Computación en la Nube, optimización multiobjetivo, algoritmos bio-inspirados, redes de comunicaciones, aplicaciones a la ingeniería y computación cuántica.
+</p>
 </div>
 
-<a name="ancre"></a>
+<div class="grid">
 
-<!-- PART 2 - TITLE -->
+<br>
+<div class="timeline-bar"></div>
+<div class="row icons bar">
+<div class="c1"></div>
+		<div class="c3 ">
+<span class="dashicons dashicons-admin-home"></span>
 
-<div id="A2">
-    
-    <div id="text-2" class="wow fadeIn" data-wow-offset="10">Luis Bobadilla<span style="color:#999;"> Luis Bobadilla.</span></div>
-    
+<font color="black"><b>Ingeniero Electrónico. <font color="orange">Universidad Nacional de Asunción <br /></font> 1977 - 1982</b></font>
+
+
 </div>
-    
-<!-- PART 3 - PORTFOLIO ARTICLES 3 GRID -->
+<div class="c1"></div>
+		<div class="c3 ">
+<span class="dashicons dashicons-awards"></span>
+<font color="black"><b>Master of Science, in Computer and Electrical Engineering. <font color="orange">Northeastern University <br /></font>1985 - 1987</b></font>
+</div>
+<div class="c1"></div>
 
-<div id="wrapper-A3" class="object">
-    
-    	<div id="A3-left">
-        
-        	<div id="wrapper-post1" class="text-part-A5">
-            	<div class="video-container-1">
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/c9FIvUcjhFg" frameborder="0" allowfullscreen></iframe>
-                </div>
-            
-            	<div id="wrapper-A3-left-date-1">
-            		<div id="A3-left-date-1">22 nov, 2014</div>
-                	<div id="A3-left-icone-1"></div>
-            	</div> 
-            	<ul>
-            		<li><div id="A3-left-title-1"><a href="spore-video.html">Post a Youtube video</a></div></li>
-            	</ul>
-                <div id="A3-left-text-1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</div>  
-            </div>
-            
-            <div id="wrapper-post2" class="text-part-A5">
-            	<a href="spore-post.html"><div id="A3-left-image-2"><img src="IMG/image1-01.jpg"  alt="post an image with animation" title="post an image with animation" width="300" height="395" class="grow"/></div></a>
-            
-            	<div id="wrapper-A3-left-date-2">
-            		<div id="A3-left-date-2">21 nov, 2014</div>
-                	<div id="A3-left-icone-2"></div>
-            	</div> 
-           		<ul>
-            		<li><div id="A3-left-title-2"><a href="spore-post.html">Post an image with animation</a></div></li> 
-            	</ul>
-            	<div id="A3-left-text-2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</div>  
-            </div>
-            
-             <div id="wrapper-post3" class="text-part-A5">
-            	<a href="spore-post3.html"><div id="A3-left-image-3"><img src="IMG/image6-01.jpg"  alt="Auto-resized image" title="Auto-resized image"  width="500" height="701" class="grow"/></div></a>
-            
-            	<div id="wrapper-A3-left-date-3">
-            		<div id="A3-left-date-3">20 nov, 2014</div>
-                	<div id="A3-left-icone-3"></div>
-            	</div> 
-            	<ul>
-            		<li><div id="A3-left-title-3"><a href="spore-post.html">Auto-resized image</a></div></li>
-                </ul>  
-            	<div id="A3-left-text-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</div>  
-            </div>
-            
-        </div>
-  
-    	<div id="A3-middle">
-        	
-            <div id="wrapper-post4" class="text-part-A5">
-            	<a href="spore-post.html"><div id="A3-middle-image-4"><img src="IMG/image3-01.jpg"  alt="Another post" title="Another post"  width="300" height="382" class="grow"/></div></a>
-            
-            	<div id="wrapper-A3-middle-date-4">
-            		<div id="A3-middle-date-4">19 nov, 2014</div>
-                	<div id="A3-middle-icone-4"></div>
-            	</div> 
-            	<ul>
-            		<li><div id="A3-middle-title-4"><a href="spore-post.html">Another post</a></div></li>
-                </ul>  
-            	<div id="A3-middle-text-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</div>  
-            </div>
-            
-            <div id="wrapper-post5" class="text-part-A5">
-            	<a href="spore-post.html"><div id="A3-middle-image-5"><img src="IMG/image7-01.jpg"  alt="Another post" title="Another post" width="300" height="428" class="grayscale" /></div></a>
-            
-            	<div id="wrapper-A3-middle-date-5">
-            		<div id="A3-middle-date-5">18 nov, 2014</div>
-                	<div id="A3-middle-icone-5"></div>
-            	</div> 
-            	<ul>
-            		<li><div id="A3-middle-title-5"><a href="spore-post.html">Post transition image</a></div></li>
-                </ul> 
-            	<div id="A3-middle-text-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</div>  
-            </div>
-            
-            <div id="wrapper-post6" class="text-part-A5">            
-           	
-				<a href="spore-post.html"><div id="A3-middle-image-5"><img src="IMG/image4-01.jpg"  alt="Another post" title="Another post" width="300" height="453" class="grayscale" /></div></a> 
-				                
-            	<div id="wrapper-A3-middle-date-6">
-            		<div id="A3-middle-date-6">17 nov, 2014</div>
-                	<div id="A3-middle-icone-6"></div>
-            	</div> 
-            	<ul>
-            		<li><div id="A3-middle-title-6"><a href="spore-video.html">Simple Post</a></div></li>
-                </ul> 
-            	<div id="A3-middle-text-6">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</div>  
-            </div>
-        
-        
-        </div>
-        
-        <div id="A3-right">
-        
-        	    <div id="wrapper-post7" class="text-part-A5">
-            	<a href="spore-post.html"><div id="A3-right-image-7"><img src="IMG/image6-01.jpg"  alt="Another post" title="Another post" width="300" height="425" class="grow"/></div></a>
-            
-            	<div id="wrapper-A3-right-date-7">
-            		<div id="A3-right-date-7">16 nov, 2014</div>
-                	<div id="A3-right-icone-7"></div>
-            	</div> 
-            	<ul>
-            		<li><div id="A3-right-title-7"><a href="spore-video.html">Another simple  post</a></div></li>
-                </ul>
-            	<div id="A3-right-text-7">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam</div>  
-            </div>
-            
-            <div id="wrapper-post8" class="text-part-A5">
-            	<a href="spore-post.html"><div id="A3-right-image-8"><img src="IMG/image5-01.jpg"  alt="Post with transition image" title="Post with transition image" width="300" height="451" class="grow" /></div></a>
-            
-            	<div id="wrapper-A3-right-date-8">
-            		<div id="A3-right-date-8">15 nov, 2014</div>
-                	<div id="A3-right-icone-8"></div>
-            	</div> 
-            	<ul>
-            		<li><div id="A3-right-title-8"><a href="spore-post.html">Another post</a></div></li>
-                </ul>  
-            	<div id="A3-right-text-8">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</div>  
-            </div>
-            
-            <div id="wrapper-post9" class="text-part-A5">
-            	<a href="spore-post.html"><div id="A3-right-image-9"><img src="IMG/image2-01.jpg"  alt="Another post" title="Another post" width="300" height="425" class="grow"/></div></a>
-            
-            	<div id="wrapper-A3-right-date-9">
-            		<div id="A3-right-date-9">14 nov, 2014</div>
-                	<div id="A3-right-icone-9"></div>
-            	</div> 
-            	<ul>
-            		<li><div id="A3-right-title-9"><a href="spore-post.html">Another post</a></div></li>
-                </ul>
-            	<div id="A3-right-text-9">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</div>  
-            </div>
-        
-        </div>
-	<div class="calage"></div>     
+		<div class="c3 end">
+
+<span class="dashicons dashicons-welcome-learn-more"></span>
+<font color="black"><b>Doctor en Ciencias, en Ingeniería de Sistemas y Computación. <font color="orange"><br />Universidad Federal de Río de Janeiro<br /></font>1989 - 1993</b></font>
+
 </div>
 
-<!-- PART 4 - BOUTON PAGE 1-4 -->
+</div>
 
-<div id="A4" class="object">
+<br>
 
-	<div id="wrapper-A4" class="wow bounceInRight" data-wow-offset="10">
-    	
-        
-        <div id="page1" class="object">
-        	<div id="text-page1"><strong>1</strong></div>
-        </div>
-        
-        <div id="main-page2">
-        	<div id="page2" class="object">
-          		<div id="text-page2" class="object"><strong>2</strong></div>
-        	</div>
-        </div>
-        
-        <div id="main-page3">
-        	<div id="page3" class="object">
-            	<div id="text-page3" class="object"><strong>3</strong></div>
-        	</div>
-        </div>
-        
-		<div id="main-page4">
-        	<div id="page4" class="object">
-            	<div id="text-page4" class="object"><strong>4</strong></div>
-        	</div>
+
+<div class="row">
+		<div class="c5 work">
+		
+<div class="section-head"><a href="http://cvbaran.cba.com.py/?page_id=9"><button type="button" class="btn btn-primary btn-lg">Distinciones y Reconocimientos</button></a></div>
+<div class="section-content">		
+
+<br>
+
+<b>Premio Nacional de Ciencia (2018)</b> a la obra ganadora “Ubicación de Máquinas Virtuales para Infraestructuras Elásticas en Centros de Datos de Computación en Nube bajo Incertidumbre”
+<br /><br />
+<b>Honor al Mérito Latinoamericano en Informática</b> otorgado por el Centro Latinoamericano de Estudios en
+Informática – CLEI en oportunidad de la XXXIX Conferencia Latinoamericana de Informática, CLEI’2013.
+Naiguatá, Vargas – Venezuela.
+<br /><br />
+<b>Doctorado Honoris Causa</b> por la Universidad Nacional del Este – UNE del Paraguay, por Resolución Nº
+444/2012 del Honorable Consejo Superior Universitario de la UNE, año 2012.
+<br /><br />
+<b>Pan-american Prize of Scientific Computing - 2012</b>, otorgado por la Pan-american Association of
+Computational Interdisciplinary Sciences – PACIS, en oportunidad de la 2nd CCIS (Conference of
+Computational Interdisciplinary Sciences), en Guanajuato - México. Agosto de 2012.
+<br /><br />
+<b>“Premio Nacional de Ciencias – 1996”</b> otorgado por el Congreso Nacional en acto presidido por el presidente de la República, por los trabajos científicos en el área de los “Team  Algorithms”.
+<br /><br />
+<br>
+
+</div>
+
 		</div>
-        
-    </div>
-
-</div>
-
-<!-- PART 5 - SUB MENU AND SHORTCUTS -->
-
-<div id="A5"> 
- 
-	<div id="wrapper-A5">
-    
-        <div id="wrapper-part-left" class="text-part-A5">
-        	<div id="A5-left" class="wow flipInX" data-wow-offset="10">
-    			<div id="left-text-post"><strong>Our recent post</strong></div>
-            	<div id="left-line-post"></div>
-            	<div id="left-line2-post"></div>
-			<ul>	
-                <li><div id="left-text-post-1"><strong><a href="spore-video.html">Post a youtube video</a></strong></div></li>
-				<li><div id="left-text-post-2"><strong><a href="spore-post.html">Post an animated image</a></strong></div></li>
-				<li><div id="left-text-post-3"><strong><a href="spore-post.html">Post featured image</a></strong></div></li>
-				<li><div id="left-text-post-4"><strong><a href="spore-post.html">Auto-resized image</a></strong></div></li>
-        	</ul>
-            </div>
-        </div>
-        
-        <div id="wrapper-part-mid" class="text-part-A5">
-        	<div id="A5-middle" class="wow flipInX" data-wow-offset="10" data-wow-delay="0.2s">
-    			<div id="mid-text-post"><strong>Categories</strong></div>
-            	<div id="mid-line-post"></div>
-            	<div id="mid-line2-post"></div>
-			<ul>	
-                <li><div id="mid-text-post-1"><strong><a href="spore-category.html">Video</a></strong></div></li>
-				<li><div id="mid-text-post-2"><strong><a href="spore-category.html">Hot articles</a></strong></div></li>
-				<li><div id="mid-text-post-3"><strong><a href="spore-category.html">Image</a></strong></div></li>
-        	</ul>
-            </div>
-        </div>
-        
-        <div id="wrapper-part-right" class="text-part-A5">
-        	<div id="A5-right" class="wow flipInX" data-wow-offset="10" data-wow-delay="0.4s">
-    			<div id="right-text-post"><strong>Why will you chose my blog theme ?</strong></div>
-            	<div id="right-line-post"></div>
-            	<div id="right-line2-post"></div>
-			<ul>	
-                <li><div id="right-text-post-1"><strong><a href="#">RWD - Responsive Web design</a></strong></div></li>
-				<li><div id="right-text-post-2"><strong><a href="#">New javascript effect and animations</a></strong></div></li>
-				<li><div id="right-text-post-3"><strong><a href="#">Extensible bloc adapted</a></strong></div></li>
-				<li><div id="right-text-post-4"><strong><a href="#">No need to modify the code</a></strong></div></li>
-           </ul>
-           </div>
-        </div>
-        
-    <div class="A5-calage"></div>
-	</div>
-    
-</div>
-
-
-<!-- PART 5 BIS - SUB MENU AND RELATED NUMBERS -->
-
-<div id="A5b"> 
- 
-	<div id="wrapper-A5b">
-    
-        <div id="wrapper-A5b-part-left">
-        	<div id="A5b-left" class="wow flipInX" data-wow-offset="10">
-    			<div id="left-A5b-text-post">14</div>
-            	<div id="left-A5b-line-post"></div>
-            	<div id="left-A5b-line2-post"></div>
-				<div id="left-A5b-text-post-1"><strong>Posts</strong></div>
-        	</div>
-        </div>
-        
-        <div id="wrapper-A5b-part-mid">
-        	<div id="A5b-middle" class="wow flipInX" data-wow-offset="10" data-wow-delay="0.2s">
-    			<div id="mid-A5b-text-post">235</div>
-            	<div id="mid-A5b-line-post"></div>
-            	<div id="mid-A5b-line2-post"></div>
-				<div id="mid-A5b-text-post-1"><strong>Likes</strong></div>
-        	</div>
-        </div>
-        
-        <div id="wrapper-A5b-part-right">
-        	<div id="A5b-right" class="wow flipInX" data-wow-offset="10" data-wow-delay="0.4s">
-    			<div id="right-A5b-text-post">6509</div>
-            	<div id="right-A5b-line-post"></div>
-            	<div id="right-A5b-line2-post"></div>
-				<div id="right-A5b-text-post-1"><strong>Views</strong></div>
-           </div>
-        </div>
-        
-    <div class="A5b-calage"></div>
-	</div>
-    
-</div>
-
-<!-- PART 6 - SOCIAL PART -->
-
-<div id="A6">
-
-<div id="wrapper-social" class="wow bounceInLeft" data-wow-offset="10">
-    
-    	<div id="main-behance">
-    		<div id="cadre-behance" class="object">
-        		<div id="behance" class="object">E</div>
-    		</div>
-        </div>
-        
-        <div id="main-dribbble">
-    		<div id="cadre-dribbble" class="object">
-      	  		<div id="dribbble" class="object">D</div>
-    		</div>
-        </div>
-
-		<div id="main-facebook">
-    		<div id="cadre-facebook" class="object">
-	        	<div id="facebook" class="object">F</div>
-        	</div>
-        </div>
- 
-		<div id="main-google">
-    		<div id="cadre-google" class="object">
-        		<div id="google" class="object">G</div>
-        	</div>
-        </div>
-        
-        <div id="main-linked">
-    		<div id="cadre-linked" class="object">
-        		<div id="linked" class="object"></div>
-        	</div>
-        </div>
-        
-    </div>
-</div>
-
-<!-- PART 7 - COPYRIGHT -->
-
-<div id="A7">
-
-	<div id="wrapper-A7">
-    <div id="line-A7"></div>
-	<div id="copyright"><strong>© Copyright 2021. All rights reserved.</strong></div>
-    </div>
-    
-</div>
-
-<!-- SCRIPT -->
-
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script type="text/javascript" src="JS/output.min.js"></script>	
-	<script type="text/javascript" src="JS/wow.min.js"></script>
-	<script type="text/javascript">new WOW().init();</script>
-	
-	<script async="async">function youTubes_makeDynamic(){var $ytIframes=$('iframe[src*="youtube.com"]');$ytIframes.each(function(i,e){var $ytFrame=$(e);var ytKey;var tmp=$ytFrame.attr('src').split(/\//);tmp=tmp[tmp.length-1];tmp=tmp.split('?');ytKey=tmp[0];var $ytLoader=$('<div class="ytLoader">');$ytLoader.append($('<img class="cover" src="https://i.ytimg.com/vi/'+ytKey+'/hqdefault.jpg">'));$ytLoader.append($('<img class="playBtn" src="IMG/play_button.png">'));$ytLoader.data('$ytFrame',$ytFrame);$ytFrame.replaceWith($ytLoader);$ytLoader.click(function(){var $ytFrame=$ytLoader.data('$ytFrame');$ytFrame.attr('src',$ytFrame.attr('src')+'?autoplay=1');$ytLoader.replaceWith($ytFrame)})})};$(document).ready(function(){youTubes_makeDynamic()});</script>
-		<script type='application/javascript'>
-	window.addEventListener('load', function() {
-		new FastClick(document.body);
-	}, false);
-	</script>
-
-	<script>
-	
-	$(window).on('beforeunload', function(){
-		$(".blank").fadeIn(300);
-		$("#main-wrapper-menu,#A1-main,#A2,#A3,#A4,#A5,#A6,#A7").animate({'opacity':'0'},300);
-  		$(window).delay(1000).scrollTop(0);
-	});
-	
-   $(document).ready(function() {
-	
-	$.localScroll();
-	
-	$(".blank").delay(1000).fadeOut(300);
-	$("#wrapper-head").delay(2000).animate({'opacity':'1'},500);
-	$("#wrapper-logo").delay(3200).animate({'opacity':'1'},300);
-	$("#wrapper-plus").delay(3200).animate({'opacity':'1'},300);
-});
-
-$(function() {
-	var bar = $('#wrapper-head');
-	var opacity = bar.css('opacity');
-	var top = bar.css('top');
-	
-	$(window).scroll(function() {
-		if($(this).scrollTop() > 100) {
-			bar.stop().animate({ opacity :'0', top :'-10%'},250);
-		} 
-	});
+		<div class="c2"></div>		
 		
-	$(window).scroll(function() {
-		if($(this).scrollTop() < 100) {
-			bar.stop().animate({ opacity :'1', top :'0'},250);
-		}	
-	});
-});
-
-
-/*CLICK PLUS AND CROSS MENU*/
-
-var SS = document.getElementById('wrapper-plus');
-
-SS.addEventListener('click', function() {
-             $("#main-wrapper-menu").animate({'height':'100%'},500);
-             $(".recent-post").delay(500).fadeIn(500);
-             $(".category-post").delay(500).fadeIn(500);
-			 $("#wrapper-plus").fadeOut(250);
-}); 
-
-var WC = document.getElementById('wrapper-cross');
-
-WC.addEventListener('click', function() {
-             $("#main-wrapper-menu").animate({'height':'0'},500);
-			 $(".recent-post").fadeOut(250);
-		     $(".category-post").fadeOut(250);
-			 $("#wrapper-plus").delay(1000).fadeIn(250);			 
-}); 
-
-/*BUTTON ARROW*/
-
-$(document).on('touchstart mouseover', '#fleche1', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-			 
-			 $("#fleche1").stop().animate({'top':'92.5%'},200);
-
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-$(document).on('touchend mouseout', '#fleche1', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-			 
-			 $("#fleche1").stop().animate({'top':'90%'},200);
-			 
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-
-/*BUTTON LOGO*/
-
-$(document).on('touchstart mouseover', '#wrapper-logo', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-			 
-			 $("#wrapper-logo").stop().animate({'scale':'1.1','opacity':'0.5'},200);
-
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-$(document).on('touchend mouseout', '#wrapper-logo', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-			 
-			 $("#wrapper-logo").stop().animate({'scale':'1','opacity':'1'},200);
-
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-/*BUTTON PLUS*/
-
-$(document).on('touchstart mouseover', '#wrapper-plus', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-			 
-			 $("#wrapper-plus").stop().animate({'opacity':'0.75','scale':'1.1'},150);
-
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-$(document).on('touchend mouseout', '#wrapper-plus', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-			 
-			 $("#wrapper-plus").stop().animate({'opacity':'1','scale':'1'},150);
-			 
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-/*BUTTON CROSS*/
-
-$(document).on('touchstart mouseover', '#wrapper-cross', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-			 
-			 $("#wrapper-cross").stop().animate({'opacity':'0.75','scale':'1.1'},150);
-
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-$(document).on('touchend mouseout', '#wrapper-cross', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-			 
-			 $("#wrapper-cross").stop().animate({'opacity':'1','scale':'1'},150);
-			 
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-
-/*BUTTON FACEBOOK*/
-
-$(document).on('touchstart mouseover', '#main-facebook', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-			 
-			 $("#facebook").stop().css({'color':'#FFF'});
-			 $("#cadre-facebook").stop().css({'background-color':'#7A9DED'});
-
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-$(document).on('touchend mouseout', '#main-facebook', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-			 
-			 $("#facebook").stop().css({'color':'#66676D'});
-			 $("#cadre-facebook").stop().css({'background-color':'transparent'});
-			 
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-/*BUTTON DRIBBBLE*/
-
-$(document).on('touchstart mouseover', '#main-dribbble', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-			 
-			 $("#dribbble").stop().css({'color':'#FFF'});
-			 $("#cadre-dribbble").stop().css({'background-color':'#E29ADE'});
-
-
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-$(document).on('touchend mouseout', '#main-dribbble', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-			 
-			 $("#dribbble").stop().css({'color':'#66676D'});
-			 $("#cadre-dribbble").stop().css({'background-color':'transparent'});
-
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-/*BUTTON BEHANCE*/
-
-$(document).on('touchstart mouseover', '#main-behance', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-			 
-			 $("#behance").stop().css({'color':'#FFF'});
-			 $("#cadre-behance").stop().css({'background-color':'#606060'});
-
-
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-$(document).on('touchend mouseout', '#main-behance', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-			 
-			 $("#behance").stop().css({'color':'#66676D'});
-			 $("#cadre-behance").stop().css({'background-color':'transparent'});
-
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-/*BUTTON LINKED*/
-
-$(document).on('touchstart mouseover', '#main-linked', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-			 
-			 $("#linked").stop().css({'color':'#FFF'});
-			 $("#cadre-linked").stop().css({'background-color':'#516182'});
-
-
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-$(document).on('touchend mouseout', '#main-linked', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-			 
-			 $("#linked").stop().css({'color':'#66676D'});
-			 $("#cadre-linked").stop().css({'background-color':'transparent'});
-
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-/*BUTTON GOOGLE*/
-
-$(document).on('touchstart mouseover', '#main-google', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-			 
-			 $("#google").stop().css({'color':'#FFF'});
-			 $("#cadre-google").stop().css({'background-color':'#EA6E75'});
-
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-$(document).on('touchend mouseout', '#main-google', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-			 
-			 $("#google").stop().css({'color':'#66676D'});
-			 $("#cadre-google").stop().css({'background-color':'transparent'});
-
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-/*BUTTON PAGE2*/
-
-$(document).on('touchstart mouseover', '#main-page2', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-			 
-			 $("#page2").stop().css({'background-color':'transparent','border-color':'#444549'});
-			 $("#text-page2").stop().css({'color':'#444549'},250);
-			 $("#main-page2").stop().animate({'scale':'1.1'},250);
-
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-$(document).on('touchend mouseout', '#main-page2', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-			 
-			 $("#page2").stop().css({'background-color':'#9C9C9C','border-color':'#9C9C9C'});
-		     $("#text-page2").stop().css({'color':'#FFF'},250);
-	         $("#main-page2").stop().animate({'scale':'1'},250);
-			 
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-/*BUTTON PAGE3*/
-
-$(document).on('touchstart mouseover', '#main-page3', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-			 
-			 $("#page3").stop().css({'background-color':'transparent','border-color':'#444549'});
-			 $("#text-page3").stop().css({'color':'#444549'},250);
-			 $("#main-page3").stop().animate({'scale':'1.1'},250);
-
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-$(document).on('touchend mouseout', '#main-page3', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-			 
-			 $("#page3").stop().css({'background-color':'#9C9C9C','border-color':'#9C9C9C'});
-		     $("#text-page3").stop().css({'color':'#FFF'},250);
-	         $("#main-page3").stop().animate({'scale':'1'},250);
-			 
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-/*BUTTON PAGE4*/
-
-$(document).on('touchstart mouseover', '#main-page4', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-			 
-			 $("#page4").stop().css({'background-color':'transparent','border-color':'#444549'});
-			 $("#text-page4").stop().css({'color':'#444549'},250);
-			 $("#main-page4").stop().animate({'scale':'1.1'},250);
-
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-$(document).on('touchend mouseout', '#main-page4', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-			 
-			 $("#page4").stop().css({'background-color':'#9C9C9C','border-color':'#9C9C9C'});
-		     $("#text-page4").stop().css({'color':'#FFF'},250);
-	         $("#main-page4").stop().animate({'scale':'1'},250);
-			 
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-/*BUTTON HEADER LEARN MORE*/
-
-$(document).on('touchstart mouseover', '#wrapper-learnmore', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-			 
-			 $(".bouton-learnmore").stop().css({'background-color':'#FFF'});
-			 $(".text-learnmore").stop().css({'color':'#333'},250);
-
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-$(document).on('touchend mouseout', '#wrapper-learnmore', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-			 
-			 $(".bouton-learnmore").stop().css({'background-color':'transparent'});
-		     $(".text-learnmore").stop().css({'color':'#FFF'},250);
-			 
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-	</script>
+		<div class="c5 end">
+		
+		<div class="section-head"><a href="http://cvbaran.cba.com.py/?page_id=11"><button type="button" class="btn btn-primary btn-lg">Últimas publicaciones científicas</button></a></div>
+		
+<br>
+2019	“A Quantum Adiabatic Algorithm for Multiobjective Combinatorial Optimization”, con M. Villagra, Special Issue on Foundations of Quantum Computing,de MDPI - AXIOMS 8, 32 (ISSN 2075-1680), disponible en https://www.mdpi.com/2075-1680/8/1/32 <br /><p>2019	“Spectrum Defragmentation in ElasticOptical Networks: Two Approaches with Metaheuristics”, con E. Dávalos, F. Romero, G. Galeano, D. Báez y A. Leiva. A ser publicado proximamente en IEEE Access.
+</p><p>2019	“Spectrum Defragmentation Algorithms in Elastic Optical Networks”, con S.Fernández-Martínez y D. Pinto-Roa. Revista Optical Switching and Networking de ELSEVIER, Vol. 34, Nov. 2019, Pg. 10-22, disponible en https://doi.org/10.1016/j.osn.2019.04.001
+</p><p>2019 “Modelling City Logistics Scenarios in Ecuadorian Big Cities Based on Multi-Objective Two-Echelon Vehicle Routing Problems” con H. Eitzen, F. López-Pires, F. Sandoya y J.L. Chicaiza. Handbook of Research on Urban and Humanitarian Logistics.IGI Global, 2019.DOI: 10.4018/978-1-5225-8160-4.ch004
+
+</p>		
+		</div>
+	</div> <!-- row ends -->
+
+
+
+
+<div class="row stars">
+<div class="c4 ">		
+<div class="section-head">
+Idiomas</div>
+<div class="section-content">		
+
+<br><b>
+Castellano</b><div class="alignright">
+<span class="dashicons dashicons-star-filled"></span>
+<span class="dashicons dashicons-star-filled"></span>
+<span class="dashicons dashicons-star-filled"></span>
+<span class="dashicons dashicons-star-filled"></span>
+<span class="dashicons dashicons-star-filled"></span></div>
+
+
+<br><b>
+Inglés</b><div class="alignright">
+<span class="dashicons dashicons-star-filled"></span>
+<span class="dashicons dashicons-star-filled"></span>
+<span class="dashicons dashicons-star-filled"></span>
+<span class="dashicons dashicons-star-filled"></span>
+<span class="dashicons dashicons-star-half"></span></div>
+
+
+<br><b>
+Portugués</b><div class="alignright">
+<span class="dashicons dashicons-star-filled"></span>
+<span class="dashicons dashicons-star-filled"></span>
+<span class="dashicons dashicons-star-filled"></span>
+<span class="dashicons dashicons-star-empty"></span>
+<span class="dashicons dashicons-star-empty"></span></div>
+
+
+</div></div> <!-- c4 ends-->
+	
+
+
+<div class="c4 ">		
+<div class="section-head">
+Áreas de Investigacion</div>
+<div class="section-content">		
+
+<br><b>
+Optimización</b><div class="alignright">
+<span class="dashicons dashicons-star-filled"></span>
+<span class="dashicons dashicons-star-filled"></span>
+<span class="dashicons dashicons-star-filled"></span>
+<span class="dashicons dashicons-star-filled"></span>
+<span class="dashicons dashicons-star-filled"></span></div>
+
+
+<br><b>
+Redes de computadoras</b><div class="alignright">
+<span class="dashicons dashicons-star-filled"></span>
+<span class="dashicons dashicons-star-filled"></span>
+<span class="dashicons dashicons-star-filled"></span>
+<span class="dashicons dashicons-star-filled"></span>
+<span class="dashicons dashicons-star-half"></span></div>
+
+
+<br><b>
+Algorítmos</b><div class="alignright">
+<span class="dashicons dashicons-star-filled"></span>
+<span class="dashicons dashicons-star-filled"></span>
+<span class="dashicons dashicons-star-half"></span>
+<span class="dashicons dashicons-star-empty"></span>
+<span class="dashicons dashicons-star-empty"></span></div>
+
+
+</div></div> <!-- c4 ends-->
+
+
+
+
+<div class="c4 end">		
+<div class="section-head">
+Habilidades Personales</div>
+<div class="section-content">		
+
+<br><b>
+Responsabilidad</b><div class="alignright">
+<span class="dashicons dashicons-star-filled"></span>
+<span class="dashicons dashicons-star-filled"></span>
+<span class="dashicons dashicons-star-filled"></span>
+<span class="dashicons dashicons-star-filled"></span>
+<span class="dashicons dashicons-star-filled"></span></div>
+
+
+<br><b>
+Liderazgo</b><div class="alignright">
+<span class="dashicons dashicons-star-filled"></span>
+<span class="dashicons dashicons-star-filled"></span>
+<span class="dashicons dashicons-star-filled"></span>
+<span class="dashicons dashicons-star-filled"></span>
+<span class="dashicons dashicons-star-half"></span></div>
+
+
+<br><b>
+Trabajo en Equipo</b><div class="alignright">
+<span class="dashicons dashicons-star-filled"></span>
+<span class="dashicons dashicons-star-filled"></span>
+<span class="dashicons dashicons-star-filled"></span>
+<span class="dashicons dashicons-star-filled"></span>
+<span class="dashicons dashicons-star-half"></span></div>
+
+
+</div></div> <!-- c4 ends-->
+
+		
+		
+	</div> <!-- row ends -->
+
+<br>
+
+
+<div class="row ">
+		<div class="c6 ">
+		
+<div class="section-head arrow_box">
+Hobbies</div>
+		</div>
+		
+			<div class="c6 end">
+
+		</div>
+		
+		
+	</div> <!-- row ends -->
+
+
+
+<div class="row icons">
+		<div class=" c2">
+<span class="dashicons dashicons-search"></span>
+Investigar		</div>
+
+<div class=" c2">
+<span class="dashicons dashicons-location-alt"></span>
+Viajar		</div>
+
+
+<div class=" c2">
+<span class="dashicons dashicons-welcome-learn-more"></span>
+Enseñar		</div>
+
+
+<div class=" c2">
+<span class="dashicons dashicons-edit"></span>
+Escribir		</div>
+
+
+<div class=" c2">
+<span class="dashicons dashicons-universal-access-alt"></span>
+Caminar		</div>
+
+<div class=" c2">
+<span class="dashicons dashicons-sos"></span>
+Nadar		</div>
+
+
+		
+	</div> <!-- row ends -->
+
+
+
+
+
+
+</div> <!-- grid ends -->
+
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+	</div><!-- #content -->
+</div><!-- #page -->
+
+
+
+
+<script type='text/javascript' src='http://cvbaran.cba.com.py/wp-content/plugins/wp-gallery-custom-links/wp-gallery-custom-links.js?ver=1.1'></script>
+<script type='text/javascript' src='http://cvbaran.cba.com.py/wp-includes/js/hoverIntent.min.js?ver=1.8.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var megamenu = {"effect":{"slide":{"in":{"animate":{"height":"show"},"css":{"display":"none"}},"out":{"animate":{"height":"hide"}}}},"timeout":"300","interval":"100"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://cvbaran.cba.com.py/wp-content/plugins/megamenu/js/maxmegamenu.js?ver=2.2.3.1'></script>
+<script type='text/javascript' src='http://cvbaran.cba.com.py/wp-includes/js/wp-embed.min.js?ver=4.6.21'></script>
 
 </body>
 </html>

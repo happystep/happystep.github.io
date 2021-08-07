@@ -1,0 +1,51 @@
+																																																																																																																																								<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>cvbaran</title>
+	<atom:link href="http://cvbaran.cba.com.py/?feed=rss2" rel="self" type="application/rss+xml" />
+	<link>http://cvbaran.cba.com.py</link>
+	<description></description>
+	<lastBuildDate>Thu, 07 Jan 2021 17:47:54 +0000</lastBuildDate>
+	<language>es-ES</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.6.21</generator>
+	<item>
+		<title>¡Hola mundo!</title>
+		<link>http://cvbaran.cba.com.py/?p=1</link>
+		<comments>http://cvbaran.cba.com.py/?p=1#comments</comments>
+		<pubDate>Mon, 19 Sep 2016 22:04:39 +0000</pubDate>
+		<dc:creator><![CDATA[itweb]]></dc:creator>
+				<category><![CDATA[Sin categoría]]></category>
+
+		<guid isPermaLink="false">http://cvbaran.cba.com.py/?p=1</guid>
+		<description><![CDATA[Bienvenido a WordPress. Esta es tu primera entrada. Edítala o bórrala, ¡y comienza a escribir!]]></description>
+				<content:encoded><![CDATA[<p>Bienvenido a WordPress. Esta es tu primera entrada. Edítala o bórrala, ¡y comienza a escribir!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://cvbaran.cba.com.py/?feed=rss2&#038;p=1</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>¡Hola mundo!</title>
+		<link>http://cvbaran.cba.com.py/?p=7</link>
+		<comments>http://cvbaran.cba.com.py/?p=7#comments</comments>
+		<pubDate>Tue, 13 Sep 2016 18:43:40 +0000</pubDate>
+		<dc:creator><![CDATA[itweb]]></dc:creator>
+				<category><![CDATA[Sin categoría]]></category>
+
+		<guid isPermaLink="false">http://10.10.1.110/itcba/myresume/?p=1</guid>
+		<description><![CDATA[Bienvenido a Sitios it.cba.com.py. Este es tu primera entrada. ¡Edítala o elimínala, y empieza a bloguear!]]></description>
+				<content:encoded><![CDATA[<p>Bienvenido a <a href="http://10.10.1.110/itcba/">Sitios it.cba.com.py</a>. Este es tu primera entrada. ¡Edítala o elimínala, y empieza a bloguear!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://cvbaran.cba.com.py/?feed=rss2&#038;p=7</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+#igit_rpwt_css{
+	border: 0pt none ; 
+	margin: 0pt; 
+	padding: 0pt; 
+	clear: both;
+}
+ul.igit_thumb_ul_list{
+	list-style-type: none;
+}
+div.igit_relpost, li.igit_rpwt_li, li#igit_rpwt_li{
+	cursor:pointer;
+}
