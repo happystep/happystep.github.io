@@ -25,7 +25,7 @@
 	Global Styles
 ========================================================================== */
 a {
-	color: #E04343;
+	color: #4360e0;
 	-webkit-transition:all 0.5s;
 	-moz-transition:all 0.5s;
 	-o-transition:all 0.5s;
@@ -293,15 +293,15 @@ table {
 }
 .dark-box {
 	background: #F3F5F8;
-	-webkit-box-shadow: 0px 3px 0px 0px #E04343;
-	-moz-box-shadow: 0px 3px 0px 0px #E04343;
-	box-shadow: 0px 3px 0px 0px #E04343;
+	-webkit-box-shadow: 0px 3px 0px 0px #4360e0;
+	-moz-box-shadow: 0px 3px 0px 0px #4360e0;
+	box-shadow: 0px 3px 0px 0px #4360e0;
 	padding:20px 0;
 }
 .dark-box:hover,.dark-box:focus {
-	-webkit-box-shadow: 0px 3px 0px 0px #FFE801;
-	-moz-box-shadow: 0px 3px 0px 0px #FFE801;
-	box-shadow: 0px 3px 0px 0px #FFE801;
+	-webkit-box-shadow: 0px 3px 0px 0px #72726d;
+	-moz-box-shadow: 0px 3px 0px 0px #72726d;
+	box-shadow: 0px 3px 0px 0px #72726d;
 }
 .box-hover {
 	transition:all 500ms ease-in-out;
@@ -329,7 +329,7 @@ table {
 	outline:none!important;
 }
 .menu-wrap a:hover,.menu-wrap a:focus {
-	color: #E04343;
+	color: #4360e0;
 }
 .content-wrap {
 	overflow-y:scroll;
@@ -369,7 +369,7 @@ table {
 	right:0.5em;
 	bottom:0.5em;
 	left:0.5em;
-	background: linear-gradient(#E04343 20%,rgba(0, 0, 0, 0) 20%,rgba(0, 0, 0, 0) 40%,#E04343 40%,#E04343 60%,rgba(0, 0, 0, 0) 60%,rgba(0, 0, 0, 0) 80%,#E04343 80%);
+	background: linear-gradient(#4360e0 20%,rgba(0, 0, 0, 0) 20%,rgba(0, 0, 0, 0) 40%,#4360e0 40%,#4360e0 60%,rgba(0, 0, 0, 0) 60%,rgba(0, 0, 0, 0) 80%,#4360e0 80%);
 	content:'';
 }
 .menu-button:hover {
@@ -424,7 +424,7 @@ table {
 	transform:translate3d(0,0,0);
 	-webkit-transition-delay:0s;
 	transition-delay:0s;
-	border-bottom: 1px solid #E04343;
+	border-bottom: 1px solid #4360e0;
 }
 .show-menu .icon-list a {
 	opacity:1;
@@ -568,7 +568,7 @@ h1.arrow {
 	font-weight: bold;
 }
 h1.arrow span {
-    color: #E04343;
+    color: #4360e0;
 }
 /* ==========================================================================About========================================================================== */
 .about-image {
@@ -579,11 +579,11 @@ h1.arrow span {
 	background-size:cover;
 }
 .color-bg {
-	background: #E04343;
+	background: #4360e0;
 }
 
 .color-bg a {
-    color: #FFE800;
+    color: #72726d;
 }
 .color-bg h6, .color-bg p {
     color: white;
@@ -597,7 +597,7 @@ h1.arrow span {
 }
 .color-bg .weight-outline-btn:hover {
   background: #FFF;
-  color: #E04343;
+  color: #4360e0;
   border-color: rgba(0, 0, 0, 0);
 }
 .about-text {
@@ -609,7 +609,7 @@ h1.arrow span {
 	color: #8C8C8C;
 }
 .color-bg h1.arrow span {
-    color: #FFE800;
+    color: #72726d;
 }
 .color-bg h1.arrow {
     color: #FFF;
@@ -633,12 +633,12 @@ h1.arrow span {
 	margin-bottom:40px;
 	-webkit-transition:all .3s ease-out;
 	transition:all .3s ease-out;
-	border: 1px solid #E04343;
-	color: #E04343;
+	border: 1px solid #4360e0;
+	color: #4360e0;
 }
 .services .item:hover .icon {
-	background: #E04343;
-	border: 1px solid #E04343;
+	background: #4360e0;
+	border: 1px solid #4360e0;
 }
 .services .item [class*=fa] {
 	-webkit-transition:all .3s ease-out;
@@ -842,7 +842,7 @@ img.grayscale:hover {
 }
 .subscribe input[type=text] {
 	background-color:rgba(255,255,255,0.1);
-	border: solid 1px #FFE800;
+	border: solid 1px #72726d;
 	padding:20px;
 	width:30%;
 	color:#808080;
@@ -852,10 +852,10 @@ img.grayscale:hover {
     outline: none;
 }
 .subscribe input[type=submit] {
-	background: #FFE800;
-	border: solid 1px #FFE800;
+	background: #72726d;
+	border: solid 1px rgb(114, 114, 109);
 	padding:20px;
-	color: #E04343;
+	color: #4360e0;
 	text-transform:uppercase;
 	letter-spacing:1px;
 	transition:all 0.5s ease;
@@ -864,28 +864,28 @@ img.grayscale:hover {
 	-o-transition:all 0.5s ease;
 }
 .subscribe input[type=submit]:hover {
-	background: rgba(255, 232, 0, 0.9);
-	border: solid 1px #FFE800;
-	color: #E04343;
+	background: rgba(114, 114, 109, 0.9);
+	border: solid 1px rgb(67, 96, 224);
+	color: #4360e0;
 }
 /* ==========================================================================CTA========================================================================== */
 .spacer-cta {
-	background-color: #E04343;
+	background-color: #4360e0;
 	padding:70px 0;
 }
 .outline-btn {
 	display:inline-block;
 	padding:25px 40px;
-	color: #FFE801;
-	border: solid 1px #FFE801;
+	color: #72726d;
+	border: solid 1px #72726d;
 	text-transform:uppercase;
 	font-weight:bold;
 	letter-spacing:1px;
 }
 .outline-btn:hover,.outline-btn:focus {
-	color: #E04343;
-	border: solid 1px #E04343;
-	background: #FFE801;
+	color: #4360e0;
+	border: solid 1px #4360e0;
+	background: #72726d;
 }
 .weight-outline-btn {
 	display:inline-block;
@@ -919,7 +919,7 @@ ul.social-buttons li:last-child {
 .social-btn {
 	width:40px;
 	height:40px;
-	background: #E04343;
+	background: #4360e0;
 	display:inline-block;
 	color:#fff;
 	font-size:17px;
@@ -927,8 +927,8 @@ ul.social-buttons li:last-child {
 	text-align:center;
 }
 .social-btn:hover,.social-btn:focus {
-	background: rgba(255, 232, 0, 1);
-	color: #E04343;
+	background: rgba(114, 114, 109, 1);
+	color: #4360e0;
 }
 .social {
 	margin-top: 25px
@@ -937,10 +937,10 @@ ul.social-buttons li:last-child {
 .up-btn {
 	width:55px;
 	height:55px;
-	background: rgba(255, 232, 1, 0.9);
+	background: rgba(37, 37, 26, 0.9);
 	display:block;
 	margin:0 auto;
-	color: #E04343;
+	color: #4360e0;
 	font-size:18px;
 	line-height:52px;
 	text-align:center;
@@ -953,7 +953,7 @@ ul.social-buttons li:last-child {
 }
 .up-btn:hover,up-btn:focus {
 	color: black;
-	background: #FFE800;
+	background: #72726d;
 }
 .contact-details {
 	margin:70px 0;
@@ -1007,7 +1007,7 @@ ul.social-buttons li:last-child {
 }
 
 .btn-send{
-	background:#E04343;
+	background:#4360e0;
 	color: white;
 	transition: all 0.4s;
 	border-radius: 0;
@@ -1015,8 +1015,8 @@ ul.social-buttons li:last-child {
 }
 
 .btn-send:hover{
-	background: #FFE800;
-	color: #E04343
+	background: #72726d;
+	color: #4360e0
 }
 
 button,button:focus,button:hover,button:active {
@@ -1075,8 +1075,8 @@ ul.slides li {
 	font-weight: bold;
 }
 .flex-control-paging li a.flex-active {
-    background: #E04343;
-    border-color: #E04343;
+    background: #4360e0;
+    border-color: #4360e0;
 }
 
 .color-bg .flex-control-paging li a{
@@ -1085,8 +1085,8 @@ ul.slides li {
 }
 
 .color-bg .flex-control-paging li a.flex-active {
-    background: #FFE800;
-    border-color: #FFE800;
+    background: #72726d;
+    border-color: #72726d;
 }
 /* ==========================================================================Waypoints========================================================================== */
 .wp1,.wp2,.wp3,.wp4,.wp5,.wp6 {
