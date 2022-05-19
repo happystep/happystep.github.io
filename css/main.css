@@ -1122,6 +1122,9 @@ header .logo a {
 	/* background: url("../images/logo.png") no-repeat center;  */
 	background-size: 92px 15px;
 }
+a {
+    color: white;
+}
 
 /**
  * menu toggle - (_layout.css)
