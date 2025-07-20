@@ -2598,3 +2598,319 @@ footer .copyright span:last-child::after {
 }
 
 /*# sourceMappingURL=main.css.map */
+/* ======
+============================================================= 
+ * Enhanced Portfolio Styles
+ * ===================================================================
+ */
+
+#portfolio {
+	background: #151515;
+	padding-top: 12rem;
+	padding-bottom: 12rem;
+}
+
+#portfolio .section-intro {
+	margin-bottom: 3.6rem;
+}
+
+#portfolio .section-intro h1 {
+	color: #FFFFFF;
+}
+
+#portfolio .section-intro h5 {
+	color: #CC005F;
+}
+
+#portfolio .section-intro p {
+	color: #8B9798;
+}
+
+.portfolio-content .folio-item {
+	padding: 0;
+	position: relative;
+	overflow: hidden;
+	border-radius: 3px;
+	margin-bottom: 30px;
+}
+
+.portfolio-content .folio-item img {
+	vertical-align: bottom;
+	width: 100%;
+	height: 240px;
+	object-fit: cover;
+}
+
+.portfolio-content .folio-item .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.8);
+	opacity: 0;
+	transition: all 0.3s ease-in-out;
+}
+
+.portfolio-content .folio-item:hover .overlay {
+	opacity: 1;
+}
+
+.folio-item-table {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+
+.folio-item-cell {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	padding: 30px;
+}
+
+.folio-title {
+	color: #FFFFFF;
+	font-size: 1.8rem;
+	margin-bottom: 0.6rem;
+}
+
+.folio-types {
+	color: #CC005F;
+	font-size: 1.1rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+}
+
+/* Enhanced Skills Bars */
+.skill-bars li .progress {
+	background: #313131;
+	position: relative;
+	height: 6px;
+	border-radius: 3px;
+	margin-bottom: 6px;
+}
+
+.skill-bars li .progress span {
+	background: #CC005F;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	border-radius: 3px 0 0 3px;
+	width: 0;
+	transition: width 2s ease-in-out;
+}
+
+.skill-bars li .progress.percent95 span { width: 95%; }
+.skill-bars li .progress.percent90 span { width: 90%; }
+.skill-bars li .progress.percent85 span { width: 85%; }
+.skill-bars li .progress.percent80 span { width: 80%; }
+
+.skill-bars li .progress span::after {
+	content: attr(data-percent);
+	position: absolute;
+	right: 0;
+	top: -30px;
+	color: #FFFFFF;
+	font-size: 1.1rem;
+	line-height: 1;
+}
+
+/* Certifications Section */
+.certifications-section {
+	margin-top: 4.8rem;
+	padding-top: 3.6rem;
+	border-top: 1px solid #2D2D2D;
+}
+
+.certifications-section h3 {
+	color: #FFFFFF;
+	margin-bottom: 2.4rem;
+	text-align: center;
+}
+
+.certifications {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 3rem;
+	flex-wrap: wrap;
+}
+
+.certifications img {
+	width: 240px;
+	height: 240px;
+	object-fit: contain;
+	transition: transform 0.3s ease;
+	border-radius: 8px;
+	background: #FFFFFF;
+	padding: 10px;
+}
+
+.certifications img:hover {
+	transform: scale(1.1);
+}
+
+/* Enhanced Contact Form */
+.contact-form {
+	margin-bottom: 6rem;
+}
+
+.contact-form .form-field {
+	position: relative;
+	margin-bottom: 2.4rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+	width: 100%;
+	background: #2D2D2D;
+	border: 1px solid #3D3D3D;
+	border-radius: 3px;
+	color: #FFFFFF;
+	padding: 1.8rem 2rem;
+	font-size: 1.5rem;
+	line-height: 1.5;
+	transition: all 0.3s ease-in-out;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+	border-color: #CC005F;
+	outline: none;
+	box-shadow: 0 0 0 3px rgba(204, 0, 95, 0.1);
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+	color: #8B9798;
+}
+
+.contact-form .submitform {
+	background: #CC005F;
+	color: #FFFFFF;
+	border: none;
+	border-radius: 3px;
+	padding: 1.8rem 3rem;
+	font-size: 1.4rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.3rem;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+.contact-form .submitform:hover {
+	background: #A8004A;
+	transform: translateY(-2px);
+}
+
+/* Enhanced Stats Section */
+#stats {
+	background: #990047;
+	padding-top: 12rem;
+	padding-bottom: 10.8rem;
+}
+
+.stats-list .stat {
+	text-align: center;
+	margin-bottom: 4.8rem;
+}
+
+.stats-list .stat .icon-part {
+	margin-bottom: 2.4rem;
+}
+
+.stats-list .stat .icon-part [class*="icon-"] {
+	font-size: 4.8rem;
+	color: #CC005F;
+}
+
+.stats-list .stat-count {
+	font-size: 5.4rem;
+	font-weight: 700;
+	color: #FFFFFF;
+	margin-bottom: 0.6rem;
+}
+
+.stats-list .stat-title {
+	color: #8B9798;
+	font-size: 1.4rem;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+}
+
+/* Modal Enhancements */
+.popup-modal {
+	max-width: 550px;
+	background: #2D2D2D;
+	position: relative;
+	margin: 0 auto;
+}
+
+.popup-modal .description-box {
+	padding: 3.6rem 4.8rem 3rem 4.8rem;
+}
+
+.popup-modal .description-box h4 {
+	color: #FFFFFF;
+	font-size: 2.1rem;
+	margin-bottom: 1.2rem;
+}
+
+.popup-modal .description-box p {
+	color: #8B9798;
+	font-size: 1.4rem;
+	line-height: 1.8;
+	margin-bottom: 2.4rem;
+}
+
+.popup-modal .categories {
+	color: #CC005F;
+	font-size: 1.1rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+}
+
+.popup-modal .link-box {
+	padding: 1.8rem 4.8rem 3.6rem 4.8rem;
+	background: #1A1A1A;
+	text-align: center;
+}
+
+.popup-modal .link-box a {
+	color: #CC005F;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	margin-right: 1.5rem;
+	text-decoration: none;
+	transition: color 0.3s ease;
+}
+
+.popup-modal .link-box a:hover {
+	color: #FFFFFF;
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 768px) {
+	.certifications {
+		gap: 2rem;
+	}
+	
+	.certifications img {
+		width: 100px;
+		height: 100px;
+	}
+	
+	.portfolio-content .folio-item {
+		margin-bottom: 2rem;
+	}
+	
+	.popup-modal .description-box,
+	.popup-modal .link-box {
+		padding-left: 2.4rem;
+		padding-right: 2.4rem;
+	}
+}

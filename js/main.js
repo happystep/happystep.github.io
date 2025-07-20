@@ -22,7 +22,7 @@
 
       });       
 
-  	})
+  	});
 
 
   	/*---------------------------------------------------- */
@@ -209,7 +209,7 @@
    /*---------------------------------------------------- */
 	/*  Placeholder Plugin Settings
 	------------------------------------------------------ */ 
-	$('input, textarea, select').placeholder()  
+	$('input, textarea, select').placeholder();
 
 
   	/*---------------------------------------------------- */
@@ -263,6 +263,48 @@
   		}
 
 	});
+
+
+	/*----------------------------------------------------- */
+	/* Portfolio Popup Modal
+  	------------------------------------------------------- */
+	$('.portfolio-content').magnificPopup({
+		delegate: 'a.overlay',
+		type: 'inline',
+		fixedContentPos: false,
+		removalDelay: 300,
+		showCloseBtn: false,
+		callbacks: {
+			beforeOpen: function() {
+				this.st.mainClass = this.st.el.attr('data-effect');
+			}
+		}
+	});
+
+
+	/*----------------------------------------------------- */
+	/* Animate Skills Bars on Scroll
+  	------------------------------------------------------- */
+	$('.skill-bars').waypoint({
+		handler: function() {
+			$('.skill-bars li .progress span').each(function() {
+				$(this).animate({
+					width: $(this).parent().attr('class').match(/percent\d+/) ? 
+						$(this).parent().attr('class').match(/percent(\d+)/)[1] + '%' : '0%'
+				}, 1500);
+			});
+		},
+		offset: '80%'
+	});
+
+
+	/*----------------------------------------------------- */
+	/* Email Validation
+  	------------------------------------------------------- */
+	function isValidEmail(emailAddress) {
+		var pattern = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+		return pattern.test(emailAddress);
+	}
 
 
  	/*----------------------------------------------------- */
