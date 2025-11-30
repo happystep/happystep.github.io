@@ -182,6 +182,64 @@
 	top: 0;
 }
 
+/* Blog Section */
+#blog {
+	background: #FFFFFF;
+	padding-top: 12rem;
+	padding-bottom: 15rem;
+}
+
+#blog .section-intro {
+	margin-bottom: 3rem;
+}
+
+.blog-desc {
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.blog-desc .lead {
+	font-family: "lora-regular", serif;
+	font-size: 1.9rem;
+	line-height: 1.8;
+	color: #888888;
+	margin-bottom: 3.6rem;
+}
+
+.blog-link {
+	margin-top: 3rem;
+}
+
+.blog-link .button {
+	display: inline-block;
+	font-family: "poppins-medium", sans-serif;
+	font-size: 1.4rem;
+	text-transform: uppercase;
+	letter-spacing: .3rem;
+	height: 5.4rem;
+	line-height: 5.4rem;
+	padding: 0 3rem;
+	margin: 0 .3rem 1.2rem 0;
+	background: #CC005F;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: center;
+	white-space: nowrap;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.blog-link .button:hover,
+.blog-link .button:focus {
+	background: #a3004a;
+	color: #FFFFFF;
+	outline: 0;
+}
+
 /* Contact Section */
 #contact {
 	background: #0C0C0C;
