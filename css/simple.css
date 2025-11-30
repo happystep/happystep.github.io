@@ -123,6 +123,65 @@
 	line-height: 1.8;
 }
 
+/* HappyStep Labs Section */
+#happystep-labs {
+	background: #F7F7F7;
+	padding-top: 12rem;
+	padding-bottom: 15rem;
+}
+
+#happystep-labs .section-intro {
+	margin-bottom: 3rem;
+}
+
+.happystep-desc {
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.happystep-desc .lead {
+	font-family: "lora-regular", serif;
+	font-size: 1.9rem;
+	line-height: 1.8;
+	color: #888888;
+	margin-bottom: 3.6rem;
+}
+
+.happystep-desc h3 {
+	font-family: "poppins-semibold", sans-serif;
+	font-size: 2.4rem;
+	line-height: 1.25;
+	color: #151515;
+	margin-bottom: 2.4rem;
+	margin-top: 4.8rem;
+}
+
+.happystep-desc ul.services-list {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.happystep-desc ul.services-list li {
+	font-family: "lora-regular", serif;
+	font-size: 1.9rem;
+	line-height: 1.8;
+	color: #888888;
+	margin-bottom: 1.2rem;
+	padding-left: 3rem;
+	position: relative;
+}
+
+.happystep-desc ul.services-list li:before {
+	content: "▸";
+	color: #CC005F;
+	font-size: 1.6rem;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
 /* Contact Section */
 #contact {
 	background: #0C0C0C;
