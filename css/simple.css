@@ -182,6 +182,40 @@
 	top: 0;
 }
 
+.happystep-desc h4.portfolio-project {
+	font-family: "poppins-semibold", sans-serif;
+	font-size: 2rem;
+	line-height: 1.25;
+	color: #CC005F;
+	margin-bottom: 1.8rem;
+	margin-top: 2.4rem;
+}
+
+.happystep-desc ul.portfolio-list {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.happystep-desc ul.portfolio-list li {
+	font-family: "lora-regular", serif;
+	font-size: 1.7rem;
+	line-height: 1.8;
+	color: #888888;
+	margin-bottom: 1.2rem;
+	padding-left: 2.5rem;
+	position: relative;
+}
+
+.happystep-desc ul.portfolio-list li:before {
+	content: "•";
+	color: #CC005F;
+	font-size: 1.4rem;
+	position: absolute;
+	left: 0.5rem;
+	top: 0;
+}
+
 /* Blog Section */
 #blog {
 	background: #FFFFFF;
