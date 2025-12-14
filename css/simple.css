@@ -365,6 +365,18 @@ footer .copyright span {
 	text-transform: uppercase;
 }
 
+.happystep-link {
+	color: #151515;
+	text-decoration: none;
+	transition: color 0.3s ease-in-out;
+}
+
+.happystep-link:hover,
+.happystep-link:focus {
+	color: #CC005F;
+	text-decoration: none;
+}
+
 /* Responsive */
 @media only screen and (max-width: 1024px) {
 	.intro-content h1 {
