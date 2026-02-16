@@ -1,5 +1,5 @@
-/* =================================================================== 
- * Simple Portfolio Styles - Original Portfolio Style
+/* ===================================================================
+ * Simple Portfolio Styles
  * ===================================================================
  */
 
@@ -50,16 +50,6 @@
 	border: 4px solid rgba(255, 255, 255, 0.1);
 }
 
-.intro-content h5 {
-	color: #CC005F;
-	font-family: "lora-regular", serif;
-	font-size: 2.3rem;
-	line-height: 1.565;
-	margin-bottom: 0.6rem;
-	text-transform: uppercase;
-	letter-spacing: .3rem;
-}
-
 .intro-content h1 {
 	color: #FFFFFF;
 	font-family: "poppins-medium", sans-serif;
@@ -88,11 +78,21 @@
 	padding: 0 2rem 0.6rem 2rem;
 }
 
+.intro-tagline {
+	font-family: "lora-regular", serif;
+	font-size: 1.7rem;
+	line-height: 1.765;
+	color: rgba(255, 255, 255, 0.5);
+	margin-top: 1.2rem;
+	margin-bottom: 0;
+	letter-spacing: .1rem;
+}
+
 /* About Section */
 #about {
 	background: #FFFFFF;
 	padding-top: 12rem;
-	padding-bottom: 15rem;
+	padding-bottom: 12rem;
 }
 
 #about .section-intro {
@@ -100,7 +100,7 @@
 }
 
 .about-desc {
-	max-width: 1000px;
+	max-width: 800px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -109,169 +109,189 @@
 	font-family: "lora-regular", serif;
 	font-size: 1.9rem;
 	line-height: 1.8;
-	color: #888888;
-	margin-bottom: 3.6rem;
-	position: relative;
-	padding-left: 5rem;
+	color: #555555;
+	margin-bottom: 2.4rem;
 }
 
-.about-desc .emoji {
-	position: absolute;
-	left: 0;
-	top: 0;
-	font-size: 2.4rem;
-	line-height: 1.8;
-}
-
-/* HappyStep Labs Section */
-#happystep-labs {
+/* Services Section */
+#services {
 	background: #F7F7F7;
 	padding-top: 12rem;
-	padding-bottom: 15rem;
+	padding-bottom: 12rem;
 }
 
-#happystep-labs .section-intro {
+#services .section-intro {
 	margin-bottom: 3rem;
 }
 
-.happystep-desc {
+.services-grid {
 	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 3.6rem;
+}
+
+.service-item {
+	padding: 3rem;
+	background: #FFFFFF;
+	border-left: 3px solid #CC005F;
+}
+
+.service-item h3 {
+	font-family: "poppins-semibold", sans-serif;
+	font-size: 1.8rem;
+	line-height: 1.4;
+	color: #151515;
+	margin-top: 0;
+	margin-bottom: 1.2rem;
+}
+
+.service-item p {
+	font-family: "lora-regular", serif;
+	font-size: 1.6rem;
+	line-height: 1.75;
+	color: #666666;
+	margin-bottom: 0;
+}
+
+/* Work / Case Studies Section */
+#work {
+	background: #FFFFFF;
+	padding-top: 12rem;
+	padding-bottom: 12rem;
+}
+
+#work .section-intro {
+	margin-bottom: 3rem;
+}
+
+.work-content {
+	max-width: 800px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.happystep-desc .lead {
-	font-family: "lora-regular", serif;
-	font-size: 1.9rem;
-	line-height: 1.8;
-	color: #888888;
-	margin-bottom: 3.6rem;
+.case-study {
+	margin-bottom: 6rem;
+	padding-bottom: 6rem;
+	border-bottom: 1px solid #E8E8E8;
 }
 
-.happystep-desc h3 {
+.case-study:last-child {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border-bottom: none;
+}
+
+.case-study h3 {
 	font-family: "poppins-semibold", sans-serif;
 	font-size: 2.4rem;
 	line-height: 1.25;
 	color: #151515;
-	margin-bottom: 2.4rem;
-	margin-top: 4.8rem;
+	margin-top: 0;
+	margin-bottom: 0.6rem;
 }
 
-.happystep-desc ul.services-list {
+.case-context {
+	font-family: "lora-regular", serif;
+	font-size: 1.5rem;
+	line-height: 1.6;
+	color: #999999;
+	margin-bottom: 2.4rem;
+}
+
+.case-list {
 	list-style: none;
 	margin-left: 0;
 	padding-left: 0;
+	margin-bottom: 2.4rem;
 }
 
-.happystep-desc ul.services-list li {
+.case-list li {
 	font-family: "lora-regular", serif;
-	font-size: 1.9rem;
-	line-height: 1.8;
-	color: #888888;
-	margin-bottom: 1.2rem;
-	padding-left: 3rem;
+	font-size: 1.6rem;
+	line-height: 1.75;
+	color: #555555;
+	margin-bottom: 1rem;
+	padding-left: 2.4rem;
 	position: relative;
 }
 
-.happystep-desc ul.services-list li:before {
-	content: "▸";
+.case-list li:before {
+	content: "—";
 	color: #CC005F;
-	font-size: 1.6rem;
 	position: absolute;
 	left: 0;
 	top: 0;
 }
 
-.happystep-desc h4.portfolio-project {
-	font-family: "poppins-semibold", sans-serif;
-	font-size: 2rem;
-	line-height: 1.25;
+.case-tech {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.8rem;
+}
+
+.case-tech span {
+	font-family: "poppins-regular", sans-serif;
+	font-size: 1.2rem;
+	line-height: 1;
 	color: #CC005F;
-	margin-bottom: 1.8rem;
-	margin-top: 2.4rem;
+	padding: 0.5rem 1.2rem;
+	border: 1px solid #CC005F;
+	border-radius: 3px;
+	text-transform: uppercase;
+	letter-spacing: .1rem;
 }
 
-.happystep-desc ul.portfolio-list {
-	list-style: none;
-	margin-left: 0;
-	padding-left: 0;
-}
-
-.happystep-desc ul.portfolio-list li {
-	font-family: "lora-regular", serif;
-	font-size: 1.7rem;
-	line-height: 1.8;
-	color: #888888;
-	margin-bottom: 1.2rem;
-	padding-left: 2.5rem;
-	position: relative;
-}
-
-.happystep-desc ul.portfolio-list li:before {
-	content: "•";
-	color: #CC005F;
-	font-size: 1.4rem;
-	position: absolute;
-	left: 0.5rem;
-	top: 0;
-}
-
-/* Blog Section */
-#blog {
-	background: #FFFFFF;
+/* Tech Stack Section */
+#stack {
+	background: #151515;
 	padding-top: 12rem;
-	padding-bottom: 15rem;
+	padding-bottom: 12rem;
 }
 
-#blog .section-intro {
-	margin-bottom: 3rem;
+#stack .section-intro h1 {
+	color: #FFFFFF;
 }
 
-.blog-desc {
-	max-width: 1000px;
+#stack .section-intro h5 {
+	color: #CC005F;
+}
+
+.stack-grid {
+	max-width: 900px;
 	margin-left: auto;
 	margin-right: auto;
-	text-align: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 3.6rem;
 }
 
-.blog-desc .lead {
-	font-family: "lora-regular", serif;
-	font-size: 1.9rem;
-	line-height: 1.8;
-	color: #888888;
-	margin-bottom: 3.6rem;
-}
-
-.blog-link {
-	margin-top: 3rem;
-}
-
-.blog-link .button {
-	display: inline-block;
-	font-family: "poppins-medium", sans-serif;
-	font-size: 1.4rem;
+.stack-group h4 {
+	font-family: "poppins-semibold", sans-serif;
+	font-size: 1.5rem;
+	line-height: 1.4;
+	color: #CC005F;
 	text-transform: uppercase;
-	letter-spacing: .3rem;
-	height: 5.4rem;
-	line-height: 5.4rem;
-	padding: 0 3rem;
-	margin: 0 .3rem 1.2rem 0;
-	background: #CC005F;
-	color: #FFFFFF;
-	text-decoration: none;
-	text-align: center;
-	white-space: nowrap;
-	cursor: pointer;
-	transition: all 0.3s ease-in-out;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+	letter-spacing: .2rem;
+	margin-bottom: 1.8rem;
+	margin-top: 0;
 }
 
-.blog-link .button:hover,
-.blog-link .button:focus {
-	background: #a3004a;
-	color: #FFFFFF;
-	outline: 0;
+.stack-group ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.stack-group ul li {
+	font-family: "lora-regular", serif;
+	font-size: 1.5rem;
+	line-height: 1.6;
+	color: rgba(255, 255, 255, 0.7);
+	margin-bottom: 0.8rem;
 }
 
 /* Contact Section */
@@ -282,7 +302,7 @@
 }
 
 #contact .section-intro {
-	margin-bottom: 6rem;
+	margin-bottom: 3rem;
 }
 
 #contact .section-intro h1 {
@@ -291,6 +311,21 @@
 
 #contact .section-intro h5 {
 	color: #CC005F;
+}
+
+.contact-desc {
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-bottom: 6rem;
+}
+
+.contact-desc .lead {
+	font-family: "lora-regular", serif;
+	font-size: 1.8rem;
+	line-height: 1.8;
+	color: rgba(255, 255, 255, 0.6);
 }
 
 .contact-info {
@@ -365,22 +400,15 @@ footer .copyright span {
 	text-transform: uppercase;
 }
 
-.happystep-link {
-	color: #151515;
-	text-decoration: none;
-	transition: color 0.3s ease-in-out;
-}
-
-.happystep-link:hover,
-.happystep-link:focus {
-	color: #CC005F;
-	text-decoration: none;
-}
-
 /* Responsive */
 @media only screen and (max-width: 1024px) {
 	.intro-content h1 {
 		font-size: 7.7rem;
+	}
+
+	.stack-grid {
+		grid-template-columns: 1fr 1fr;
+		gap: 4.8rem;
 	}
 }
 
@@ -388,26 +416,35 @@ footer .copyright span {
 	.intro-content h1 {
 		font-size: 5.7rem;
 	}
-	
-	.intro-content h5 {
-		font-size: 1.8rem;
-	}
-	
+
 	.intro-position {
 		font-size: 1.4rem;
 	}
-	
-	.about-desc .lead {
-		font-size: 1.7rem;
-		padding-left: 4rem;
+
+	.intro-tagline {
+		font-size: 1.4rem;
 	}
-	
-	.about-desc .emoji {
-		font-size: 2rem;
-	}
-	
+
 	.section-intro h1 {
 		font-size: 3rem;
+	}
+
+	.services-grid {
+		grid-template-columns: 1fr;
+	}
+
+	.stack-grid {
+		grid-template-columns: 1fr 1fr;
+		gap: 3.6rem;
+	}
+
+	#about,
+	#services,
+	#work,
+	#stack,
+	#contact {
+		padding-top: 9rem;
+		padding-bottom: 9rem;
 	}
 }
 
@@ -415,25 +452,15 @@ footer .copyright span {
 	.intro-content h1 {
 		font-size: 4.6rem;
 	}
-	
-	.intro-content h5 {
-		font-size: 1.5rem;
-		padding-left: 1.8rem;
-		padding-right: 1.8rem;
-	}
-	
-	.intro-content h5::before,
-	.intro-content h5::after {
-		width: 1.5rem;
-	}
-	
-	.about-desc .lead {
-		padding-left: 3rem;
-	}
 }
 
 @media only screen and (max-width: 400px) {
 	.intro-content h1 {
-		font-size: 4.2rem;
+		font-size: 3.6rem;
+	}
+
+	.stack-grid {
+		grid-template-columns: 1fr;
+		gap: 3.6rem;
 	}
 }
